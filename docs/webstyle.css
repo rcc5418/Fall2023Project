@@ -1,21 +1,55 @@
-
 body {
     background: #ccd9ff;
     font-family: "Georgia", "Times New Roman", serif;
     font-size: 1.3vw;
     line-height: 1.4em;
 }
-p, ul {
+p,
+ul {
     line-height: 1.5em;
     border: .5vw;
     border-style: ridge;
     border-style: outset;
     border-color: #4d88ff;
     padding: 1.7vw;
-    background-color: #e6eeff;
+    background-color: #ecf7ff;
+    width: 90%;
 }
-ol {list-style-type: lower-alpha;
-padding: 5em;
+section {
+    width: 85%;
+    margin: auto;
+}
+section.characters {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    width: 100%;
+}
+p.characters {
+    flex: 1;
+}
+img.characters {
+    flex: 1;
+    max-width: 40%;
+    border: .7vw groove #4d88ff;
+    border-radius: 3vw;
+    padding: .2vw;
+}
+.character_name {
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: auto;
+    margin-top: 0;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: gold;
+}
+ol {
+    list-style-type: lower-alpha;
+    padding: 5em;
 }
 nav#menu {
     padding: 2vw;
@@ -23,20 +57,20 @@ nav#menu {
 .button {
     border: .5vw;
     border-style: outset;
-    border-color: #4d88ff;
+    border-color: #ffd700;
     padding: 1.7vw;
-    background-color: #e6eeff;
-    color: blue;
+    background-color: #ecf7ff;
+    height: 10vw;
     width: 7vw;
     display: inline;
-    border-radius: 20px;
+    border-radius: 40px;
     margin: 0 10px;
 }
 img {
-  max-width: 100%;
-  max-height: 100vh; 
-  width: auto; 
-  height: auto; 
+    max-width: 100%;
+    max-height: 100vh;
+    width: auto;
+    height: auto;
 }
 figure {
     width: 50%;
@@ -46,10 +80,10 @@ figure img {
     border-radius: 1vw;
     padding: .5vw;
 }
-figure.widescreen{
+figure.widescreen {
     width: 100%
 }
-figcaption{
+figcaption {
     line-height: 1.1em;
     border: .3vw;
     border-style: groove;
