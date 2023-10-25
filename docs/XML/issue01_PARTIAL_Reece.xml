@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../CBML_files/cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sonic the Hedgehog #01</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>IDW Publishing</publisher>
+            <pubPlace>U.S.A.</pubPlace>
+            <date when="2018">April, 2018</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Retrieved from Grabber Zone
+               (https://grabber.zone/comics/sonic-idw/2018-2019-neo-metal-sonic-saga/sonic-the-hedgehog-01/),
+               an online Sonic comic collection gathered for educational purposes</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <namespace name="http://www.cbml.org/ns/1.0">
+               <tagUsage gi="cbml:panel"/>
+               <tagUsage gi="cbml:caption"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="page" xml:id="pg_03">
+            <cbml:panel n="1" characters="#sonic #egg-viper #narrator">
+               <cbml:caption>Sonic the Hedgehog has spent years fighting the forces of Dr.
+                  Eggman.</cbml:caption>
+               <note type="panelDesc">Within the Final Egg, Sonic faces off with the Egg Viper, an
+                  enormous serpentine robot piloted by Dr. Eggman.</note>
+            </cbml:panel>
+            <cbml:panel n="1" characters="#sonic #egg-emperor #narrator">
+               <cbml:caption>Time and time again, the mad doctor attacks, Sonic strikes back, then
+                  relaxes until Eggman returns.</cbml:caption>
+               <note type="panelDesc">Atop the Final Forretress, Sonic battles the Egg Emperor, a
+                  humanoide mecha equipped with a lance and shield.</note>
+            </cbml:panel>
+            <cbml:panel n="1" characters="#sonic #egg-dragoon #narrator">
+               <cbml:caption>But after their last battle...</cbml:caption>
+               <note type="panelDesc">Sonic stares down the Egg Dragoon, a flying robot with laser
+                  wings and an imposing gatling gun arm.</note>
+            </cbml:panel>
+            <cbml:panel n="1" characters="#sonic #death-egg-robot #narrator">
+               <cbml:caption>...Dr. Eggman vanished...</cbml:caption>
+               <note type="panelDesc">Against an overcast sky, Sonice fights the Death Egg Robot, a
+                  bulbous robot with a single glassy eye-like fixture and numerous tentacle
+                  appendages.</note>
+            </cbml:panel>
+            <cbml:panel n="1" characters="#sonic">
+               <note type="panelDesc">Within the gutters of the page's other panels, Sonic is framed
+                  from the front, running forward with a determined look on his face.</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_04">
+            <cbml:panel n="1" characters="#narrator #sonic">
+               <cbml:caption>...But his robot army did not!</cbml:caption>
+               <cbml:balloon type="speech" who="#sonic">Whuh-oh- That doesn't look
+                  good.</cbml:balloon>
+            </cbml:panel>
+            <cbml:panel n="1" characters="#narrator #sonic">
+               <cbml:caption>...But his robot army did not!</cbml:caption>
+               <cbml:balloon type="speech" who="#sonic">Whuh-oh- That doesn't look
+                  good.</cbml:balloon>
+               <note type="panelDesc">Sonic is jogging down a path. In the distance, a walled-in
+                  city can be seen with smoke rising in the air and numerous missiles being fired
+                  haphazardly.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic">Sounds like the locals are putting up a
+                  fight. I hope they don't mind me lending a hand!</cbml:balloon>
+               <note type="panelDesc">Placing one hand on the ground, Sonic starts running in place,
+                  his legs becoming a red blur.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic">
+               <note type="panelDesc">Sonic speeds into the distance, leaving an elongated dust
+                  cloud behind him. It's clear that the doors of the city have been blown wide
+                  open.</note>
+            </cbml:panel>
+         </div>
+      </body>
+   </text>
+</TEI>
