@@ -1,0 +1,8 @@
+start = root
+root = element root {panel+}
+panel = element panel {n, image, caption*, speechBubble*}
+n= attribute n {xsd:integer}
+image= element image {empty}
+caption = element caption {text}
+speechBubble= element speechBubble {character, text}
+character = attribute character {"Sonic"}
