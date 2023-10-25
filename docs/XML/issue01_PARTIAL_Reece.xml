@@ -35,24 +35,24 @@
                <note type="panelDesc">Within the Final Egg, Sonic faces off with the Egg Viper, an
                   enormous serpentine robot piloted by Dr. Eggman.</note>
             </cbml:panel>
-            <cbml:panel n="1" characters="#sonic #egg-emperor #narrator">
+            <cbml:panel n="2" characters="#sonic #egg-emperor #narrator">
                <cbml:caption>Time and time again, the mad doctor attacks, Sonic strikes back, then
                   relaxes until Eggman returns.</cbml:caption>
                <note type="panelDesc">Atop the Final Forretress, Sonic battles the Egg Emperor, a
                   humanoide mecha equipped with a lance and shield.</note>
             </cbml:panel>
-            <cbml:panel n="1" characters="#sonic #egg-dragoon #narrator">
+            <cbml:panel n="3" characters="#sonic #egg-dragoon #narrator">
                <cbml:caption>But after their last battle...</cbml:caption>
                <note type="panelDesc">Sonic stares down the Egg Dragoon, a flying robot with laser
                   wings and an imposing gatling gun arm.</note>
             </cbml:panel>
-            <cbml:panel n="1" characters="#sonic #death-egg-robot #narrator">
+            <cbml:panel n="4" characters="#sonic #death-egg-robot #narrator">
                <cbml:caption>...Dr. Eggman vanished...</cbml:caption>
-               <note type="panelDesc">Against an overcast sky, Sonice fights the Death Egg Robot, a
+               <note type="panelDesc">Against an overcast sky, Sonic fights the Death Egg Robot, a
                   bulbous robot with a single glassy eye-like fixture and numerous tentacle
                   appendages.</note>
             </cbml:panel>
-            <cbml:panel n="1" characters="#sonic">
+            <cbml:panel n="x" characters="#sonic">
                <note type="panelDesc">Within the gutters of the page's other panels, Sonic is framed
                   from the front, running forward with a determined look on his face.</note>
             </cbml:panel>
