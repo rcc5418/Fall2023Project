@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../CBML_files/cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="page" xml:id="pg_03">
+            <cbml:panel n="1" characters="#sonic #egg-viper #narrator">
+               <cbml:caption who="#narrator"> Sonic the Hedgehog has spent years fighting the
+                  forces of Dr. Eggman. </cbml:caption>
+               <note type="panelDesc">Sonic confronts the Egg Viper.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic #egg-emperor #narrator">
+               <cbml:caption who="#narrator" type="caption"> Time and again the mad doctor attacks,
+                  Sonic strikes back, then relaxes until Eggman returns. </cbml:caption>
+               <note type="panelDesc">Sonic fights the Egg Emperor.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic #egg-dragoon #narrator">
+               <cbml:caption who="#narrator" type="caption"> But after their last battle... </cbml:caption>
+               <note type="panelDesc">Sonic battles the Egg Dragoon.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic #death-egg-robot #narrator">
+               <cbml:caption who="#narrator" type="caption"> ...Dr. Eggman vanished... </cbml:caption>
+               <note type="panelDesc">Sonic confronts the Death Egg Robot.</note>
+            </cbml:panel>
+            <cbml:panel n="x" characters="#sonic">
+               <note type="panelDesc">Sonic runs in the middle of the page.</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_04">
+            <cbml:panel n="1" characters="#sonic #narrator">
+               <cbml:caption who="#narrator"> ...but his robot army did not! </cbml:caption>
+               <cbml:balloon type="speech" who="#sonic">Whuh-oh--that doesn't look
+                  good.</cbml:balloon>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic">Sounds like the locals are putting up a
+                  fight. I hope they don't mind me lending a hand!</cbml:balloon>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic">
+               <note type="panelDesc">Sonic runs into the fortress.</note>
+            </cbml:panel>
+         </div>
+      </body>
+  </text>
+</TEI>
