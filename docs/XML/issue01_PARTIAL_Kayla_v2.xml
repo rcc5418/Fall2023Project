@@ -45,7 +45,7 @@
                <cbml:caption who="#narrator"> ...but his robot army did not! </cbml:caption>
                <cbml:balloon type="speech" who="#sonic">Whuh-oh--that doesn't look
                   good.</cbml:balloon>
-               <note type="panelDesc">Sonic sees missles firing onto a fortress.</note>
+               <note type="panelDesc">Sonic sees missiles firing onto a fortress.</note>
             </cbml:panel>
             <cbml:panel n="2" characters="#sonic">
                <cbml:balloon type="speech" who="#sonic">Sounds like the locals are putting up a
