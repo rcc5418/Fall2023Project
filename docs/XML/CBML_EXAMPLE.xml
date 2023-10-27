@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../CBML_files/cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <namespace name="http://www.cbml.org/ns/1.0">
+               <tagUsage gi="cbml:panel"/>
+               <tagUsage gi="cbml:caption"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="page" xml:id="pg_03">
+            <cbml:panel n="1" characters="#jon #liz">
+               <cbml:balloon type="speech" who="#jon">Sigh</cbml:balloon>
+               <note type="panelDesc">Jon and Liz stand next to each other. Jon gazes into the
+                  distance wistfully.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#jon #liz">
+               <cbml:balloon type="speech" who="#jon">Sigh</cbml:balloon>
+               <note type="panelDesc">Jon and Liz stand next to each other. Jon continues gazing,
+                  Liz looks concerned.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#jon #liz #garfield">
+               <cbml:balloon type="speech" who="#jon">Sigh</cbml:balloon>
+               <cbml:balloon type="speech" who="#liz">Is he okay?</cbml:balloon>
+               <cbml:balloon type="thought" who="garfield">I'll get his inhaler</cbml:balloon>
+               <note type="panelDesc">Liz looks to Garfield questioningly. Garfield appears mostly ambivalent.</note>
+            </cbml:panel>
+         </div>
+      </body>
+   </text>
+</TEI>
