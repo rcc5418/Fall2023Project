@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<text>
+    <fileDesc>
+        <title>Sonic the Hedgehog #01</title>
+        <publisher>IDW Publishing</publisher>
+        <date>April 2018</date>
+    </fileDesc>
+    <page n="3" characters="#sonic #egg-viper #egg-emperor #egg-dragoon #death-egg-robot #narrator">
+        <panel n="1">
+            <dialogue who="#narrator" type="caption"> Sonic the Hedgehog has spent years fighting
+                the forces of Dr. Eggman. </dialogue>
+        </panel>
+        <panel n="2">
+            <dialogue who="#narrator" type="caption"> Time and again the mad doctor attacks, Sonic
+                strikes back, then relaxes until Eggman returns. </dialogue>
+        </panel>
+        <panel n="3">
+            <dialogue who="#narrator" type="caption"> But after their last battle... </dialogue>
+        </panel>
+        <panel n="4">
+            <dialogue who="#narrator" type="caption"> ...Dr. Eggman vanished... </dialogue>
+        </panel>
+        <characterImage who="#sonic"/>
+    </page>
+    <page n="4" characters="#sonic #narrator">
+        <panel n="1">
+            <dialogue who="#narrator" type="caption"> ...but his robot army did not! </dialogue>
+            <dialogue type="speechBubble" who="#sonic">Whuh-oh--that doesn't look good.</dialogue>
+        </panel>
+        <panel n="2">
+            <dialogue type="speechBubble" who="#sonic">Sounds like the locals are putting up a
+                fight. I hope they don't mind me lending a hand!</dialogue>
+        </panel>
+        <panel n="3" dialogue="none"/>
+    </page>
+</text>
