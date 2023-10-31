@@ -24,29 +24,36 @@
                <tagUsage gi="cbml:caption"/>
             </namespace>
          </tagsDecl>
+         <p><note type="encoding_clarification">A value of 'NNC' for the cbml:panel element's
+               'characters' attribute is an acronym standing for No Named Characters, meaning no
+               characters with names appeared in the panel.</note>
+            <note type="encoding_clarification">A '(?)' within a note with a type value of
+               'panelDesc' means that the encoding author saw something unidentifiable, or else is
+               unsure of their own identification.</note>
+            <note type="encoding_author">Encoded by Reece Cullen</note></p>
       </encodingDesc>
    </teiHeader>
    <text>
       <body>
          <div type="page" xml:id="pg_03">
-            <cbml:panel n="1" characters="#sonic #egg-viper #narrator">
+            <cbml:panel n="1" characters="#sonic #narrator">
                <cbml:caption>Sonic the Hedgehog has spent years fighting the forces of Dr.
                   Eggman.</cbml:caption>
                <note type="panelDesc">Within the Final Egg, Sonic faces off with the Egg Viper, an
                   enormous serpentine robot piloted by Dr. Eggman.</note>
             </cbml:panel>
-            <cbml:panel n="2" characters="#sonic #egg-emperor #narrator">
+            <cbml:panel n="2" characters="#sonic #narrator">
                <cbml:caption>Time and time again, the mad doctor attacks, Sonic strikes back, then
                   relaxes until Eggman returns.</cbml:caption>
                <note type="panelDesc">Atop the Final Forretress, Sonic battles the Egg Emperor, a
                   humanoide mecha equipped with a lance and shield.</note>
             </cbml:panel>
-            <cbml:panel n="3" characters="#sonic #egg-dragoon #narrator">
+            <cbml:panel n="3" characters="#sonic #narrator">
                <cbml:caption>But after their last battle...</cbml:caption>
                <note type="panelDesc">Sonic stares down the Egg Dragoon, a flying robot with laser
                   wings and an imposing gatling gun arm.</note>
             </cbml:panel>
-            <cbml:panel n="4" characters="#sonic #death-egg-robot #narrator">
+            <cbml:panel n="4" characters="#sonic #narrator">
                <cbml:caption>...Dr. Eggman vanished...</cbml:caption>
                <note type="panelDesc">Against an overcast sky, Sonic fights the Death Egg Robot, a
                   bulbous robot with a single glassy eye-like fixture and numerous tentacle
@@ -81,6 +88,121 @@
                <note type="panelDesc">Sonic speeds into the distance, leaving an elongated dust
                   cloud behind him. It's clear that the doors of the city have been blown wide
                   open.</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_05">
+            <cbml:panel n="1">
+               <cbml:balloon type="speech" who="#unnamed_vista_resident_a">Run! Get to the storm
+                  bunker!</cbml:balloon>
+               <note type="panelDesc">A town resident holding a Cube Wispon distressedly directs
+                  other unarmed residents away from approaching robots.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="NNC">
+               <note type="panelDesc">The resident brandishes his weapon, shaking in fear. An Egg
+                  Pawn looms closer.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="NNC">
+               <sound>SOK</sound>
+               <note type="panelDesc">The Egg Pawn knocks the Cube Wispon out of the resident's
+                  hands.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="NNC">
+               <note type="panelDesc">Numerous Egg Pawns approach the fallen resident, who cowers on
+                  the ground.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#sonic">
+               <sound>SMASH</sound>
+               <sound>SMASH</sound>
+               <note type="panelDesc">Sonic appears as a blue blurring ball, bouncing between each
+                  of the Egg Pawns and smashing them to pieces.</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_06">
+            <cbml:panel n="1" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic">Hey! You hurt?</cbml:balloon>
+               <cbml:balloon type="speech" who="#unnamed_vista_resident_a">N-not really.
+                  You're...You're <emph rendition="bold">Sonic!</emph></cbml:balloon>
+               <note type="panelDesc">Sonic extends a hand to the resident, picking up the Cube
+                  Wispon too.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic">The one and only. Here you go. Try swinging
+                  it at the robots next time. I knew somebody who put it to good use.</cbml:balloon>
+               <cbml:balloon type="speech" who="#unnamed_vista_resident_a">N-not really.
+                  You're...You're <emph rendition="bold">You're...<emph rendition="bold"
+                     >THE</emph></emph> Sonic!</cbml:balloon>
+               <note type="panelDesc">Sonic hands the Wispon back to the resident, who stands
+                  nervously.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic">Maybe get inside, buddy. Nice chat! Need to
+                  save your town. Bye!</cbml:balloon>
+               <cbml:balloon type="speech" who="#unnamed_vista_resident_a">O-okay!</cbml:balloon>
+               <note type="panelDesc">The resident watches as Sonic dashes around a corner.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic">Sweet! The town militia! Bots coming in from
+                  the north! You've got a guy holding his own out there!</cbml:balloon>
+               <cbml:balloon type="speech" who="#unnamed_militia_cat">O-okay! We're on
+                  it!</cbml:balloon>
+               <note type="panelDesc">Sonic dashes past three armed animals, a cat, a dog (?) and a
+                  rabbit, who appear worried.</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_07">
+            <cbml:panel n="1" characters="NNC">
+               <cbml:balloon type="speech" who="#unnamed_vista_resident_b">Hurry up! They're closing
+                  in!</cbml:balloon>
+               <cbml:balloon type="speech" who="#unnamed_vista_resident_c">I'm trying! It's
+                  stuck!</cbml:balloon>
+               <note type="panelDesc">A blue bird strugles to open a hatch on the ground while a red
+                  fox (?) panics, watching a line of Motobugs drive closer.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic">
+               <sound>WHOOSH</sound>
+               <note type="panelDesc">Sonic runs through the Motobugs, knocking them all
+                  aside.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic">
+               <note type="panelDesc">As he skids to a stop, Sonic strikes a pose, winking and
+                  flashing two finger guns. The residents stand in awe.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic">
+               <sound>FASSSH</sound>
+               <note type="panelDesc">Sonic dashes off the right side of the panel, throwing up dirt
+                  behind him.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="NNC">
+               <cbml:balloon type="speech" who="#unnamed_vista_resident_b">...All this terror might
+                  be worth it if I get to say Sonic winked at me!</cbml:balloon>
+               <cbml:balloon type="speech" who="#unnamed_vista_resident_c">I hope we survive long
+                  enough to get his autograph!</cbml:balloon>
+               <note type="panelDesc">The residents, much calmer now, are very impressed by
+                  Sonic.</note>
+            </cbml:panel>
+         </div>
+         <div type="page">
+            <cbml:panel n="1" characters="#sonic">
+               <sound>WHAM</sound>
+               <sound>REEEEEEEEEEEEEEEECH</sound>
+               <note type="panelDesc">An enormous hammerhead slams into the ground right in front of Sonic, as he screeches to a stop, looking disappointed.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic">Oh hey, another hammer-guy.
+               I liked the earlier one better.</cbml:balloon>
+               <note type="panelDesc">Sonic stands in front of an Egg Hammer, an imposing robot the size of a building, with a hammer just as tall.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic">
+               <sound>SMASH</sound>
+               <sound>SMASH</sound>
+               <sound>SMASH</sound>
+               <sound>SMASH</sound>
+               <note type="panelDesc">Sonic spin dashes into the Egg Hammer multiple times, forcing him to step back. More Egg Hammers lurk behind the corner.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic">Where ya goin'?</cbml:balloon>
+               <sound>SMASH</sound>
+               <note type="panelDesc">Jumping off of a window ledge, Sonic launches himself at the Egg Hammer, who begins to raise his hammer.</note>
             </cbml:panel>
          </div>
       </body>
