@@ -70,14 +70,6 @@
                <cbml:balloon type="speech" who="#sonic">Whuh-oh- That doesn't look
                   good.</cbml:balloon>
             </cbml:panel>
-            <cbml:panel n="1" characters="#narrator #sonic">
-               <cbml:caption>...But his robot army did not!</cbml:caption>
-               <cbml:balloon type="speech" who="#sonic">Whuh-oh- That doesn't look
-                  good.</cbml:balloon>
-               <note type="panelDesc">Sonic is jogging down a path. In the distance, a walled-in
-                  city can be seen with smoke rising in the air and numerous missiles being fired
-                  haphazardly.</note>
-            </cbml:panel>
             <cbml:panel n="2" characters="#sonic">
                <cbml:balloon type="speech" who="#sonic">Sounds like the locals are putting up a
                   fight. I hope they don't mind me lending a hand!</cbml:balloon>
@@ -181,28 +173,32 @@
                   Sonic.</note>
             </cbml:panel>
          </div>
-         <div type="page">
+         <div type="page" xml:id="pg_08">
             <cbml:panel n="1" characters="#sonic">
                <sound>WHAM</sound>
                <sound>REEEEEEEEEEEEEEEECH</sound>
-               <note type="panelDesc">An enormous hammerhead slams into the ground right in front of Sonic, as he screeches to a stop, looking disappointed.</note>
+               <note type="panelDesc">An enormous hammerhead slams into the ground right in front of
+                  Sonic, as he screeches to a stop, looking disappointed.</note>
             </cbml:panel>
             <cbml:panel n="2" characters="#sonic">
-               <cbml:balloon type="speech" who="#sonic">Oh hey, another hammer-guy.
-               I liked the earlier one better.</cbml:balloon>
-               <note type="panelDesc">Sonic stands in front of an Egg Hammer, an imposing robot the size of a building, with a hammer just as tall.</note>
+               <cbml:balloon type="speech" who="#sonic">Oh hey, another hammer-guy. I liked the
+                  earlier one better.</cbml:balloon>
+               <note type="panelDesc">Sonic stands in front of an Egg Hammer, an imposing robot the
+                  size of a building, with a hammer just as tall.</note>
             </cbml:panel>
             <cbml:panel n="3" characters="#sonic">
                <sound>SMASH</sound>
                <sound>SMASH</sound>
                <sound>SMASH</sound>
                <sound>SMASH</sound>
-               <note type="panelDesc">Sonic spin dashes into the Egg Hammer multiple times, forcing him to step back. More Egg Hammers lurk behind the corner.</note>
+               <note type="panelDesc">Sonic spin dashes into the Egg Hammer multiple times, forcing
+                  him to step back. More Egg Hammers lurk behind the corner.</note>
             </cbml:panel>
             <cbml:panel n="4" characters="#sonic">
                <cbml:balloon type="speech" who="#sonic">Where ya goin'?</cbml:balloon>
                <sound>SMASH</sound>
-               <note type="panelDesc">Jumping off of a window ledge, Sonic launches himself at the Egg Hammer, who begins to raise his hammer.</note>
+               <note type="panelDesc">Jumping off of a window ledge, Sonic launches himself at the
+                  Egg Hammer, who begins to raise their hammer.</note>
             </cbml:panel>
          </div>
       </body>

@@ -1,48 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <?xml-model href="../CBML_files/cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<text>
-    <fileDesc>
-        <title>Sonic the Hedgehog #01</title>
-        <publisher>IDW Publishing</publisher>
-        <date>April 2018</date>
-    </fileDesc>
-    <body>
-        <div type="page" xml:id="pg_03" n="3">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sonic the Hedgehog #01</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>IDW Publishing</publisher>
+            <pubPlace>U.S.A.</pubPlace>
+            <date when="2018">April, 2018</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Retrieved from Grabber Zone
+               (https://grabber.zone/comics/sonic-idw/2018-2019-neo-metal-sonic-saga/sonic-the-hedgehog-01/),
+               an online Sonic comic collection gathered for educational purposes</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <namespace name="http://www.cbml.org/ns/1.0">
+               <tagUsage gi="cbml:panel"/>
+               <tagUsage gi="cbml:caption"/>
+            </namespace>
+         </tagsDecl>
+         <p><note type="encoding_clarification">A value of 'NNC' for the cbml:panel element's
+            'characters' attribute is an acronym standing for No Named Characters, meaning no
+            characters with names appeared in the panel.</note>
+            <note type="encoding_clarification">A '(?)' within a note with a type value of
+               'panelDesc' means that the encoding author saw something unidentifiable, or else is
+               unsure of their own identification.</note>
+            <note type="encoding_author">Encoded by</note></p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="page" xml:id="pg_03">
             <cbml:panel n="1" characters="#sonic #egg-viper #narrator">
-                <cbml:caption who="#narrator"> Sonic the Hedgehog has spent years fighting the
-                    forces of Dr. Eggman. </cbml:caption>
-                <note type="panelDesc">Sonic confronts the Egg Viper.</note>
+               <cbml:caption who="#narrator">
+                  <hi rend="bold">Sonic the Hedgehog</hi> has spent years fighting the forces of <hi
+                     rend="bold">Dr. Eggman.</hi>
+               </cbml:caption>
+               <note type="panelDesc">Sonic confronts the Egg Viper.</note>
             </cbml:panel>
             <cbml:panel n="2" characters="#sonic #egg-emperor #narrator">
-                <dialogue who="#narrator" type="caption"> Time and again the mad doctor attacks,
-                    Sonic strikes back, then relaxes until Eggman returns. </dialogue>
-                <note type="panelDesc">Sonic fights the Egg Emperor.</note>
+               <cbml:caption who="#narrator" type="caption"> Time and again the mad doctor attacks,
+                  Sonic strikes back, then relaxes until Eggman returns. </cbml:caption>
+               <note type="panelDesc">Sonic fights the Egg Emperor.</note>
             </cbml:panel>
             <cbml:panel n="3" characters="#sonic #egg-dragoon #narrator">
-                <dialogue who="#narrator" type="caption"> But after their last battle... </dialogue>
-                <note type="panelDesc">Sonic battles the Egg Dragoon.</note>
+               <cbml:caption who="#narrator" type="caption"> But after their last battle... </cbml:caption>
+               <note type="panelDesc">Sonic battles the Egg Dragoon.</note>
             </cbml:panel>
             <cbml:panel n="4" characters="#sonic #death-egg-robot #narrator">
-                <dialogue who="#narrator" type="caption"> ...Dr. Eggman vanished... </dialogue>
-                <note type="panelDesc">Sonic confronts the Death Egg Robot.</note>
+               <cbml:caption who="#narrator" type="caption"> ...Dr. Eggman <hi rend="bold"
+                     >vanished</hi>... </cbml:caption>
+               <note type="panelDesc">Sonic confronts the Death Egg Robot.</note>
             </cbml:panel>
             <cbml:panel n="x" characters="#sonic">
-                <note type="panelDesc">Sonic runs in the middle of the page.</note>
+               <note type="panelDesc">Sonic runs in the middle of the page.</note>
             </cbml:panel>
-        </div>
-        <div type="page" xml:id="pg_04" characters="#sonic #narrator">
+         </div>
+         <div type="page" xml:id="pg_04">
             <cbml:panel n="1" characters="#sonic #narrator">
-                <cbml:caption who="#narrator"> ...but his robot army did not! </cbml:caption>
-                <cbml:balloon type="speech" who="#sonic">Whuh-oh--that doesn't look
-                    good.</cbml:balloon>
+               <cbml:caption who="#narrator"> ...but his robot army <hi rend="bold">did not!</hi>
+               </cbml:caption>
+               <cbml:balloon type="speech" who="#sonic">Whuh-oh--that doesn't look
+                  good.</cbml:balloon>
+               <note type="panelDesc">Sonic sees missiles firing onto a fortress.</note>
             </cbml:panel>
             <cbml:panel n="2" characters="#sonic">
-                <cbml:balloon type="speech" who="#sonic">Sounds like the locals are putting up a
-                    fight. I hope they don't mind me lending a hand!</cbml:balloon>
+               <cbml:balloon type="speech" who="#sonic">Sounds like the locals are putting up a
+                  fight. I hope they don't mind me lending a hand!</cbml:balloon>
+               <note type="panelDesc">Sonic starts running to the fortress.</note>
             </cbml:panel>
             <cbml:panel n="3" characters="#sonic">
-                <note type="panelDesc">Sonic runs into the fortress.</note>
+               <note type="panelDesc">Sonic runs into the fortress.</note>
             </cbml:panel>
-        </div>
-    </body>
-</text>
+         </div>
+         <div type="page" xml:id="pg_05">
+            <cbml:panel n="1"
+               characters="#egg-pawns #unnamed-wolf #unnamed-bear #unnamed-female-bird">
+               <cbml:balloon type="speech" who="#unnamed-wolf">Run! Get to the storm
+                  bunker!</cbml:balloon>
+               <note type="panelDesc">An unnamed wolf-like character directs an unnamed bear-like
+                  character and an unnamed birdlike character to seek shelter at a storm bunker as
+                  two Egg Pawns chase the animals.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#egg-pawn #unnamed-wolf">
+               <note type="panelDesc">An Egg Pawn approaches the wolf character as the wolf
+                  nervously clutches his Blue Cube Wispon.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#egg-pawn #unnamed-wolf">
+               <sound>SOK</sound>
+               <note type="panelDesc">The Egg Pawn knocks the wolf character to the ground, causing
+                  him to collapse and drop his Blue Cube Wispon.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#egg-pawns #unnamed-wolf">
+               <note type="panelDesc">A group of Egg Pawns approach the collapsed wolf
+                  character.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#sonic #egg-pawns #unnamed-wolf">
+               <sound>SMASH</sound>
+               <sound>SMASH</sound>
+               <note type="panelDesc">Sonic zooms into the Egg Pawns, destroying them as the wolf
+                  watches.</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_06">
+            <cbml:panel n="1" characters="#sonic #unnamed-wolf">
+               <cbml:balloon type="speech" who="#sonic">Hey! You hurt?</cbml:balloon>
+               <cbml:balloon type="speech" who="#unnamed-wolf">N-Not really. You're... You're <hi
+                     rend="bold">Sonic!</hi></cbml:balloon>
+               <note type="panelDesc">Sonic asks the wolf if the wolf is hurt, and the wolf feels
+                  excited to see Sonic.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic #unnamed-wolf">
+               <cbml:balloon type="speech" who="#unnamed-wolf">You're... <hi rend="bold">the</hi>
+                  Sonic!</cbml:balloon>
+               <cbml:balloon type="speech" who="#sonic">The one and only. Here you go. Try swinging
+                  it at the robots next time. I knew somebody who put it to good use.</cbml:balloon>
+               <note type="panelDesc">Sonic suggests to the wolf that the wolf uses the Blue Cube
+                  Wispon the next time the Egg Pawns confront the wolf.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic #unnamed-wolf">
+               <cbml:balloon type="speech" who="#sonic">Maybe get inside, buddy. Nice chat! Need to
+                  save your town. Bye!</cbml:balloon>
+               <cbml:balloon type="speech" who="#unnamed-wolf">O-Okay!</cbml:balloon>
+               <note type="panelDesc">As Sonic runs off to save the wolf's town, Sonic advises the
+                  wolf to take shelter.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic #unnamed-cat-1 #unnamed-dog #unnamed-rabbit">
+               <cbml:balloon type="speech" who="#sonic">Sweet! The town militia! Bots coming in from
+                  the north! You've got a guy holding his own out there!</cbml:balloon>
+               <cbml:balloon type="speech" who="#unnamed-cat-1">O-Okay! We're on it!</cbml:balloon>
+               <note type="panelDesc">Sonic warns the town militia that robots are coming from the
+                  north as he speeds past three of the militia's members and tells them that he will
+                  protect them.</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_07">
+            <cbml:panel n="1" characters="#motobugs #unnamed-male-bird #unnamed-cat-2">
+               <cbml:balloon type="speech" who="#unnamed-cat-2">Hurry up! They're closing
+                  in!</cbml:balloon>
+               <cbml:balloon type="speech" who="#unnamed-male-bird">I'm trying! It's
+                  stuck!</cbml:balloon>
+               <note type="panelDesc">Another unnamed catlike character tells a struggling unnamed
+                  male birdlike character to open a storm cellar-like door as three Motobugs
+                  approach them.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic #motobugs #unnamed-male-bird #unnamed-cat-2">
+               <sound>WHOOSH</sound>
+               <note type="panelDesc">Sonic speeds past the Motobugs and toward the two animal
+                  civilians.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic #unnamed-male-bird #unnamed-cat-2">
+               <note type="panelDesc">Sonic winks and poses in front of the two animal civilians as
+                  the Motobugs break.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic #unnamed-male-bird #unnamed-cat-2">
+               <sound>FASSSH</sound>
+               <note type="panelDesc"> Sonic speeds past the two animal civilians. </note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#unnamed-cat-2 #unnamed-male-bird">
+               <cbml:balloon type="speech" who="#unnamed-cat-2">...All this terror might be worth it
+                  if I get to say Sonic winked at me!</cbml:balloon>
+               <cbml:balloon type="speech" who="#unnamed-male-bird">I hope we survive long enough to
+                  get his autograph!</cbml:balloon>
+               <note type="panelDesc">The cat and the bird feel happy that Sonic rescued them from
+                  the Motobugs.</note>
+            </cbml:panel>
+         </div>
+      </body>
+   </text>
+</TEI>

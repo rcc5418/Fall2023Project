@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="issue01_PARTIAL_Alyssa%20(RNG).rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <panel n="1">
+        <image/>
+        <caption> ...but his robot army did not! </caption>
+        <speechBubble character="Sonic"> Whuh-oh-- that doesn't look good. </speechBubble>
+    </panel>
+    <panel n="2">
+        <image/>
+        <speechBubble character="Sonic"> Sounds like the locals are putting up a fight. </speechBubble>
+        <speechBubble character="Sonic"> I hope they don't mind me lending a hand! </speechBubble>
+    </panel>
+    <panel n="3">
+        <image/>
+    </panel>
+</root>
