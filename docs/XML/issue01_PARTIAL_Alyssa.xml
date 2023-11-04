@@ -26,8 +26,8 @@
             </namespace>
          </tagsDecl>
          <p><note type="encoding_clarification">A value of 'NNC' for the cbml:panel element's
-            'characters' attribute is an acronym standing for No Named Characters, meaning no
-            characters with names appeared in the panel.</note>
+               'characters' attribute is an acronym standing for No Named Characters, meaning no
+               characters with names appeared in the panel.</note>
             <note type="encoding_clarification">A '(?)' within a note with a type value of
                'panelDesc' means that the encoding author saw something unidentifiable, or else is
                unsure of their own identification.</note>
@@ -170,6 +170,166 @@
                   get his autograph!</cbml:balloon>
                <note type="panelDesc">The cat and the bird feel happy that Sonic rescued them from
                   the Motobugs.</note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_08">
+            <cbml:panel n="1" characters="#sonic #egghammer">
+               <sound>SMASH</sound>
+               <note type="panelDesc"> Sonic tries to attack the Egghammer by spin-dashing into him,
+                  but the Egghammer deflects Sonic with the handle of his hammer.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic #egghammer">
+               <cbml:balloon type="speech" who="#sonic"> C'mon, big guy! Swing batta-batta-batta-- </cbml:balloon>
+               <note type="panelDesc"> Sonic teases the Egghammer after Sonic lands on the ground.
+               </note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic #egghammer-1 #egghammer-2">
+               <cbml:balloon type="speech" who="#sonic"> --Swing? </cbml:balloon>
+               <note type="panelDesc"> Sonic is surprised that he is surrounded by more than one
+                  Egghammer. </note>
+            </cbml:panel>
+            <cbml:panel n="4"
+               characters="#sonic #egghammer-1 #egghammer-2 #egghammer-3 #egghammer-4">
+               <cbml:balloon type="speech" who="#sonic"> Yeah, okay, this one's on me. </cbml:balloon>
+               <note type="panelDesc"> Sonic blames himself after he is surrounded by four
+                  Egghammers. </note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_09">
+            <cbml:panel n="1" characters="#egghammer-1 #egghammer-2 #egghammer-3 #egghammer-4">
+               <sound>WHAM</sound>
+               <sound>WHAM</sound>
+               <sound>WHAM</sound>
+               <sound>WHAM</sound>
+               <note type="panelDesc"> The four Egghammers pound their hammers onto the floor.
+               </note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#egghammer #sonic">
+               <cbml:balloon type="speech" who="#sonic"> ♫ </cbml:balloon>
+               <note type="panelDesc"> Sonic lifts up a manhole and whistles to grab attention from
+                  an Egghammer. </note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic"> "Hedgehog." Noun. A burrowing animal. </cbml:balloon>
+               <note type="panelDesc"> Sonic comes out of the manhole and tells an Egghammer the
+                  definition of the word "hedgehog". </note>
+            </cbml:panel>
+            <cbml:panel n="4"
+               characters="#egghammer-1 #egghammer-2 #egghammer-3 #egghammer-4 #sonic">
+               <cbml:balloon type="speech" who="#sonic"> Whoa! You guys can really move when you
+                  want to! </cbml:balloon>
+               <note type="panelDesc"> The Egghammers chase down Sonic, and Sonic is surprised that
+                  the Egghammers are moving whenever they feel like it. </note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#egghammer #sonic">
+               <note type="panelDesc"> One of the Egghammers is dropping its hammer down onto Sonic,
+                  and Sonic tries to dodge the attack. </note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_10">
+            <cbml:panel n="1" characters="#egghammer #sonic #tails">
+               <cbml:balloon type="speech" who="#sonic"> Tails! </cbml:balloon>
+               <cbml:balloon type="speech" who="#tails"> Could you not risk your life for five
+                  minutes? </cbml:balloon>
+               <cbml:balloon type="speech" who="#sonic"> Sure, but where's the fun in that? </cbml:balloon>
+               <note type="panelDesc"> Tails saves Sonic from the Egghammer's swinging attack,
+                  warning him not to risk his life for another five minutes. Sonic agrees, but he
+                  wonders where the fun would be in the next five minutes. </note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic #tails">
+               <cbml:balloon type="speech" who="#sonic"> Seriously though, thanks for the save. </cbml:balloon>
+               <cbml:balloon type="speech" who="#tails"> My pleasure! </cbml:balloon>
+               <note type="panelDesc"> Sonic thanks Tails for saving him from the Egghammers.
+               </note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic #tails">
+               <cbml:balloon type="speech" who="#tails"> What's the status of the town? </cbml:balloon>
+               <cbml:balloon type="speech" who="#sonic"> A bunch of small-fry Badniks. I took care
+                  of most of them, and the town's militia can handle the rest. </cbml:balloon>
+               <note type="panelDesc"> Tails asks for the status of the town, and Sonic tells him
+                  that he defeated most of the Badniks that were attacking the town, and the
+                  military will get rid of any remaining Badniks. </note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic #tails #egghammer-1 #egghammer-2">
+               <cbml:balloon type="speech" who="#sonic"> Those Super Badniks are another story. </cbml:balloon>
+               <note type="panelDesc"> The Egghammers are proceeding across the town, and Sonic
+                  tells Tails that the Egghammers are a different problem. </note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#sonic #tails">
+               <cbml:balloon type="speech" who="#sonic"> Let's show 'em how it's done! </cbml:balloon>
+               <cbml:balloon type="speech" who="#tails"> Those are better left to the professionals! </cbml:balloon>
+               <note type="panelDesc"> Sonic and Tails tell each other that they will defeat the
+                  Egghammers, and they feel confident about defeating them too. </note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_11">
+            <cbml:panel n="1" characters="#sonic #tails">
+               <note type="panelDesc"> Sonic and Tails roll off the roof of a building, charging up
+                  their spin dashes. </note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic #tails #egghammer">
+               <sound> SMASH </sound>
+               <sound> SMASH </sound>
+               <note type="panelDesc"> Sonic and Tails spin dash into an Egghammer. </note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic #tails">
+               <sound> FASSSH </sound>
+               <note type="panelDesc"> Sonic and Tails destroy the Egghammer by spin-dashing through
+                  the Egghammer's armor. </note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic #tails #egghammer">
+               <sound> K-ZZOTTTT </sound>
+               <note type="panelDesc"> Sonic and Tails land on the ground as the Egghammer gets
+                  ripped in half. </note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#sonic #tails">
+               <note type="panelDesc"> Sonic and Tails strike an epic pose as they look at each
+                  other. The Egghammer explodes in the background. </note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_12">
+            <cbml:panel n="1" characters="#sonic #tails #egghammer">
+               <note type="panelDesc"> Sonic and Tails find another Egghammer, and they chase it
+                  down. </note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic #tails #egghammer">
+               <note type="panelDesc"> While the Egghammer swings its gigantic hammer at Sonic and
+                  Tails, Tails takes Sonic into the air, launching another special attack. </note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic #tails #egghammer">
+               <note type="panelDesc"> Tails throws Sonic into the Egghammer, bending the
+                  Egghammer's nose. </note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic #tails #egghammer">
+               <sound> SMASH </sound>
+               <note type="panelDesc"> Tails whacks the Egghammer's hammer out of its hands, and
+                  Sonic takes the Egghammer's nose off of its face. </note>
+            </cbml:panel>
+         </div>
+         <div type="page" xml:id="pg_13">
+            <cbml:panel n="1" characters="#sonic #egghammer">
+               <sound> SMASH </sound>
+               <note type="panelDesc"> Sonic proceeds to attack the Egghammer again, this time by
+                  spin-dashing into its head. </note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic #tails #egghammer">
+               <sound> SMASH </sound>
+               <sound> SMASH </sound>
+               <note type="panelDesc"> Sonic and the Egghammer fight each other while Tails watches
+                  from above. </note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic #tails #egghammer">
+               <sound> SMASH </sound>
+               <note type="panelDesc"> Sonic and Tails land the coup-de-grace to the Egghammer,
+                  felling it. </note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic #tails">
+               <cbml:balloon type="speech" who="#tails"> This would be going a lot faster if we had
+                  Knuckles with us. </cbml:balloon>
+               <cbml:balloon type="speech" who="#sonic"> Naaaah, we're doing fine! </cbml:balloon>
+               <note type="panelDesc"> Tails wishes that Knuckles the Echidna would help fight the
+                  Egghammers with him and Sonic, but Sonic disagrees with Tails and claims that they
+                  are okay fighting by themselves. </note>
             </cbml:panel>
          </div>
       </body>

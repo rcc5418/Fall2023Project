@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../CBML_files/cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <tagsDecl>
+           
+        </tagsDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="page" xml:id="pg_04"></div>
+         <cbml:panel n="1" characters = "#jon #liz">
+            <cbml:balloon type="speech" who="#jon">
+               Sigh.
+            </cbml:balloon>
+            <note type="panelDesc">Jon is sighing happily as he looks at Liz.</note>
+         </cbml:panel>
+         <cbml:panel n="2" characters="#jon #liz">
+            <cbml:balloon type="speech" who="#jon">
+               Sigh.
+            </cbml:balloon>
+            <note type="panelDesc"> Jon is still sighing and staring at Liz. Liz looks concerned.</note>
+         </cbml:panel>
+         <cbml:panel n="3" characters="#jon #liz #garfield">
+            <cbml:balloon type="speech" who="#jon">
+               Sigh.
+            </cbml:balloon>
+            <cbml:balloon type="speech" who="#liz">
+               Is he okay?
+            </cbml:balloon>
+            <cbml:balloon type="thought" who="#garfield">
+               I'll get his inhaler.
+            </cbml:balloon>
+            <note type="panelDesc">
+               Liz is feeling concerned about Jon, and she asks Garfield if Jon is okay because of his constant sighing and staring. Garfield leaves the room to get an inhaler.
+            </note>
+         </cbml:panel>
+      </body>
+  </text>
+</TEI>
