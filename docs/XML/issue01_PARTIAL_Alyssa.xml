@@ -172,18 +172,18 @@
                   the Motobugs.</note>
             </cbml:panel>
          </div>
-         <div type="page" xml:id="pg_08">
-            <cbml:panel n="1" characters="#sonic #egghammer">
+         <div type="page" xml:id="pg_09">
+            <cbml:panel n="1" characters="#sonic">
                <sound>SMASH</sound>
                <note type="panelDesc"> Sonic tries to attack the Egghammer by spin-dashing into him,
                   but the Egghammer deflects Sonic with the handle of his hammer.</note>
             </cbml:panel>
-            <cbml:panel n="2" characters="#sonic #egghammer">
+            <cbml:panel n="2" characters="#sonic">
                <cbml:balloon type="speech" who="#sonic"> C'mon, big guy! Swing batta-batta-batta-- </cbml:balloon>
-               <note type="panelDesc"> Sonic teases the Egghammer after Sonic lands on the ground.
+               <note type="panelDesc"> Sonic stands on top of a manhole cover, the Egg Hammer behind him
                </note>
             </cbml:panel>
-            <cbml:panel n="3" characters="#sonic #egghammer-1 #egghammer-2">
+            <cbml:panel n="3" characters="#sonic">
                <cbml:balloon type="speech" who="#sonic"> --Swing? </cbml:balloon>
                <note type="panelDesc"> Sonic is surprised that he is surrounded by more than one
                   Egghammer. </note>
