@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../CBML_files/cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../CBML_files/cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -39,7 +39,7 @@
    <text>
       <body>
          <div type="page" xml:id="pg_01">
-            <p rend="cornerBox"><desc>A small corner box at the top left of the comic
+            <p rend="cornerBox" ><desc>A small corner box at the top left of the comic
                cover.</desc>IDW <lb/>ISSUE <lb/>1 <lb/>COVER A</p>
             <p rend="title"><desc>The word 'Sonic' is in big gold and blue lettering, 'The Hedgehog'
                   is in white on a red backdrop</desc>SONIC<lb/>THE HEDGEHOG</p>
@@ -50,13 +50,17 @@
                   Small blue birds fly around the two of them.</figDesc>
             </figure>
             <p>SEGA</p>
+<<<<<<< HEAD:docs/XML/issue01.xml
             <figure type="pageImage" rend="images/issue01/issue01_page_01.jpg"/>
+=======
+            <figure type="pageImage" rend="images/issue01/issue01_pg_01.jpg"/>
+>>>>>>> 90b75230eaed1ec91129811d8d6a4510f637e901:docs/XML/Issues/issue01.xml
          </div>
          <div type="page" xml:id="pg_02">
             <figure type="render">
                <figDesc>A render of Sonic pointing forwards poking out of a red and blue star is centered on the page, framed with small golden rings</figDesc>
             </figure>
-            <p rend="credits">Written by Ian Flynn Pencils yb Tracy Yardley Inks by Jim Amash &amp; Bob Smith
+            <p>Written by Ian Flynn Pencils yb Tracy Yardley Inks by Jim Amash &amp; Bob Smith
             <lb/>Colors by Matt Herms Letters by Corey Breen
             <lb/>Edited by Joe Hughes &amp; David Mariotte Published by Greg Goldstein</p>
             <p>Special thanks to Anoulay Tsai, Mai Kiyotaki, Aaron Webber, Michael Cisneros,
@@ -71,7 +75,8 @@
             <p>Facebook: facebook.com/idwpublishing • Twitter: @idwpublishing
             <lb/>YouTube: youtube.com/idwpublishiing Tumblr: tumblr.idwpublishing.com
             <lb/>Instagram:: instagram.com/idwpublishing
-            <figure type="logo"><figDesc>Logos for FaceBook, Twitter, YouTube, Tumblr, and Instagram appear from left-to-right</figDesc></figure></p>
+            </p>
+            <figure type="logo"><figDesc>Logos for FaceBook, Twitter, YouTube, Tumblr, and Instagram appear from left-to-right</figDesc></figure>
             <p>SONIC THE HEDGEHOG #1. APRIL 2018. FIRST PRINTING. © SEGA. Sega, the SEGA logo and SONIC THE HEDGEHOG are either registered trademarks or trademarks of SEGA Holdings Co., Ltd. or its affiliates. All rights reserved. SEGA
                <lb/>is registered in the U.S. Patent and Trademark Office. All other trademarks, logos and copyrights are property of their respective owners. © 2018 Idea and Deign Works, LLC. All Rights Reserved. IDW Publishing, a division of Idea and
                <lb/>Design Works, LLC. Editorial officesL 2765 Truxton Road, San Diego, CA 92106. The IDW logo is registed in the U.S. Patend and Trademark Office. Any similarities to persons living or dead are purely coincidental. With the exception of
@@ -405,7 +410,7 @@
             <figure type="pageImage" rend="images/issue01/issue01_page_14.jpg"/>
          </div>
          <div type="page" xml:id="pg_15">
-            <cbml:panel n="1" characters="#tails #egg-hammers">
+            <cbml:panel n="1" characters="#tails">
                <cbml:balloon type="speech" who="#tails">The remaining robots are making a run for
                   it!</cbml:balloon>
                <note type="panelDesc">Tails points at the fleeing Egg Hammer, Motobugs, and Egg Pawns</note>
@@ -588,7 +593,7 @@
             <cbml:panel n="3" characters="#tails">
                <note type="panelDesc">Tails looks down, thinking to himself.</note>
             </cbml:panel>
-            <cbml:panel n="3" characters="#tails">
+            <cbml:panel n="4" characters="#tails">
                <note type="panelDesc">Tails closes his eyes and smiles confidently.</note>
             </cbml:panel>
             <cbml:panel n="5" characters="#sonic #tails">
