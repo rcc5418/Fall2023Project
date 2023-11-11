@@ -54,6 +54,9 @@ ol {
 nav#menu {
     padding: 2vw;
 }
+nax#menu{
+    padding: 2vw;
+}
 .button {
     border: .5vw;
     border-style: outset;
@@ -66,11 +69,32 @@ nav#menu {
     border-radius: 40px;
     margin: 0 10px;
 }
+.issueButton{
+    border: .5vw;
+    border-style: outset;
+    border-color: #ffd700;
+    background-color: #ecf7ff;
+    display: inline-block;
+    margin: 0 10px;
+}
+.issueButton img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 img {
     max-width: 100%;
     max-height: 100vh;
     width: auto;
     height: auto;
+}
+img.pageImage{
+    width: 85%;
+    max-height: 100%;
+    display: block; 
+    margin: 0 auto; 
 }
 figure {
     width: 50%;
@@ -90,4 +114,7 @@ figcaption {
     border-style: outset;
     border-color: #cc00cc;
     background-color: #f2e6ff;
+}
+span.sound{
+    color:red;
 }

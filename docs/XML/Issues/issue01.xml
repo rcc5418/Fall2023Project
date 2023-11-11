@@ -395,7 +395,7 @@
             <cbml:panel n="3" characters="#sonic #tails">
                <sound> SMASH </sound>
                <note type="panelDesc"> Sonic and Tails land the coup-de-grace to the Egghammer,
-                  felling it. Sonic flashes a double thumbs-up. </note>
+                  felling it. Sonic flashes a double thumbs-up pose. </note>
             </cbml:panel>
             <cbml:panel n="4" characters="#sonic #tails">
                <cbml:balloon type="speech" who="#tails"> This would be going a lot faster if we had
