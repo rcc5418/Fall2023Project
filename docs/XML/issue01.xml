@@ -50,6 +50,7 @@
                   Small blue birds fly around the two of them.</figDesc>
             </figure>
             <p>SEGA</p>
+            <figure type="pageImage" rend="images/issue01/issue01_page_01.jpg"/>
          </div>
          <div type="page" xml:id="pg_02">
             <figure type="render">
@@ -76,6 +77,7 @@
                <lb/>Design Works, LLC. Editorial officesL 2765 Truxton Road, San Diego, CA 92106. The IDW logo is registed in the U.S. Patend and Trademark Office. Any similarities to persons living or dead are purely coincidental. With the exception of
                <lb/>artwork used for review purposed, none of the contents of this publication may be reprinted without the permission of Idea and Design Works, LLC. Printed in Canada. IDW Publishing does not read or accept unsolicited submissions of
                <lb/>ideas, stories, or artwork.</p>
+            <figure type="pageImage" rend="images/issue01/issue01_page_02.jpg"/>
          </div>
          <div type="page" xml:id="pg_03">
             <cbml:panel n="1" characters="#sonic #narrator">
@@ -105,6 +107,7 @@
                <note type="panelDesc">Within the gutters of the page's other panels, Sonic is framed
                   from the front, running forward with a determined look on his face.</note>
             </cbml:panel>
+            <figure type="pageImage" rend="images/issue01/issue01_page_03.jpg"/>
          </div>
          <div type="page" xml:id="pg_04">
             <cbml:panel n="1" characters="#narrator #sonic">
@@ -123,6 +126,7 @@
                   cloud behind him. It's clear that the doors of the city have been blown wide
                   open.</note>
             </cbml:panel>
+            <figure type="pageImage" rend="images/issue01/issue01_page_04.jpg"/>
          </div>
          <div type="page" xml:id="pg_05">
             <cbml:panel n="1">
@@ -150,6 +154,7 @@
                <note type="panelDesc">Sonic appears as a blue blurring ball, bouncing between each
                   of the Egg Pawns and smashing them to pieces.</note>
             </cbml:panel>
+            <figure type="pageImage" rend="images/issue01/issue01_page_05.jpg"/>
          </div>
          <div type="page" xml:id="pg_06">
             <cbml:panel n="1" characters="#sonic">
@@ -182,6 +187,7 @@
                <note type="panelDesc">Sonic dashes past three armed animals, a cat, a dog (?) and a
                   rabbit, who appear worried.</note>
             </cbml:panel>
+            <figure type="pageImage" rend="images/issue01/issue01_page_06.jpg"/>
          </div>
          <div type="page" xml:id="pg_07">
             <cbml:panel n="1" characters="NNC">
@@ -214,6 +220,7 @@
                <note type="panelDesc">The residents, much calmer now, are very impressed by
                   Sonic.</note>
             </cbml:panel>
+            <figure type="pageImage" rend="images/issue01/issue01_page_07.jpg"/>
          </div>
          <div type="page" xml:id="pg_08">
             <cbml:panel n="1" characters="#sonic">
@@ -242,6 +249,7 @@
                <note type="panelDesc">Jumping off of a window ledge, Sonic launches himself at the
                   Egg Hammer, who begins to raise their hammer.</note>
             </cbml:panel>
+            <figure type="pageImage" rend="images/issue01/issue01_page_08.jpg"/>
          </div>
          <div type="page" xml:id="pg_09">
             <cbml:panel n="1" characters="#sonic">
@@ -264,6 +272,7 @@
                <cbml:balloon type="speech" who="#sonic"> Yeah, okay, this one's on me. </cbml:balloon>
                <note type="panelDesc"> Four Egg Hammers surround Sonic, who stands crossing his arms.</note>
             </cbml:panel>
+            <figure type="pageImage" rend="images/issue01/issue01_page_09.jpg"/>
          </div>
          <div type="page" xml:id="pg_10">
             <cbml:panel n="1" characters="NNC">
@@ -291,6 +300,7 @@
             <cbml:panel n="5" characters="#sonic">
                <note type="panelDesc"> One of the Egghammers is drops its hammer down onto Sonic.</note>
             </cbml:panel>
+            <figure type="pageImage" rend="images/issue01/issue01_page_10.jpg"/>
          </div>
          <div type="page" xml:id="pg_11">
             <cbml:panel n="1" characters="#sonic #tails">
@@ -322,6 +332,7 @@
                <cbml:balloon type="speech" who="#sonic"> Let's show 'em how it's done! </cbml:balloon>
                <note type="panelDesc"> Sonic grins as he takes Tails' hands.</note>
             </cbml:panel>
+            <figure type="pageImage" rend="images/issue01/issue01_page_11.jpg"/>
          </div>
          <div type="page" xml:id="pg_12">
             <cbml:panel n="1" characters="#sonic #tails">
@@ -347,6 +358,7 @@
                <note type="panelDesc"> Sonic and Tails strike an epic pose as they look at each
                   other. The Egghammer explodes in the background. </note>
             </cbml:panel>
+            <figure type="pageImage" rend="images/issue01/issue01_page_12.jpg"/>
          </div>
          <div type="page" xml:id="pg_13">
             <cbml:panel n="1" characters="#sonic #tails">
@@ -365,6 +377,7 @@
                <note type="panelDesc"> Tails whacks the Egghammer's hammer out of its hands, and
                   Sonic takes the Egghammer's nose off of its face. </note>
             </cbml:panel>
+            <figure type="pageImage" rend="images/issue01/issue01_page_13.jpg"/>
          </div>
          <div type="page" xml:id="pg_14">
             <cbml:panel n="1" characters="#sonic">
@@ -389,6 +402,7 @@
                <cbml:balloon type="speech" who="#sonic"> Naaaah, we're doing fine! </cbml:balloon>
                <note type="panelDesc"> Tails is visibly tiring above Sonic, who seems calm and relaxed.</note>
             </cbml:panel>
+            <figure type="pageImage" rend="images/issue01/issue01_page_14.jpg"/>
          </div>
          <div type="page" xml:id="pg_15">
             <cbml:panel n="1" characters="#tails #egg-hammers">
@@ -415,6 +429,7 @@
             <cbml:panel n="5" characters="#sonic">
                <note type="panelDesc">Sonic runs up the Egg Hammer's hammer's handle</note>
             </cbml:panel>
+            <figure type="pageImage" rend="images/issue01/issue01_page_15.jpg"/>
          </div>
          <div type="page" xml:id="pg_16">
             <cbml:panel n="1" characters="#sonic">
@@ -443,6 +458,7 @@
                <cbml:balloon type="speech" who="#tails">Oh ye of little faith...</cbml:balloon>
                <note type="panelDesc">Tails begins to pull a lever.</note>
             </cbml:panel>
+            <figure type="pageImage" rend="images/issue01/issue01_page_16.jpg"/>
          </div>
          <div type="page" xml:id="pg_17">
             <cbml:panel n="1" characters="NNC">
@@ -467,6 +483,7 @@
                <note type="panelDesc">Sonic praises Tails for helping him destroy the remaining
                   Badniks, clapping as Tails bows.</note>
             </cbml:panel>
+            <figure type="pageImage" rend="images/issue01/issue01_page_17.jpg"/>
          </div>
          <div type="page" xml:id="pg_18">
             <cbml:panel n="1" characters="#sonic #tails">
@@ -495,6 +512,7 @@
                <cbml:balloon type="speech" who="#tails">That's not what I mean.</cbml:balloon>
                <note type="panelDesc">Sonic shrugs while Tails glares at him</note>
             </cbml:panel>
+            <figure type="pageImage" rend="images/issue01/issue01_page_18.jpg"/>
          </div>
          <div type="page" xml:id="pg_19">
             <cbml:panel n="1" characters="#tails">
@@ -524,6 +542,7 @@
                   The lack of fanfare is spooky.</cbml:balloon>
                <note type="panelDesc">Sonic taps his foot while Tails paces, both thinking.</note>
             </cbml:panel>
+            <figure type="pageImage" rend="images/issue01/issue01_page_19.jpg"/>
          </div>
          <div type="page" xml:id="pg_20">
             <cbml:panel n="1" characters="#sonic">
@@ -555,6 +574,7 @@
                <cbml:balloon type="speech" who="#tails">...Okay. Thanks Sonic.</cbml:balloon>
                <note type="panelDesc">Sonic puts his hand on Tails' shoulder. Tails looks calmer.</note>
             </cbml:panel>
+            <figure type="pageImage" rend="images/issue01/issue01_page_20.jpg"/>
          </div>
          <div type="page" xml:id="pg_21">
             <cbml:panel n="1" characters="#sonic #tails">
@@ -578,6 +598,7 @@
                <cbml:balloon type="speech" who="#tails">Deal!</cbml:balloon>
                <note type="panelDesc">Tails gestures to the damaged town. Sonic gives him a thumbs-up.</note>
             </cbml:panel>
+            <figure type="pageImage" rend="images/issue01/issue01_page_21.jpg"/>
          </div>
          <div type="page" xml:id="pg_22">
             <cbml:panel n="1" characters="#sonic">
@@ -599,6 +620,7 @@
                <cbml:caption type="teaser"><emph rend="blue geometric lettering">Next time:</emph> Can <emph rend="jagged lettering with red accents">LOVE</emph> hammer it out <emph rend="large geometric lettering">ON THE BATTLEFIELD?</emph></cbml:caption>
                <note type="panelDesc">A picture of Amy is shown zoomed in on a monitor.</note>
             </cbml:panel>
+            <figure type="pageImage" rend="images/issue01/issue01_page_22.jpg"/>
          </div>
          <div type="page" xml:id="pg_23">
             <figure type="render"><figDesc>A render of Sonic standing and gesturing in a presenting fashion</figDesc></figure>
@@ -608,12 +630,13 @@
             <figure type="fanwork"><figDesc>Fanart of super sonic charging up an energy blast against a space backdrop.</figDesc></figure>
             <p>My boyfriend and I have been huge fans of Sonic since we were young! We collaborate on artwork often and this is one of our proudest creations, and would love to see it in print. an't wait to buy and read the comics!
             Lourdes M.</p>
-            <figure type="fanwork"><figDesc>Fanart of Sonic, Shadow, and Rouge drawn in the style of the 80's Sonic cartoon</figDesc></figure>
+            <figure type="fanwork"><figDesc>Fanart of Sonic, Shadow, and Rouge drawn in the style of the 90's Sonic cartoon</figDesc></figure>
             <p>Hi, Looking forward to the new series. I've attatched a piece of fan art I've done. Peace!
             Billy Kurtz</p>
             <p rend="blue text">This one's extra special as Billy's piece is the first one to arrive when the call went out on the IDW Sonic Comic Squad Facebook group!</p>
             <p>Good Evening, guys!
             I'm Rena Rose, I'm a cosplayer from Argentina! I belong to Sonic Team Argentina, one of the most important Argentinian pages reqarding Sonic news and content. Cosplaying Sonic characters is super FUN! I hope to cosplay more characters! I learned to sew 5 years ago to make my own costumes and I've won many cosplay</p>
+            <figure type="pageImage" rend="images/issue01/issue01_page_23.jpg"/>
          </div>
          <div type="page" xml:id="pg_24">
             <p>competitions in Argentina. My favorite character to cosplay is Amy Rose. She's so cool! &lt;3 I submited photos for publication. I'm looking forward to reading the new Sonic comics! Thank you for your time.
@@ -627,6 +650,7 @@
             Bottom: Art by Abel Muniz, Jr.</p>
             <figure type="fanwork"><figDesc>A drawing of a robotic Big the Cat is displayed, with red eyes and sharp claws and ears. The picture is captioned: 'Metal Big the Cat!' and the robot has a balloon saying: 'Sonic and friends, I will conquer you and everything below the sun!'</figDesc></figure>
             <figure type="fanwork"><figDesc>Art of Sonic in his classic double finger-gun pose is shown, in a stylish matte-colored rendition.</figDesc></figure>
+            <figure type="pageImage" rend="images/issue01/issue01_page_24.jpg"/>
          </div>
       </body>
    </text>
