@@ -15,12 +15,20 @@
             <head>
                 <title><xsl:apply-templates select="descendant::titleStmt/title"/></title>
                 <link rel="icon" type="image/x-icon" href="images/small_ring.png" />
-                <link rel="stylesheet" type="text/css" href="webstyle.css"/> 
+                <link rel="stylesheet" type="text/css" href="XSLTWebstyle.css"/> 
             </head>
             <body>
                 <h1 style="text-align: center">
                     <xsl:apply-templates select="descendant::titleStmt/title"/>
                 </h1>
+                <h2 style="text-align: center">Table of Contents</h2>
+                <table>
+                    <tr>
+                    <th>Page</th>
+                    <th>Links to Panels</th>
+                </tr>
+                <xsl:apply-templates select=".//div[@type='page']" mode="toc"/>
+                </table>
                 <div id="readingView">
                     <xsl:apply-templates select="descendant::body"/>
                 </div>
@@ -34,50 +42,81 @@
     
     <xsl:template match="div[@type='page']">
         <section class="{@type}" id="{@xml:id}">
-            <p>
-                Page <xsl:value-of select ="@xml:id ! substring-after(.,'_')"/>
+                Page <xsl:value-of select ="@xml:id ! substring-after(.,'_')"/><br/>
                 <xsl:apply-templates select="descendant::cbml:panel | p | figure[@type='pageImage']"/>
-                <br/>
-            </p>    
         </section>    
     </xsl:template>
     
     <xsl:template match="div[@type='page']/p">
-        <br/>
             <xsl:apply-templates/>
     </xsl:template>
+    
+    <xsl:template match="div[@type='page']" mode="toc">
+        <tr>
+            <td>Page <xsl:value-of select="@xml:id ! substring-after(.,'_')"/></td>
+            <td>
+                <xsl:choose>
+                    <xsl:when test="count(.//cbml:panel) != 0">
+                        Panels:
+                        <ul>
+                            <xsl:apply-templates select=".//cbml:panel" mode="toc"/>
+                        </ul>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        This page has no panels. <a href="#{@xml:id}">Jump to page</a>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </td>
+        </tr>
+    </xsl:template>
+    
     <xsl:template match="div[@type='page']/figure/figDesc">
-        <br/>
         <em>
             <xsl:apply-templates/>
         </em>
     </xsl:template>
     
     <xsl:template match="cbml:balloon">
+            <xsl:value-of select="@who ! substring-after(.,'#') ! upper-case(.)"/>: <xsl:apply-templates/>
         <br/>
-            <xsl:value-of select="@who ! substring-after(.,'#') ! upper-case(.)"/>: <xsl:apply-templates select="text()"/>
+    </xsl:template>
+    
+    <xsl:template match="cbml:panel">
+        <div class="panel" id="page_{parent::div/@xml:id ! substring-after(.,'_')}_panel_{@n}">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+    <xsl:template match="cbml:panel" mode="toc">
+        <li>
+            <a href="#page_{parent::div/@xml:id ! substring-after(.,'_')}_panel_{@n}">Panel <xsl:value-of select="@n"/></a>
+        </li>
     </xsl:template>
     
     <xsl:template match="note[@type='panelDesc']">
-        <br/>
         <em><xsl:apply-templates/></em>
     </xsl:template>
     
     <xsl:template match="cbml:caption">
-        <br/>
         <strong><xsl:apply-templates/></strong>
+        <br/>
     </xsl:template>
     
     <xsl:template match = "sound">
-        <br/>
         <span class="sound">
             <xsl:apply-templates/>
         </span>
+        <br/>
     </xsl:template>
     
     <xsl:template match="figure[@type='pageImage']">
-        <br/>
         <img class="pageImage" src="{@rend}"/>
+    </xsl:template>
+    
+    <xsl:template match="cbml:balloon/emph[@rend='bold']">
+        <strong>
+            <xsl:apply-templates/>
+        </strong>
     </xsl:template>
 
 </xsl:stylesheet>

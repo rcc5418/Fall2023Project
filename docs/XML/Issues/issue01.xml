@@ -161,7 +161,7 @@
             <cbml:panel n="1" characters="#sonic">
                <cbml:balloon type="speech" who="#sonic">Hey! You hurt?</cbml:balloon>
                <cbml:balloon type="speech" who="#unnamed_vista_resident_a">N-not really.
-                  You're...You're <emph rendition="bold">Sonic!</emph></cbml:balloon>
+                  You're...You're <emph rend="bold">Sonic!</emph></cbml:balloon>
                <note type="panelDesc">Sonic extends a hand to the resident, picking up the Cube
                   Wispon too.</note>
             </cbml:panel>
@@ -169,8 +169,8 @@
                <cbml:balloon type="speech" who="#sonic">The one and only. Here you go. Try swinging
                   it at the robots next time. I knew somebody who put it to good use.</cbml:balloon>
                <cbml:balloon type="speech" who="#unnamed_vista_resident_a">N-not really.
-                  You're...You're <emph rend="bold">You're...<emph rend="bold"
-                     >THE</emph></emph> Sonic!</cbml:balloon>
+                  You're...You're You're...<emph rend="bold"
+                     >THE</emph> Sonic!</cbml:balloon>
                <note type="panelDesc">Sonic hands the Wispon back to the resident, who stands
                   nervously.</note>
             </cbml:panel>
@@ -617,7 +617,7 @@
                <note type="panelDesc">A large chair is shown from behind, bearing Dr. Eggman's signature symbol. Sonic is being observed on the monitor in front of the chair. Amy is visible on another monitor to the left.</note>
             </cbml:panel>
             <cbml:panel n="5" characters="#sonic #amy">
-               <cbml:balloon type="speech" who="???" rend="blue text">Make sure word of Sonic's latest success reaches the Resistance. I want to crush <emph rend="bold">both</emph> headgehogs in one strike.</cbml:balloon>
+               <cbml:balloon type="speech" who="???" rend="blue text">Make sure word of Sonic's latest success reaches the Resistance. I want to crush <emph rend="bold">both</emph> hedgehogs in one strike.</cbml:balloon>
                <cbml:caption type="teaser"><emph rend="blue geometric lettering">Next time:</emph> Can <emph rend="jagged lettering with red accents">LOVE</emph> hammer it out <emph rend="large geometric lettering">ON THE BATTLEFIELD?</emph></cbml:caption>
                <note type="panelDesc">A picture of Amy is shown zoomed in on a monitor.</note>
             </cbml:panel>

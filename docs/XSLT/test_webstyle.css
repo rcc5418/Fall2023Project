@@ -1,0 +1,70 @@
+body {
+    background: #ccd9ff;
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: 1.3vw;
+    line-height: 1.4em;
+}
+section {
+    width: 85%;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100vh;
+    width: auto;
+    height: auto;
+}
+img.pageImage{
+    width: 85%;
+    max-height: 100%;
+    display: block; 
+    margin: 0 auto; 
+}
+span.sound{
+    color:red;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: gold;
+}
+/* Everything after here is from the textEncoding-Hub repository
+*/
+.page {
+    width:80%;
+    background: #ccd9ff;
+    border: .5vw;
+    border-style: ridge;
+    border-style: outset;
+    border-color: #4d88ff;
+    padding: 1.7vw;
+    background-color: #ecf7ff;}
+
+div.panel {border: 1px blue solid; padding: 1em; width: 90%;
+}
+
+table { border-collapse: collapse; width: 100%;
+border: 2px solid #6666ff;
+width: 85%;
+    margin: auto;
+}
+
+tr {border-collapse: collapse; border:0}
+
+th
+{ border-collapse: collapse;
+border: 1px solid  #000066;
+background-color: #ccd9ff;
+padding: 1px;
+vertical-align:top;
+}
+
+td 
+{ border-collapse: collapse;
+border: 1px solid #000066;
+padding: 7px;
+vertical-align:top;
+background-color: #ecf7ff;
+}
