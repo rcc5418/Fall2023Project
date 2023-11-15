@@ -21,15 +21,42 @@
                 <h1 style="text-align: center">
                     <xsl:apply-templates select="descendant::titleStmt/title"/>
                 </h1>
-                <h2 style="text-align: center">Table of Contents</h2>
-                <table>
-                    <tr>
-                    <th>Page</th>
-                    <th>Links to Panels</th>
-                </tr>
-                <xsl:apply-templates select=".//div[@type='page']" mode="toc"/>
-                </table>
+                <div id="table">
+                    <xsl:variable name="docTree" as="document-node()" select="current()"/>
+                    <xsl:variable name="characters" as="item()+" select=".//cbml:panel/@characters ! normalize-space() ! 
+                        tokenize(., ' ') => distinct-values() => sort()"/>
+                    <h2 style="text-align: center">Table of Contents</h2>
+                    <table>
+                        <tr>
+                        <th>Page</th>
+                        <th>Links to Panels</th>
+                    </tr>
+                    <xsl:apply-templates select=".//div[@type='page']" mode="toc"/>
+                    </table>
+                    <h2 style="text-align: center">Characters</h2>
+                    <table>
+                        <tr>
+                            <th>Character</th>
+                            <th>Appearences</th>
+                        </tr>
+                        <xsl:for-each select="$characters">
+                            <xsl:if test="contains(current(),'#')">
+                                <tr>
+                                    <td>
+                                        <xsl:value-of select="substring-after(current(),'#') ! upper-case(.)"/>
+                                    </td>
+                                    <td>
+                                            <xsl:apply-templates select="$docTree//div[@type='page' and cbml:panel[contains(@characters,current())]]" mode="char">
+                                                <xsl:with-param name="currentChar" as="item()" select="current()"/>
+                                            </xsl:apply-templates> 
+                                    </td>
+                                </tr>
+                            </xsl:if>
+                        </xsl:for-each>
+                    </table>
+                </div>
                 <div id="readingView">
+                    <h2 style="text-align: center">Reading View</h2>
                     <xsl:apply-templates select="descendant::body"/>
                 </div>
             </body>
@@ -51,24 +78,7 @@
             <xsl:apply-templates/>
     </xsl:template>
     
-    <xsl:template match="div[@type='page']" mode="toc">
-        <tr>
-            <td>Page <xsl:value-of select="@xml:id ! substring-after(.,'_')"/></td>
-            <td>
-                <xsl:choose>
-                    <xsl:when test="count(.//cbml:panel) != 0">
-                        Panels:
-                        <ul>
-                            <xsl:apply-templates select=".//cbml:panel" mode="toc"/>
-                        </ul>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        This page has no panels. <a href="#{@xml:id}">Jump to page</a>
-                    </xsl:otherwise>
-                </xsl:choose>
-            </td>
-        </tr>
-    </xsl:template>
+    
     
     <xsl:template match="div[@type='page']/figure/figDesc">
         <em>
@@ -87,11 +97,7 @@
         </div>
     </xsl:template>
     
-    <xsl:template match="cbml:panel" mode="toc">
-        <li>
-            <a href="#page_{parent::div/@xml:id ! substring-after(.,'_')}_panel_{@n}">Panel <xsl:value-of select="@n"/></a>
-        </li>
-    </xsl:template>
+    
     
     <xsl:template match="note[@type='panelDesc']">
         <em><xsl:apply-templates/></em>
@@ -118,5 +124,53 @@
             <xsl:apply-templates/>
         </strong>
     </xsl:template>
-
+    
+    <!-- MODES UNDER HERE -->
+    
+    <xsl:template match="div[@type='page']" mode="toc">
+        <tr>
+            <td>Page <xsl:value-of select="@xml:id ! substring-after(.,'_')"/></td>
+            <td>
+                <xsl:choose>
+                    <xsl:when test="count(.//cbml:panel) != 0">
+                        Panels:
+                        <ul>
+                            <xsl:apply-templates select=".//cbml:panel" mode="toc"/>
+                        </ul>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        This page has no panels. <a href="#{@xml:id}">Jump to page</a>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </td>
+        </tr>
+    </xsl:template>
+    
+    <xsl:template match="cbml:panel" mode="toc">
+        <li>
+            <a href="#page_{parent::div/@xml:id ! substring-after(.,'_')}_panel_{@n}">Panel <xsl:value-of select="@n"/></a>
+        </li>
+    </xsl:template>
+    
+    <xsl:template match="div[@type='page']" mode="char">
+        <xsl:param name="currentChar"/>
+        <li>
+            Page <xsl:value-of select="substring-after(./@xml:id,'_')"/>
+            <ul>
+                <xsl:apply-templates select="descendant::cbml:panel" mode="char">
+                    <xsl:with-param name="currentChar" select="$currentChar"/>
+                </xsl:apply-templates> 
+            </ul>
+        </li>
+    </xsl:template>
+    
+    <xsl:template match="cbml:panel" mode="char">
+        <xsl:param name="currentChar"/>
+        <xsl:if test="@characters ! contains(.,$currentChar)">
+            <li>
+            <a href="#page_{parent::div/@xml:id ! substring-after(.,'_')}_panel_{@n}">Panel <xsl:value-of select="@n"/></a>
+            </li>
+        </xsl:if>
+    </xsl:template>
+    
 </xsl:stylesheet>
