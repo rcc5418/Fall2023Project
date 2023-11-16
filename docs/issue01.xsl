@@ -154,14 +154,12 @@
     
     <xsl:template match="div[@type='page']" mode="char">
         <xsl:param name="currentChar"/>
-        <li>
             Page <xsl:value-of select="substring-after(./@xml:id,'_')"/>
             <ul>
                 <xsl:apply-templates select="descendant::cbml:panel" mode="char">
                     <xsl:with-param name="currentChar" select="$currentChar"/>
                 </xsl:apply-templates> 
             </ul>
-        </li>
     </xsl:template>
     
     <xsl:template match="cbml:panel" mode="char">
