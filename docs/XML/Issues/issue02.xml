@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../CBML_files/cbml.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cbml="http://www.cbml.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sonic the Hedgehog #02</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>IDW Publishing</publisher>
+            <pubPlace>U.S.A.</pubPlace>
+            <date when="2018">April, 2018</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Retrieved from Grabber Zone
+               (https://grabber.zone/comics/sonic-idw/2018-2019-neo-metal-sonic-saga/sonic-the-hedgehog-01/),
+               an online Sonic comic collection gathered for educational purposes</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <namespace name="http://www.cbml.org/ns/1.0">
+               <tagUsage gi="cbml:panel"/>
+               <tagUsage gi="cbml:caption"/>
+            </namespace>
+         </tagsDecl>
+         <p>
+            <note type="encoding_clarification">A value of 'NNC' for the cbml:panel element's
+               @characters attribute is an acronym standing for No Named Characters, meaning no
+               characters with names appeared in the panel.</note>
+            <note type="encoding_clarification">A value of '???' for the cbml:balloon's @who element means that the speaker of the line is unknown or unclear for some reason. In certain scenes, the comic might be implying a line is said by a character, but really have it be a different character.</note>
+            <note type="encoding_clarification">A '(?)' within a note with a type value of
+               'panelDesc' means that the encoding author saw something unidentifiable, or else is
+               unsure of their own identification.</note>
+            <note type="encoding_author">Encoded by Reece Cullen, Alyssa Hopple, and Kayla Hopple.</note>
+         </p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            
+         </div>
+      </body>
+   </text>
+</TEI>
