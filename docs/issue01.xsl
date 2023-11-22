@@ -74,12 +74,15 @@
         </section>    
     </xsl:template>
     
-    <xsl:template match="div[@type='page']/p">
-            <xsl:apply-templates/>
+    <xsl:template match="div[@type='page']/p[not(@rend)]">
+            <span class="fanLetter"><xsl:apply-templates/></span>
+        <br/>
     </xsl:template>
-    
-    
-    
+    <xsl:template match="div[@type='page']/p[@rend != 'blue text']">
+        <span class="fanLetter"><xsl:apply-templates/></span>
+        <br/>
+    </xsl:template>
+
     <xsl:template match="div[@type='page']/figure/figDesc">
         <em>
             <xsl:apply-templates/>
@@ -125,6 +128,29 @@
         </strong>
     </xsl:template>
     
+    <xsl:template match="cbml:balloon/emph[@rend='italic']">
+        <em>
+            <xsl:apply-templates/>
+        </em>
+    </xsl:template>
+    
+    <xsl:template match="cbml:balloon/emph[@rend='orange text']">
+        <span class="orange">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="cbml:balloon[@rend='blue text']">
+        <span class="blue">
+            <xsl:value-of select="@who ! substring-after(.,'#') ! upper-case(.)"/>: <xsl:apply-templates/>
+        </span>
+        <br/>
+    </xsl:template>
+    <xsl:template match="p[@rend='blue text']">
+        <span class="blue">
+           <xsl:apply-templates/>
+        </span>
+        <br/>
+    </xsl:template>
     <!-- MODES UNDER HERE -->
     
     <xsl:template match="div[@type='page']" mode="toc">

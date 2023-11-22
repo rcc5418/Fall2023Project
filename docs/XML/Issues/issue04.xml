@@ -98,9 +98,10 @@
          <div type="page" xml:id="pg_03">
             <cbml:panel n="1" characters="#sonic">
                <cbml:balloon type="speech" who="#sonic">Whoever is organizing Eggman's robots is
-                  really stepping up their game. I hope I'm not too late!</cbml:balloon>
-               <note type="panelDesc">We see Sonic is seen running toward a town that is under
-                  attack by a giant Buzz Bomber aircraft that is dropping Egg Pawns onto the town.
+                  really stepping up their game. <lb/>
+                  I hope I'm not too late!</cbml:balloon>
+               <note type="panelDesc">Sonic is seen running toward a town that is under
+                  attack by a giant Buzz Bomber aircraft that is dropping Egg Pawns.
                   Sonic has a worried look on his face. There is smoke rising above the buildings in
                   the town.</note>
             </cbml:panel>
@@ -109,25 +110,27 @@
          <div type="page" xml:id="pg_04">
             <cbml:panel n="1" characters="#sonic">
                <cbml:balloon type="thought" who="#sonic">It's going to be tough fighting off this
-                  army on my own. Maybe Amy was right...I could use the Resistance's help on this
+                  army on my own. <lb/>
+                  Maybe Amy was right...I could use the Resistance's help on this
                   one.</cbml:balloon>
                <note type="panelDesc">Sonic continues to run along the path that leads to the town's
                   entrance, leaving behind a cloud of dust behind him.</note>
             </cbml:panel>
-            <cbml:panel n="2" characters="#sonic #NNC #egg-pawns">
+            <cbml:panel n="2" characters="#sonic">
                <cbml:balloon type="thought" who="#sonic">Then again, the Resistance isn't already
-                  here. Maybe word hasn't reached them yet? In that case, if I was with them, I
+                  here. Maybe word hasn't reached them yet? <lb/>
+                  In that case, if I was with them, I
                   never would've known about this attack.</cbml:balloon>
-               <note type="panelDesc">As Sonic enters the town, he notices some Resistance soldiers
+               <note type="panelDesc">As Sonic enters the town, he notices some militia soldiers
                   shooting from their Red Burst Wispons at some Egg Pawns. Some of the town's
                   civilians are seen watching the soldiers from balconies. More Egg Pawns are seen
                   dropping into the town from the Buzz Bomber aircraft.</note>
             </cbml:panel>
-            <cbml:panel n="3" characters="#sonic #NNC #egg-pawns">
+            <cbml:panel n="3" characters="#sonic">
                <cbml:balloon type="thought" who="#sonic">No time for second-guessing. Bash the bots.
                   Save the town. Keep it simple.</cbml:balloon>
                <note type="panelDesc">Sonic slides past two of the Egg Pawns, destroying them as the
-                  two Resistance soldiers watch him.</note>
+                  two militia soldiers watch him.</note>
             </cbml:panel>
             <cbml:panel n="4" characters="#sonic #egg-pawns">
                <cbml:balloon type="speech" who="#sonic">...Somebody's here?</cbml:balloon>
@@ -142,23 +145,22 @@
                <note type="panelDesc">Tangle is shown attacking an Egg Pawn with her tail and
                   kicking another. Yet another Egg Pawn is shown behind her.</note>
             </cbml:panel>
-            <cbml:panel n="2" characters="#tangle #egg-pawn">
-               <note type="panelDesc">Tangle's tail knocks over an Egg Pawn.</note>
+            <cbml:panel n="2" characters="#tangle">
+               <note type="panelDesc">Tangle's tail grabs an Egg Pawn's face.</note>
             </cbml:panel>
-            <cbml:panel n="3" characters="#tangle #egg-pawn">
-               <note type="panelDesc">Tangle's tail extends and wraps around some more Egg Pawns as
-                  a group of Egg Pawns approach her.</note>
+            <cbml:panel n="3" characters="#tangle">
+               <note type="panelDesc">Tangle's tail extends and wraps around some more Egg Pawns as they approach her.</note>
             </cbml:panel>
             <cbml:panel n="4" characters="#tangle">
                <cbml:balloon type="speech" who="#tangle">Hngh!</cbml:balloon>
                <note type="panelDesc">Tangle tightly grips her tail and and pulls it toward
                   herself.</note>
             </cbml:panel>
-            <cbml:panel n="5" characters="#tangle #egg-pawns">
+            <cbml:panel n="5" characters="#tangle">
                <note type="panelDesc">Tangle yanks her tail toward herself, with some Egg Pawns
                   wrapped around it.</note>
             </cbml:panel>
-            <cbml:panel n="6" characters="#tangle #egg-pawns">
+            <cbml:panel n="6" characters="#tangle">
                <sound>BOOM</sound>
                <note type="panelDesc">The Egg Pawns that are wrapped around Tangle's tail explode in
                   front of her.</note>
@@ -166,45 +168,44 @@
             <figure type="pageImage" rend="images/issue04/issue04_page_05.jpg"/>
          </div>
          <div type="page" xml:id="pg_06">
-            <cbml:panel n="1" characters="#tangle #egg-pawns">
-               <cbml:balloon type="speech" who="#tangle">Woo! And ow. Woo and ow!</cbml:balloon>
+            <cbml:panel n="1" characters="#tangle">
+               <cbml:balloon type="speech" who="#tangle">Woo! <lb/>And ow. <lb/>Woo and ow!</cbml:balloon>
                <note type="panelDesc">As Tangle pumps her fists in the air victoriously, she looks
                   at her tail that is partially burnt from the explosion. Two destroyed Egg Pawns
                   are shown behind her.</note>
             </cbml:panel>
-            <cbml:panel n="2" characters="#sonic #tangle #egg-pawns">
+            <cbml:panel n="2" characters="#sonic #tangle">
                <cbml:balloon type="speech" who="#sonic">Watch your back!</cbml:balloon>
                <cbml:balloon type="speech" who="#tangle">Whoops! Thanks!</cbml:balloon>
                <note type="panelDesc">Tangle turns around and sees Sonic performing a homing attack
                   on one of the destroyed Egg Pawns.</note>
             </cbml:panel>
-            <cbml:panel n="3" characters="#sonic #tangle #egg-pawns">
+            <cbml:panel n="3" characters="#sonic #tangle">
                <cbml:balloon type="speech" who="#tangle">Welcome to my hometown! Sorry for the mess.
                   We've got a bit of a robot problem.</cbml:balloon>
                <cbml:balloon type="speech" who="#sonic">Problem? What problem?</cbml:balloon>
                <note type="panelDesc">A group of Egg Pawns surround Tangle and Sonic. Sonic begins
                   running toward one of the Egg Pawns.</note>
             </cbml:panel>
-            <cbml:panel n="4" characters="#sonic #tangle #egg-pawns">
-               <cbml:balloon type="speech" who="#tangle">Ha! You're sweet not to notice. Nice one!
-                  You're a natural. Do this a lot?</cbml:balloon>
+            <cbml:panel n="4" characters="#sonic #tangle">
+               <cbml:balloon type="speech" who="#tangle">Ha! You're sweet not to notice. <lb/>
+                  Nice one! You're a natural. Do this a lot?</cbml:balloon>
                <note type="panelDesc">Sonic performs a homing attack on an Egg Pawn, while Tangle
                   pushes another to the ground with her tail.</note>
             </cbml:panel>
-            <cbml:panel n="5" characters="#sonic #tangle #egg-pawns">
+            <cbml:panel n="5" characters="#sonic #tangle">
                <cbml:balloon type="speech" who="#sonic">You could say that. <emph rend="bold">Sonic
                      the Hedgehog.</emph></cbml:balloon>
                <cbml:balloon type="speech" who="#tangle">Oh, sweet! Always wanted to meet you. <emph
                      rend="bold">Tangle the Lemur.</emph></cbml:balloon>
                <cbml:balloon type="speech" who="#sonic">Charmed.</cbml:balloon>
                <cbml:balloon type="speech" who="#tangle">Likewise.</cbml:balloon>
-               <note type="panelDesc">Sonic holds onto Tangle's tail and prepares to attack a group
-                  of Egg Pawns that are behind them.</note>
+               <note type="panelDesc">Sonic shakes Tangle's tail and prepares to attack the Egg Pawns surrounding them.</note>
             </cbml:panel>
             <figure type="pageImage" rend="images/issue04/issue04_page_06.jpg"/>
          </div>
          <div type="page" xml:id="pg_07">
-            <cbml:panel n="1" characters="#sonic #tangle #egg-pawns">
+            <cbml:panel n="1" characters="#sonic #tangle">
                <cbml:balloon type="speech" who="#tangle">I've been fending off the odd raids for a
                   while now, but this is nuts.</cbml:balloon>
                <note type="panelDesc">Tangle runs toward some more Egg Pawns with her tail extended
@@ -219,12 +220,12 @@
                <note type="panelDesc">We see a closeup of Sonic's face as he grins with
                   confidence.</note>
             </cbml:panel>
-            <cbml:panel n="4" characters="#sonic #tangle #egg-pawns">
+            <cbml:panel n="4" characters="#sonic #tangle">
                <sound>POW</sound>
                <sound>POW</sound>
                <sound>POW</sound>
                <note type="panelDesc">As Tangle retracts her tail, Sonic performs homing attacks on
-                  the Egg Pawns Tangle wrapped with her tail.</note>
+                  the Egg Pawns Tangle she wrapped.</note>
             </cbml:panel>
             <cbml:panel n="5" characters="#sonic #tangle">
                <cbml:balloon type="speech" who="#sonic">Yeah, the random gangs are starting to get
@@ -232,7 +233,7 @@
                <note type="panelDesc">Sonic lands on the ground with Tangle running alongside
                   him.</note>
             </cbml:panel>
-            <cbml:panel n="6" characters="#sonic #tangle #egg-pawns #motobug_a">
+            <cbml:panel n="6" characters="#sonic #tangle">
                <note type="panelDesc">Sonic and Tangle notice a group of Egg Pawns and a giant
                   Motobug approach the two while more Egg Pawns are seen in the background dropping
                   from the sky. Tangle looks frightened.</note>
@@ -245,14 +246,14 @@
                <sound>RAKKA-</sound>
                <sound>RAKKA-</sound>
                <note type="panelDesc">Sonic and Tangle leap onto two of the Egg Pawns as they dodge
-                  shots fired by the giant Motobug that is being piloted by one of the Egg
-                  Pawns.</note>
+                  shots fired by the giant Motobug that is being piloted by another Egg
+                  Pawn.</note>
             </cbml:panel>
-            <cbml:panel n="2" characters="#sonic #tangle #motobug_b">
+            <cbml:panel n="2" characters="#sonic #tangle">
                <note type="panelDesc">As Sonic and Tangle land, they notice another giant Motobug
                   approach them.</note>
             </cbml:panel>
-            <cbml:panel n="3" characters="#sonic #tangle #motobug_a #motobug_b #egg-pawns">
+            <cbml:panel n="3" characters="#sonic #tangle">
                <note type="panelDesc">The two giant Motobugs and a large group of Egg Pawns surround
                   Sonic and Tails from an aerial perspective.</note>
             </cbml:panel>
@@ -270,16 +271,16 @@
             <figure type="pageImage" rend="images/issue04/issue04_page_08.jpg"/>
          </div>
          <div type="page" xml:id="pg_09">
-            <cbml:panel n="1" characters="#sonic #tangle #egg-pawns">
+            <cbml:panel n="1" characters="#sonic #tangle">
                <sound>FWWHOOSSH</sound>
                <note type="panelDesc">Sonic and Tangle look behind to see a massive fiery cyclone
                   engulf four Egg Pawns, incinerating them.</note>
             </cbml:panel>
-            <cbml:panel n="2" characters="#blaze #egg-pawns">
+            <cbml:panel n="2" characters="#blaze">
                <note type="panelDesc">As the fire dies down, we see Blaze the Cat above two
                   destroyed Egg Pawns.</note>
             </cbml:panel>
-            <cbml:panel n="3" characters="#blaze #egg-pawns">
+            <cbml:panel n="3" characters="#blaze">
                <note type="panelDesc">Blaze the Cat lands on the ground and looks behind her, with
                   the destroyed Egg Pawns surrounding her.</note>
             </cbml:panel>
@@ -323,38 +324,38 @@
             <figure type="pageImage" rend="images/issue04/issue04_page_10.jpg"/>
          </div>
          <div type="page" xml:id="pg_11">
-            <cbml:panel n="1" characters="#sonic #tangle #blaze #egg-pawns #motobug_a">
+            <cbml:panel n="1" characters="#sonic #tangle #blaze">
                <note type="panelDesc">While Sonic runs, Blaze runs toward a group of Egg Pawns while
                   wrapping them in a large ribbon of flames. Tangle is seen with her hands on her
-                  head with a frightened expression on her face. Part of the Motobug is seen in the
+                  head with a frightened expression on her face. Part of the giant Motobug is seen in the
                   background.</note>
             </cbml:panel>
-            <cbml:panel n="2" characters="#blaze #egg-pawns">
+            <cbml:panel n="2" characters="#blaze">
                <sound>SMASH</sound>
                <sound>SMASH</sound>
                <sound>SMASH</sound>
                <note type="panelDesc">Blaze leaps onto some more Egg Pawns with some flames
                   surrounding her body.</note>
             </cbml:panel>
-            <cbml:panel n="3" characters="#blaze #egg-pawns #motobug_a">
+            <cbml:panel n="3" characters="#blaze">
                <note type="panelDesc">Blaze casts a fire spell onto one group of Egg Pawns,
                   engulfing them while another group approaches her. One Egg Pawn is shown piloting
                   the Motobug, aiming its turret at Blaze.</note>
             </cbml:panel>
-            <cbml:panel n="4" characters="#tangle #blaze #egg-pawn #motobug_a">
+            <cbml:panel n="4" characters="#tangle #blaze">
                <note type="panelDesc">As the Egg Pawn fires the Motobug's turret, Tangle's tail
                   extends toward the Egg Pawn. Blaze looks behind her with a confused look on her
                   face.</note>
             </cbml:panel>
-            <cbml:panel n="5" characters="#tangle #blaze #egg-pawn #motobug_a">
+            <cbml:panel n="5" characters="#tangle #blaze">
                <note type="panelDesc"> Tangle winks as she proceeds to wrap her tail around the Egg
                   Pawn while the Motobug's turret continues to fire. Blaze watches Tangle attack
-                  while Blaze's hands engulf in flames.</note>
+                  while her hands engulf in flames.</note>
             </cbml:panel>
             <figure type="pageImage" rend="images/issue04/issue04_page_11.jpg"/>
          </div>
          <div type="page" xml:id="pg_12">
-            <cbml:panel n="1" characters="#tangle #egg-pawn #motobug_a">
+            <cbml:panel n="1" characters="#tangle">
                <sound>RAKKA-</sound>
                <sound>RAKKA-</sound>
                <sound>RAKKA-</sound>
@@ -362,21 +363,21 @@
                   Motobug's face while it continues firing. The blasts destroy part of the Motobug's
                   face.</note>
             </cbml:panel>
-            <cbml:panel n="2" characters="#tangle #motobug_a">
+            <cbml:panel n="2" characters="#tangle">
                <note type="panelDesc">Tangle wraps her tail around one of the Motobug's
                   claws.</note>
             </cbml:panel>
-            <cbml:panel n="3" characters="#tangle #motobug_a">
+            <cbml:panel n="3" characters="#tangle">
                <note type="panelDesc">Tangle pulls her tail toward herself, lifting up the Motobug's
                   claw.</note>
             </cbml:panel>
-            <cbml:panel n="4" characters="#sonic #tangle #egg-pawns #motobug_a #motobug_b">
+            <cbml:panel n="4" characters="#sonic #tangle">
                <note type="panelDesc">Tangle uses her tail to toss one Motobug's claw at the other
                   as Sonic watches. Some Egg Pawns are in the background.</note>
             </cbml:panel>
-            <cbml:panel n="5" characters="#sonic #motobug_b">
+            <cbml:panel n="5" characters="#sonic">
                <note type="panelDesc"> A silouhette of Sonic speeds toward the other Motobug as the
-                  destroyed Motobug's claw crashes into the other Motobug. </note>
+                  destroyed Motobug's claw crashes into it.</note>
             </cbml:panel>
             <figure type="pageImage" rend="images/issue04/issue04_page_12.jpg"/>
          </div>
@@ -385,15 +386,15 @@
                <note type="panelDesc"> Sonic slides past the Motobug's claw as it falls and the rest
                   of the Motobug catches on fire. </note>
             </cbml:panel>
-            <cbml:panel n="2" characters="#sonic #egg-pawns #motobug_b">
+            <cbml:panel n="2" characters="#sonic">
                <note type="panelDesc">Sonic runs to the other side of the Motobug, which has some
                   Egg Pawns beside it.</note>
             </cbml:panel>
-            <cbml:panel n="3" characters="#sonic #egg-pawns">
+            <cbml:panel n="3" characters="#sonic">
                <sound>FASSSH</sound>
                <note type="panelDesc">Sonic spin dashes into some Egg Pawns.</note>
             </cbml:panel>
-            <cbml:panel n="4" characters="#sonic #tangle #blaze #egg-pawns">
+            <cbml:panel n="4" characters="#sonic #tangle #blaze">
                <sound>POW</sound>
                <sound>POW</sound>
                <note type="panelDesc"> Sonic, Tangle, and Blaze all attack more Egg Pawns as they go
@@ -455,9 +456,9 @@
                <note type="panelDesc">Tangle makes a salute gesture with one hand while tolding her
                   tail with the other.</note>
             </cbml:panel>
-            <cbml:panel n="4" characters="#sonic #tangle #blaze #motobug_b">
+            <cbml:panel n="4" characters="#sonic #tangle #blaze">
                <note type="panelDesc">Tangle continues to hold on her hands with Sonic and Blaze
-                  stretching it as if Tangle's tail is a slingshot.</note>
+                  stretching it as if it is a slingshot.</note>
             </cbml:panel>
             <cbml:panel n="5" characters="#sonic #tangle #blaze">
                <note type="panelDesc">Sonic and Blaze launch into the air as Tangle falls over with
@@ -474,19 +475,19 @@
                <note type="panelDesc">Blaze holds Sonic as he spin dashes and flames surround
                   her.</note>
             </cbml:panel>
-            <cbml:panel n="3" characters="#sonic #blaze #egg-pawns">
+            <cbml:panel n="3" characters="#sonic #blaze">
                <sound>SOK</sound>
-               <note type="panelDesc">Blaze throws Sonic into one of the craft's open hatches in the
+               <note type="panelDesc">Blaze throws Sonic towards one of the craft's open hatches in the
                   Buzz Bomber aircraft as more Egg Pawns drop from them.</note>
             </cbml:panel>
-            <cbml:panel n="4" characters="#sonic #egg-pawns">
+            <cbml:panel n="4" characters="#sonic">
                <cbml:balloon type="thought" who="#egg-pawn">?</cbml:balloon>
                <note type="panelDesc">An Egg Pawn looks up in confusion as Sonic, partially engulfed
-                  in flames, charges toward it.</note>
+                  in flames, flies above it.</note>
             </cbml:panel>
-            <cbml:panel n="5" characters="#sonic #egg-pawns">
+            <cbml:panel n="5" characters="#sonic">
                <note type="panelDesc">Sonic lands on a steel beam between two Egg Pawns while
-                  partially engulfed in flames.</note>
+                  partially engulfed in flames. He grins nervously.</note>
             </cbml:panel>
             <figure type="pageImage" rend="images/issue04/issue04_page_16.jpg"/>
          </div>
@@ -507,7 +508,7 @@
             <cbml:panel n="4" characters="#blaze">
                <sound>BOOM</sound>
                <sound>KABOOOM</sound>
-               <note type="panelDesc">Blaze fires the blast at the aircraft, destroying it.</note>
+               <note type="panelDesc">Blaze fires a blast at the aircraft, destroying it.</note>
             </cbml:panel>
             <figure type="pageImage" rend="images/issue04/issue04_page_17.jpg"/>
          </div>
@@ -548,9 +549,12 @@
          </div>
          <div type="page" xml:id="pg_19">
             <cbml:panel n="1" characters="#sonic #tangle #blaze">
-               <cbml:balloon type="speech" who="#sonic">Right, so introductions! Blaze, this is
-                  Tangle. She is a local. Tangle, this is Blaze. She's a princess from another
-                  dimension and guardian of the Sol Emeralds. They're like Chaos Emeralds, but
+               <cbml:balloon type="speech" who="#sonic">Right, so introductions! <lb/>
+                  Blaze, this is
+                  Tangle. She's a local. <lb/>
+                  Tangle, this is Blaze. She's a princess from another
+                  dimension and guardian of the Sol Emeralds. <lb/>
+                  They're like Chaos Emeralds, but
                   fiery.</cbml:balloon>
                <note type="panelDesc">Sonic extends his hand toward Blaze to introduce Tangle to
                   her.</note>
@@ -575,8 +579,8 @@
                   occasion?</cbml:balloon>
                <cbml:balloon type="speech" who="#blaze">I felt the will of the Sol Emeralds. I've
                   come to prevent a terrible event on your world.</cbml:balloon>
-               <note type="panelDesc">Sonic puts his arms behind his head, while Blaze has her arms
-                  on her hips.</note>
+               <cbml:balloon type="speech" who="#sonic">Ha! No offense, but you're about seven months late.</cbml:balloon>
+               <note type="panelDesc">Sonic puts his arms behind his head, while Blaze has her hands behind her back.</note>
             </cbml:panel>
             <figure type="pageImage" rend="images/issue04/issue04_page_19.jpg"/>
          </div>
@@ -619,10 +623,10 @@
          <div type="page" xml:id="pg_21">
             <cbml:panel n="1" characters="#tangle #blaze">
                <cbml:balloon type="speech" who="#blaze">But first--many parts of your village are
-                  burning. I will do what I can to calm the flames.</cbml:balloon>
+                  burning. I will do what I can to calm the flames.<lb/>
+               Show me where you need me.</cbml:balloon>
                <cbml:balloon type="speech" who="#tangle">You. Are. Amazing. Follow
                   me!</cbml:balloon>
-               <cbml:balloon type="speech" who="#blaze">Show me where you need me.</cbml:balloon>
                <note type="panelDesc">Blaze talks with Tangle, who is excited.</note>
             </cbml:panel>
             <cbml:panel n="2" characters="#sonic #tangle #blaze">
@@ -655,14 +659,14 @@
          </div>
          <div type="page" xml:id="pg_22">
             <cbml:panel n="1"
-               characters="#dr_eggman #unnamed_town_resident_mother #unnamed_town_resident_child">
+               characters="#dr_eggman">
                <cbml:caption>Elsewhere...</cbml:caption>
-               <cbml:balloon type="speech" who="#unnamed_town_resident_mother">It's late. It's time
+               <cbml:balloon type="speech" who="#unnamed_resident_mother">It's late. It's time
                   to come in.</cbml:balloon>
-               <cbml:balloon type="speech" who="#unnamed_town_resident_child" rend="wavy"
+               <cbml:balloon type="speech" who="#unnamed_resident_child" rend="wavy"
                   >Buh-Buh-But it's busted! I c-c-can't carry it inside!</cbml:balloon>
                <note type="panelDesc">Dr. Eggman peeks through a window's blinds and sees a mother
-                  wolf asking her child to come inside, with a broken wagon between them.</note>
+                  wolf talking with her child, with a broken wagon between them.</note>
             </cbml:panel>
             <cbml:panel n="2" characters="#dr_eggman">
                <cbml:balloon type="speech" who="#dr_eggman">Oh-ho-ho... Don't you worry, little one.
@@ -671,7 +675,7 @@
             </cbml:panel>
             <cbml:panel n="3" characters="#dr_eggman">
                <cbml:balloon type="speech" who="#dr_eggman">Soon, I'll be fixing <emph rend="bold"
-                     >EVERY-THING!</emph></cbml:balloon>
+                     >EVERYTHING!</emph></cbml:balloon>
                <cbml:caption type="teaser"><emph rend="yellow impact lettering">NEXT TIME:</emph>
                   The Doctor is <emph rend="blue text">IN!</emph></cbml:caption>
                <note type="panelDesc">Dr.Eggman continues looking through the blinds.</note>
@@ -711,12 +715,13 @@
             <figure type="pageImage" rend="images/issue04/issue04_page_23.jpg"/>
          </div>
          <div type="page" xml:id="pg_24">
-            <p>If you'd like your fanart, cosplay pictures, or letters to show up in this very
+            <p rend="blue text">If you'd like your fanart, cosplay pictures, or letters to show up in this very
                space, send them to <emph rend="red text">letters@idwpublishing.com</emph>, include
                your name, and mark them "OKAY TO PRINT!" Also, don't forget to join the IDW Sonic
                Comics Squad Facebook Group to see even more amazing art and keep up-to-date with all
-               the latest infor on your favorite comic! We'll see you back here with more letters
-               and more fan art next month! -<emph rend="bold">Joe Hughes</emph> and <emph
+               the latest info on your favorite comic! We'll see you back here with more letters
+               and more fan art next month! <lb/>
+               -<emph rend="bold">Joe Hughes</emph> and <emph
                   rend="bold">David Mariotte</emph></p>
             <figure type="fanwork">
                <figDesc>Digital artwork of Tangle the Lemur. The image has a signature reading
@@ -728,22 +733,22 @@
                   games.</figDesc>
             </figure>
             <p rend="white text on red background">Art by Mauro Fonseca (The KKM)</p>
-            <p>Hello Sonic Fans!</p>
-            <p>Here we are at the end of an unprecedented four week mad dash of Sonic! I had a blast
+            <p>Hello Sonic Fans!<lb/>
+               Here we are at the end of an unprecedented four week mad dash of Sonic! I had a blast
                writing it all, and my hat's off to the phenomenal production team that pulled off a
                monthly endeavor four times over. It'll make the regular once-a-month feel boring,
-               right guys? ...guys? Tough crowd-moving on!</p>
-            <p>I hope you all have enjoyed our first four issues into Sonic's brand new comic
+               right guys? ...guys? Tough crowd-moving on!<lb/>
+               I hope you all have enjoyed our first four issues into Sonic's brand new comic
                adventures! I'm so excited for you to see what we have in store for the long run--pun
                unapologetically intended. It's going to be great to see some fan-favorites show up,
                and we've got some new faces who will spice things up as well! And! AND! I can barely
-               contain my excitement, but I don't want to spoil it for you either.</p>
-            <p>As a life-long Sonic fan--and what feels like a lifetime spent writing the little
+               contain my excitement, but I don't want to spoil it for you either.<lb/>
+               As a life-long Sonic fan--and what feels like a lifetime spent writing the little
                blue hedgehog--you have my sincerest thanks for reading and supporting us as we get
                this new series underway. I couldn't be happier returning to Sonic's world, and I
-               hope you enjoy it enough to stay with us for a long, long time.</p>
-            <p>Cheers,</p>
-            <p><emph rend="bold">Ian Flynn</emph></p>
+               hope you enjoy it enough to stay with us for a long, long time.<lb/>
+               Cheers,<lb/>
+               <emph rend="bold">Ian Flynn</emph></p>
             <figure type="pageImage" rend="images/issue04/issue04_page_24.jpg"/>
          </div>
       </body>

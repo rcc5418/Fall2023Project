@@ -609,15 +609,15 @@
                <note type="panelDesc">In a close-up of the Flappers face, a red cross-hair appears on its visor.</note>
             </cbml:panel>
             <cbml:panel n="3" characters="#sonic">
-               <cbml:caption type="speech" who="???" rend="blue text">"So...he survived the first trial. Unsurprising."</cbml:caption>
+               <cbml:caption type="speech" who="#???" rend="blue text">"So...he survived the first trial. Unsurprising."</cbml:caption>
                <note type="panelDesc">Sonic is highlighted in a red crosshair, his picture being zoomed into focus.</note>
             </cbml:panel>
             <cbml:panel n="4" characters="#sonic #amy">
-               <cbml:balloon type="speech" who="???" rend="blue text and balloon">Deploy a battalion to the next nearest town. He'll be drawn to it like a moth to a flame.</cbml:balloon>
+               <cbml:balloon type="speech" who="#???" rend="blue text and balloon">Deploy a battalion to the next nearest town. He'll be drawn to it like a moth to a flame.</cbml:balloon>
                <note type="panelDesc">A large chair is shown from behind, bearing Dr. Eggman's signature symbol. Sonic is being observed on the monitor in front of the chair. Amy is visible on another monitor to the left.</note>
             </cbml:panel>
             <cbml:panel n="5" characters="#sonic #amy">
-               <cbml:balloon type="speech" who="???" rend="blue text">Make sure word of Sonic's latest success reaches the Resistance. I want to crush <emph rend="bold">both</emph> hedgehogs in one strike.</cbml:balloon>
+               <cbml:balloon type="speech" who="#???" rend="blue text">Make sure word of Sonic's latest success reaches the Resistance. I want to crush <emph rend="bold">both</emph> hedgehogs in one strike.</cbml:balloon>
                <cbml:caption type="teaser"><emph rend="blue geometric lettering">Next time:</emph> Can <emph rend="jagged lettering with red accents">LOVE</emph> hammer it out <emph rend="large geometric lettering">ON THE BATTLEFIELD?</emph></cbml:caption>
                <note type="panelDesc">A picture of Amy is shown zoomed in on a monitor.</note>
             </cbml:panel>

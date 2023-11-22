@@ -13,7 +13,7 @@
          </publicationStmt>
          <sourceDesc>
             <p>Retrieved from Grabber Zone
-               (https://grabber.zone/comics/sonic-idw/2018-2019-neo-metal-sonic-saga/sonic-the-hedgehog-01/),
+               (https://grabber.zone/comics/sonic-idw/2018-2019-neo-metal-sonic-saga/sonic-the-hedgehog-02/),
                an online Sonic comic collection gathered for educational purposes</p>
          </sourceDesc>
       </fileDesc>
@@ -38,8 +38,572 @@
    </teiHeader>
    <text>
       <body>
-         <div>
-            
+         <div type="page" xml:id="pg_01">
+            <p rend="cornerBox" ><desc>A small corner box at the top left of the comic
+               cover.</desc>IDW <lb/>ISSUE <lb/>2 <lb/>COVER A</p>
+            <p rend="title"><desc>The word 'Sonic' is in big gold and blue lettering, 'The Hedgehog'
+               is in white on a red backdrop</desc>SONIC<lb/>THE HEDGEHOG</p>
+            <figure type="coverPage">
+               <figDesc>Sonic is pictured running alongsides a river/waterfall, winking and flashing a peace sign. Amy is in the air
+               behind him, wielding her Piko Piko Hammer in one hand. In the sky behind the both of them, three Buzzer badniks are flying.
+               A field of flowers sits in the distance, with an expansive ocean behind it.</figDesc>
+            </figure>
+            <p>Flynn • Thomas</p>
+            <p>SEGA</p>
+            <figure type="pageImage" rend="images/issue02/issue02_page02.jpg"/>
+         </div>
+         <div type="page" xml:id="pg_02">
+            <figure type="render">
+               <figDesc>A render of Sonic pointing forwards poking out of a red and blue star is centered on the page, framed with small golden rings</figDesc>
+            </figure>
+            <p>Written by Ian Flynn Art by Adam Bryce Thomas Letters By Corey Breen
+               <lb/>Edited by Joe Hughes &amp; David Mariotte Published by Greg Goldstein</p>
+            <p>Special thanks to Anoulay Tsai, Mai Kiyotaki, Aaron Webber, Michael Cisneros,
+               <lb/>Sandra Jp, and everyone at Sega for their invaluable assistance. For international rights, contact licensing@idwpublishing.com</p>
+            <p>IDW<lb/>www.IDWPUBLISHING.com</p>
+            <p>Greg Goldstein, President &amp; Publisher • Robbie Robbins, EVP &amp; Sr. Art Director • Matthew Rozicka, CPA, Chief Financial Officer • David Hedgecock,
+               <lb/>Associate Publisher • Laurie Windrow, Sr. VP of Sales &amp; Merketing • Lorelei Bunjes, VP of Digital Services • Jerry Bennington, VP of New Product
+               <lb/>Development • Eric Moss, Sr. Director, Licensing &amp; Business Development
+               <lb/>Ted Adams, Founder &amp; CEO of IDW Media Holdings
+            </p>
+            <p>SEGA</p>
+            <p>Facebook: facebook.com/idwpublishing • Twitter: @idwpublishing
+               <lb/>YouTube: youtube.com/idwpublishiing Tumblr: tumblr.idwpublishing.com
+               <lb/>Instagram:: instagram.com/idwpublishing
+            </p>
+            <figure type="logo"><figDesc>Logos for FaceBook, Twitter, YouTube, Tumblr, and Instagram appear from left-to-right</figDesc></figure>
+            <p>SONIC THE HEDGEHOG #2. APRIL 2018. FIRST PRINTING. © SEGA. Sega, the SEGA logo and SONIC THE HEDGEHOG are either registered trademarks or trademarks of SEGA Holdings Co., Ltd. or its affiliates. All rights reserved. SEGA
+               <lb/>is registered in the U.S. Patent and Trademark Office. All other trademarks, logos and copyrights are property of their respective owners. © 2018 Idea and Deign Works, LLC. All Rights Reserved. IDW Publishing, a division of Idea and
+               <lb/>Design Works, LLC. Editorial officesL 2765 Truxton Road, San Diego, CA 92106. The IDW logo is registed in the U.S. Patent and Trademark Office. Any similarities to persons living or dead are purely coincidental. With the exception of
+               <lb/>artwork used for review purposed, none of the contents of this publication may be reprinted without the permission of Idea and Design Works, LLC. Printed in Canada. IDW Publishing does not read or accept unsolicited submissions of
+               <lb/>ideas, stories, or artwork.</p>
+            <figure type="pageImage" rend="images/issue02/issue02_page02.jpg"/>
+         </div>
+         <div type="page" xml:id = "pg_03">
+            <cbml:panel n="1" characters="#sonic">
+               <note type="panelDesc">
+                  A Death Crab Super Badnik is seen leaving a forest, tearing down trees in its wake as it heads toward a river. Sonic is seen as a blur blur, launching off a cliff towards the robot.
+               </note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic">Not a bad race, big guy! But there's no way I'm letting you trample that town!</cbml:balloon>
+               <note type="panelDesc">As the Death Crab enters the river, Sonic sprints across the water's surface, his legs a red blur. The Death Crap attempts to swat him with a claw.</note>
+            </cbml:panel>
+            <figure type="pageImage" rend="images/issue02/issue02_page03.jpg"/>
+         </div>
+         <div type="page" xml:id="pg_04">
+            <cbml:panel n="1" characters="#sonic">
+               <note type="panelDesc">
+                  Sonic dashes up the leg of the Death Crab, a determined look on his face.
+               </note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic">
+               <sound>SMASH</sound>
+               <sound>SMASH</sound>
+               <note type="panelDesc">Bouncing ooff the Crab's spikes, Sonic climbs up its leg.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic">
+               <note type="panelDesc">Sonic glides down towards the Crab's face.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic">
+               <note type="panelDesc">Sonic lands in a sprinter's pose, with both hands on the ground, lunging forward.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#sonic">
+               <sound>VREEVREEVREE</sound>
+               <note type="panelDesc">Sonic rolls into a ball, spinning in place and kicking up a large cloud of dust.</note>
+            </cbml:panel>
+            <figure type="pageImage" rend="images/issue02/issue02_page04.jpg"/>
+         </div>
+         <div type="page" xml:id="pg_05">
+            <cbml:panel n="1" characters="#sonic">
+               <sound>SMASH</sound>
+               <note type="panelDesc">Sonic slams into the Death Crab's face, cracking its surface. The Crab's head begins exploding.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic">
+               <sound>SMASH</sound>
+               <sound>SMASH</sound>
+               <sound>SMASH</sound>
+               <note type="panelDesc">Sonic leaps off the Death Crab as it explodes, leaving sonic booms in his wake.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic">
+               <note type="panelDesc">Sonic lands on the Death Crab's outstretched arm.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic">
+               <note type="panelDesc">Sonic launches off the Crab's limb, warping its surface with his force as he flies into the sky.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#sonic #lanolin">
+               <note type="panelDesc">As Sonic leaps high into the air, the Death Crab begins to buckle. On the ground, some villagers watch or run in terror.</note>
+            </cbml:panel>
+            <figure type="pageImage" rend="images/issue02/issue02_page05.jpg"/>
+         </div>
+         <div type="page" xml:id="pg_06">
+            <cbml:panel n="1" characters="#sonic">
+               <sound>THOOM</sound>
+               <note type="panelDesc">Sonic flies into the top of the Death Crab's head, inciting a massive explosion.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic">Ta-Dahhhh! ♫</cbml:balloon>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic">
+               <sound>Sonic!</sound>
+               <cbml:balloon type="speech" who="#unnamed_villager_A">That was so cool!</cbml:balloon>
+               <sound>YAAAAY!</sound>
+               <cbml:balloon type="speech" who="#unnamed_villager_B">I thought we were goners!</cbml:balloon>
+               <sound>Sonic!</sound>
+               <cbml:balloon type="speech" who="#unnamed_villager_C">How do you move like that?!/cbml:balloon>
+               </cbml:balloon>
+               <sound>Sonic!</sound>
+               <cbml:balloon type="speech" who="#sonic">
+                  Thank you, thank you.
+               </cbml:balloon>
+               <note type="panelDesc">The villagers crowd around Sonic, leaping excitedly. Sonic stands smugly.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic">
+               <cbml:balloon type="speech" who="#unnamed_villager_C">Look out!</cbml:balloon>
+               <cbml:balloon type="speech" who="#unnamed_villager_D"><emph rend="bold">Run!</emph></cbml:balloon>
+               <note type="panelDesc">The villagers start running away. One points behind Sonic, who looks shocked as he turns around.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#sonic">
+               <sound>CREEEEEEEEAK</sound>
+               <note type="panelDesc">The Death Crab reaches forward with one claw, its eye glinting menacingly. Sonic begins to turn around, smiling.</note>
+            </cbml:panel>
+            <figure type="pageImage" rend="images/issue02/issue02_page06.jpg"/>
+         </div>
+         <div type="page" xml:id="pg_07">
+            <cbml:panel n="1" characters="#sonic #amy">
+               <cbml:balloon type="speech" who="#amy">Hyah!</cbml:balloon>
+               <sound>PIKO</sound>
+               <note type="panelDesc">Amy Rose appears, smashing the Death Crab with her Piko Piko Hammer. Sonic is wowed by this.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic #amy">
+               <cbml:balloon type="speech" who="amy">You're getting sloppy, Sonic.</cbml:balloon>
+               <cbml:balloon type="speech" who="#sonic">A-Amy. Fancy meeting you here.</cbml:balloon>
+               <note type="panelDesc">Amy wags her finger at Sonic, chastising him. Sonic looks vaguely annoyed.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#amy">
+               <cbml:balloon type="speech" who="#amy">I heard about what you and Tails did in the neighboring town and hurried over! I just <emph rend="bold">knew</emph> you'd stop by here!</cbml:balloon>
+               <note type="panelDesc">Amy laughs while kneading her face with one hand, blushing.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#amy #sonic">
+               <cbml:balloon type="speech" who="#sonic">Huh. Word travels fast...</cbml:balloon>
+               <note type="panelDesc">Sonic looks to the side nonchalantly.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#sonic #amy">
+               <cbml:balloon type="speech" who="#sonic">...Ah, nevermind. Looks like things are under control here. Thanks for the save! Laters!</cbml:balloon>
+               <cbml:balloon type="speech" who="#amy">Sonic-<emph rend="bold">Wait!</emph> I came out here specifically to find you!</cbml:balloon>
+               <note type="panelDesc">Sonic grumpily stalks away from the fallen Death Crab. Amy reaches after him.</note>
+            </cbml:panel>
+            <figure type="pageImage" rend="images/issue02/issue02_page07.jpg"/>
+         </div>
+         <div type="page" xml:id="pg_08">
+            <cbml:panel n="1" characters="#amy #sonic">
+               <cbml:balloon type="speech" who="#sonic">I know. It's kinda your thing.</cbml:balloon>
+               <cbml:balloon type="speech" who="#amy">Not like that!<lb/>
+               I mean, I'm always happy to see you. And would follow you anywhere if you'd only let me but-<lb/>
+               -<emph rend="bold">OOH!</emph> You get me so flustered!</cbml:balloon>
+               <note type="panelDesc">Sonic points at Amy, who pouts while blushing.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic #amy">
+               <cbml:balloon type="speech" who="#amy">Sonic-I <emph rend="bold">need</emph> you to come back to the resistance.</cbml:balloon>
+               <cbml:balloon type="speech" who="#sonic">Come back? I thought you all were doing clean-up not that the war is over?</cbml:balloon>
+               <note type="panelDesc">Amy grabs Sonic hands. Sonic looks at her confusedly.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#amy">
+               <cbml:balloon type="speech" who="#amy">That was the plan, but we didn't account for just how large the Eggman Empire's army was.<lb/>
+               The leftover robots are everywhere. Even without Eggman to lead them, they're a constant threat, randomly attacking anyone they find.</cbml:balloon>
+               <note type="panelDesc">Amy looks off to the side, a worried look on her face.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic #amy">
+               <cbml:balloon type="speech" who="#amy">The Resistance is working to finish the fight. By working from a centralized, organized position, we can be way more effective.</cbml:balloon>
+               <note type="panelDesc">Sonic stands with his arms crossed. Amy leans on her hammer pensively.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#sonic #amy">
+               <cbml:balloon type="speech" who="#sonic">Nah, pass.</cbml:balloon>
+               <cbml:balloon type="speech" who="#amy">Oh, for the love of - Why?!</cbml:balloon>
+               <note type="panelDesc">Amy shouts angrily as Sonic walks away unconcerdedly.</note>
+            </cbml:panel>
+            <figure type="pageImage" rend="images/issue02/issue02_page08.jpg"/>
+         </div>
+         <div type="page" xml:id="pg_09">
+            <cbml:panel n="1" characters="#sonic #tails">
+               <cbml:balloon type="speech" who="#sonic">Tails pointed out something that's been bugging me. The last group of Badniks we faced was <emph rend="bold">way</emph> more organized.<lb/>
+               But Eggman hasn't shown up t oclaim responsibility. Subtly is <emph rend="bold">not</emph> his forte.</cbml:balloon>
+               <note type="panelDesc">Sonic gestures explainedly as he recalls when he and Tails met in Vista View.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic #amy">
+               <cbml:balloon type="speech" who="#sonic">And now you just happen to hear about where I am, right in time for another Super Badnik to attack where we're both likely to be?</cbml:balloon>
+               <cbml:balloon type="speech" who="#amy">Yikes...I hadn't thought of that.</cbml:balloon>
+               <note type="panelDesc">Sonic gestures towards the fallen Death Crab. Amy leans forward, interested.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic #amy">
+               <cbml:balloon type="speech" who="#amy">Then it's all the more reason for you to come back to the Resistance!</cbml:balloon>
+               <cbml:balloon type="speech" who="#sonic"><emph rend="bold">No,</emph> it's all the more reason for me to hit the road and find out what's going on!</cbml:balloon>
+               <note type="panelDesc">Amy shouts frustratedly, while Sonic mimes walking away.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#amy #sonic">
+               <cbml:balloon type="speech" who="#amy">You could spend weeks - or months - bouncing around settlements looking for clues!</cbml:balloon>
+               <cbml:balloon type="speech" who="#sonic">Saving more folks from more Badnik attacks. It's win-win for everyone!</cbml:balloon>
+               <note type="panelDesc">Amy sighs while Sonic slams his hands together.</note>
+            </cbml:panel>
+            <figure type="pageImage" rend="images/issue02/issue02_page09.jpg"/>
+         </div>
+         <div type="page" xml:id="pg_10">
+            <cbml:panel n="1" characters="#sonic #amy #lanolin">
+               <cbml:balloon type="speech" who="#lanolin">Sonic! Ms. Rose! Emergency! We're under attack. <sound>*GASP*</sound></cbml:balloon>
+               <note type="panelDesc">Lanoling rushes forward, out of breath, surprising Amy and Sonic.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic #lanolin">
+               <cbml:balloon type="speech" who="#sonic">It's cool. We took out the Super Badnik.</cbml:balloon>
+               <cbml:balloon type="speech" who="#lanolin"><sound>*PANT*</sound> No! I mean an army! Invading from the West!</cbml:balloon>
+               <note type="panelDesc">Sonic smiles confidently, but Lanolin appears distressed.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic #amy">
+               <cbml:balloon type="speech" who="#sonic">The crab-bot was a decoy...</cbml:balloon>
+               <cbml:balloon type="speech" who="#amy">We've got to stop the invasion before the city is over-run!</cbml:balloon>
+               <note type="panelDesc">Sonic and Amy look at each other, ready for action.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic #amy #lanolin">
+               <cbml:balloon type="speech" who="#sonic">I'll run ahead and thin them out!</cbml:balloon>
+               <cbml:balloon type="speech" who="#amy">Do you have any kind of defenses?</cbml:balloon>
+               <cbml:balloon type="speech" who="#lanolin">We turned Town Hall into a bunker of sorts during the war...</cbml:balloon>
+               <cbml:balloon type="speech" who="#amy">Take me there!</cbml:balloon>
+               <note type="panelDesc">Sonic runs ahead. Amy runs beside Lanolin, behind him.</note>
+            </cbml:panel>
+            <figure type="pageImage" rend="images/issue02/issue02_page10.jpg"/>
+         </div>
+         <div type="page" xml:id="pg_11">
+            <cbml:panel n="1" characters="#sonic">
+               <note type="panelDesc">Sonic dashes towards aome invading Egg Walkers resembling birds.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#amy">
+               <cbml:balloon type="speech" who="#amy">Get all the unarmed inside! If you can fight, rally to me!</cbml:balloon>
+               <note type="panelDesc">Amy directs the villagers towards the Town Hall. A yellow rabbit, fox, and white sheep run indoors.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic">
+               <note type="panelDesc">Sonic runs along a wall while the Egg Walkers fire missiles at them.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#amy">
+               <cbml:balloon type="speech" who="#amy">Get to the upper floors! Don't fire until the Badniks have entered the square!</cbml:balloon>
+               <note type="panelDesc">Amy grabs a brown bird and points behind them.  A red fox stands behind Amy, wielding two guns.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#sonic">
+               <sound>WHAM</sound>
+               <note type="panelDesc">Sonic dashes between the Egg Walkers, destroying them one after another.</note>
+            </cbml:panel>
+            <figure type="pageImage" rend="images/issue02/issue02_page11.jpg"/>
+         </div>
+         <div type="page" xml:id="pg_12">
+            <cbml:panel n="1" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic">Whoops...</cbml:balloon>
+               <note type="panelDesc">As Sonic lands on the ground after destroying an Egg Walker, more Walkers and Egg Pawns round a nearby corner, catching Sonic in their laser sights.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#amy">
+               <cbml:balloon type="speech" who="#unnamed_villager_E">Not everyone is accounted for!</cbml:balloon>
+               <cbml:balloon type="speech" who="#amy">Pair up! Go door-to-door and bring back no more than 10 at a time! Keep low and check your corners!</cbml:balloon>
+               <note type="panelDesc">A brown fox in a suit and Amy are in a heated discussion.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic">
+               <sound>BLAM</sound>
+               <sound>BLAM</sound>
+               <sound>BLAM</sound>
+               <note type="panelDesc">Sonic bounces between an alley's walls, avoiding bulletfire coming from above and behind him.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#amy">
+               <cbml:balloon type="speech" who="#amy">Incoming! Get ready!</cbml:balloon>
+               <note type="panelDesc">Amy gestures towards a villager on a nearby roof, holding her hammer behind her head. Worried looking animals gather behind her.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic">Dang it! I let too many get past me!</cbml:balloon>
+               <note type="panelDesc">Sonic glances angrily through an alley as he runs past it. Egg Pawns and Egg Walkers are seen marching past.</note>
+            </cbml:panel>
+            <figure type="pageImage" rend="images/issue02/issue02_page12.jpg"/>
+         </div>
+         <div type="page" xml:id="pg_13">
+            <cbml:panel n="1" characters="NNC">
+               <sound>POW</sound>
+               <sound>POW</sound>
+               <sound>POW</sound>
+               <note type="panelDesc">The villagers gathered outside the Town Hall open fire on the approaching Badniks, standing behind barriers or crouching on the rooftop.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#amy">
+               <cbml:balloon type="speech" who="#amy"><emph rend="bold">Now!</emph></cbml:balloon>
+               <note type="panelDesc">Amy swings her hammer forward.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#lanolin">
+               <sound>POW</sound>
+               <sound>POW</sound>
+               <sound>POW</sound>
+               <sound>POW</sound>
+               <note type="panelDesc">Lanolin, along with others, begins firing at the Egg Pawns from neighboring rooftops.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="NNC">
+               <sound>POW</sound>
+               <sound>POW</sound>
+               <sound>POW</sound>
+               <sound>POW</sound>
+               <note type="panelDesc">The Egg Pawns are blown away by the barrage of lasers, firing wildly into the air.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#amy #sonic">
+               <sound>Yaaaay!</sound>
+               <sound>Whoo-hoo!</sound>
+               <cbml:balloon type="speech" who="#amy">The first wave is down!</cbml:balloon>
+               <note type="panelDesc">Amy raises her fist in celebration. Sonic brushes his hands together, even though he didn't really do anything.</note>
+            </cbml:panel>
+            <figure type="pageImage" rend="images/issue02/issue02_page13.jpg"/>
+         </div>
+         <div type="page" xml:id="pg_14">
+            <cbml:panel n="1" characters="#sonic #amy">
+               <cbml:balloon type="speech" who="#sonic">I thought Knuckles was the <emph rend="bold">commander</emph> of the Resistance</cbml:balloon>
+               <cbml:balloon type="speech" who="#amy">Oh, he commanded alright. But who do you think kept things organized?</cbml:balloon>
+               <note type="panelDesc">Sonic crosses his arms, smiling. Amy does a sarcastic shrugging motion.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#amy #sonic">
+               <cbml:balloon type="speech" who="#sonic">Nice<lb/>
+               So what's the plan?</cbml:balloon>
+               <cbml:balloon type="speech" who="#amy">This is a good defensible position, and the militia is placed well, but...</cbml:balloon>
+               <note type="panelDesc">Sonic and Amy stand in front of the damaged Town Hall. Militia members stand on the roof and behind barriers. The field in front of the Town Hall is littered with broken Badnik bodies.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic #amy">
+               <cbml:balloon type="speech" who="#sonic">Too many Badniks?</cbml:balloon>
+               <cbml:balloon type="speech" who="#amy">Too many Badniks. We'll be overrun. We need to find where they're coming from and thin their advance so the villagers can stand a chance.</cbml:balloon>
+               <note type="panelDesc">Sonic furrows his brow. Amy looks down determinedly.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#sonic #amy">
+               <cbml:balloon type="speech" who="#sonic">Shall we?</cbml:balloon>
+               <cbml:balloon type="speech" who="#amy">Let's!</cbml:balloon>
+               <note type="panelDesc">Sonic reaches out his hand, and Amy smiles and begins to take it.</note>
+            </cbml:panel>
+            <figure type="pageImage" rend="images/issue02/issue02_page14.jpg"/>
+         </div>
+         <div type="page" xml:id="pg_15">
+            <cbml:panel n="1" characters="#amy #sonic">
+               <sound>FASSSH</sound>
+               <note type="panelDesc">Sonic and Amy barrel through a crowd of Badniks in an alleyway, appearing as a pink and blue blur.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic #amy">
+               <sound>PIKO</sound>
+               <note type="panelDesc">Sonic runs ahead, dragging Amy by her hand. Amy destroys passing Badniks with her Piko Piko Hammer.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#amy #sonic">
+               <sound>FWASH</sound>
+               <note type="panelDesc">Sonic throws Amy into the air, and she spins like a top.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#amy">
+               <note type="panelDesc">Amy destroys a ring of Egg Pawns with a single spin of her hammer, a vindictive smile on her face.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#amy #sonic">
+               <note type="panelDesc">Sonic catches amy in his arms. Amy is very happy about this.</note>
+            </cbml:panel>
+            <figure type="pageImage" rend="images/issue02/issue02_page15.jpg"/>
+         </div>
+         <div type="page" xml:id="pg_16">
+            <cbml:panel n="1" characters="#sonic #amy">
+               <cbml:balloon type="speech" who="#amy">Whee! Isn't this fun?</cbml:balloon>
+               <cbml:balloon type="speech" who="#sonic"><emph rend="bold">Oh yeah!</emph></cbml:balloon>
+               <note type="panelDesc">Sonic throws Amy into the air, who readies a swing while looking back at him. Bullets are fired at Sonic from all directions, and a missile is flying right at Amy.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#amy">
+               <sound>PIKO</sound>
+               <sound>BOOOM</sound>
+               <note type="panelDesc">Amy spikes a missile downwards with her hammer, causing a massive explosion and destroying the Badniks below.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#amy #sonic">
+               <note type="panelDesc">Amy lands on the groundnext to Sonic, who taps his foot impatiently.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#amy #sonic">
+               <cbml:balloon type="speech" who="#amy">Y'know - you could do this sort of thing all the time with the Resistance.</cbml:balloon>
+               <note type="panelDesc">Amy smiles at Sonic, fluttering her eyelashes. Sonic looks frankly, disgusted.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#amy #sonic">
+               <cbml:balloon type="speech" who="#sonic">Nope.</cbml:balloon>
+               <cbml:balloon type="speech" who="#amy"><emph rend="bold">Oh, come on!</emph></cbml:balloon>
+               <note type="panelDesc">Sonic turns to run away. Amy looks exasperated.</note>
+            </cbml:panel>
+            <figure type="pageImage" rend="images/issue02/issue02_page16.jpg"/>
+         </div>
+         <div type="page" xml:id="pg_17">
+            <cbml:panel n="1" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic">I already told you what I'm gonna do!</cbml:balloon>
+               <note type="panelDesc">Sonic vaults over an Egg Walker, directing its fire breath towards the Egg Pan behind him.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#amy">
+               <cbml:balloon type="speech" who="#amy">You didn't even consider coming back!</cbml:balloon>
+               <sound>PIKO</sound>
+               <note type="panelDesc">Amy crushes an Egg Walker's head with her hammer  while looking to the side surprisedly.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic">I don't need to!</cbml:balloon>
+               <note type="panelDesc">Sonic runs straight up a wall, an angry tic-mark appearing on his forehead.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic">
+               <sound>FASSSH</sound>
+               <sound>SMASH</sound>
+               <note type="panelDesc">Sonic leaps down and smashes into the ground, creating a shockwave tha knocks back the nearby Egg Pawns.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#sonic #amy">
+               <cbml:balloon type="speech" who="#sonic">I already know what works best for me.</cbml:balloon>
+               <sound>PIKO</sound>
+               <cbml:balloon type="speech" who="#amy">Well, what about what worls best for the rest of us?</cbml:balloon>
+               <note type="panelDesc">Sonic brushes himself off. Amy smashes an Egg Pawn's head.</note>
+            </cbml:panel>
+            <figure type="pageImage" rend="images/issue02/issue02_page17.jpg"/>
+         </div>
+         <div type="page" xml:id="pg_18">
+            <cbml:panel n="1" characters="#sonic #amy">
+               <cbml:balloon type="speech" who="#sonic">I'm no good at figuring that stuff out. <emph rend="bold">You</emph> are. So you do your thing, I'll do mine.<lb/>
+               Behind you.</cbml:balloon>
+               <cbml:balloon type="speech" who="#amy">If you won't do it for the resistance, do it for me?</cbml:balloon>
+               <note type="panelDesc">Sonic shrugs. An Egg Walker approaches Amy from behind.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic #amy">
+               <cbml:balloon type="speech" who="#sonic">Can't play favorites.</cbml:balloon>
+               <cbml:balloon type="speech" who="#amy"><emph rend="italic">HNG!</emph> Then do it for your friends?!<lb/>
+               Egg Pawns closing in. Thirty feet.</cbml:balloon>
+               <sound>PIKO</sound>
+               <note type="panelDesc">Sonic raises one of his fingers, a hand on his hip. Amy swings behind her without looking, knocking away the Egg Walker.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#amy #sonic">
+               <cbml:balloon type="speech" who="#sonic">They've got you, remember?</cbml:balloon>
+               <cbml:balloon type="speech" who="#amy">Do it for a chili-dog?!</cbml:balloon>
+               <cbml:balloon type="speech" who="#sonic">Ooh! Now you're talking!</cbml:balloon>
+               <cbml:balloon type="speech" who="#amy"><emph rend="bold">Seriously?!</emph></cbml:balloon>
+               <note type="panelDesc">Sonic runs away, winking. Amy yells after him.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic">
+               <note type="panelDesc">Sonic dashes straight into an Egg Pawn, warping the air around him.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#sonic #amy">
+               <cbml:balloon type="speech" who="#sonic">Yo! Enemy drop ship just outside the village. Looks like it still has plenty aboard.</cbml:balloon>
+               <cbml:balloon type="speech" who="#amy">That's not good!</cbml:balloon>
+               <note type="panelDesc">Sonic and ay aome to the top of a set of stairs. Sonic looks into the distance.</note>
+            </cbml:panel>
+            <figure type="pageImage" rend="images/issue02/issue02_page18.jpg"/>
+         </div>
+         <div type="page" xml:id="pg_19">
+            <cbml:panel n="1" characters="#amy #sonic">
+               <cbml:balloon type="speech" who="#amy">There's no way we can get through that crowd.</cbml:balloon>
+               <cbml:balloon type="speech" who="#sonic">Conventionally? No.</cbml:balloon>
+               <note type="panelDesc">In the distance, a Blowfish Transporter hovvers above the ground, dropping a crowd of Egg Pawns.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic #amy">
+               <cbml:balloon type="speech" who="#sonic">I think it's time for a Croquette Bomber.</cbml:balloon>
+               <cbml:balloon type="speech" who="#amy">From this distance? You <emph rend="bold">are</emph> a daredevil.</cbml:balloon>
+               <note type="panelDesc">Sonic grins sneakily. Amy gives him the sideeye.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#amy #sonic">
+               <sound>VREEVREEVREE</sound>
+               <note type="panelDesc">Sonic revs in place as Amy preps a hammer swing behind him.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#amy">
+               <sound>PIKO</sound>
+               <note type="panelDesc">Amy launches Sonic towards the Blowfish Transporter with a swing of her Piko Piko Hammer.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#amy">
+               <sound>Wha-BOOOM</sound>
+               <note type="panelDesc">As the Blowfish Transporter explodes in the distance, Amy shields her eyes.</note>
+            </cbml:panel>
+            <figure type="pageImage" rend="images/issue02/issue02_page19.jpg"/>
+         </div>
+         <div type="page" xml:id="pg_20">
+            <cbml:panel n="1" characters="#amy #sonic">
+               <cbml:balloon type="speech" who="#amy">Are you okay?!</cbml:balloon>
+               <cbml:balloon type="speech" who="#sonic">HA! HA! HA! You knocked me right onto the power cell! What a shot!</cbml:balloon>
+               <note type="panelDesc">Sonic is left burned to a crisp on the ground. Amy runs toward him.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic #amy">
+               <cbml:balloon type="speech" who="#amy">That's it for the invasion. I guess... You'll be going then...</cbml:balloon>
+               <cbml:balloon type="speech" who="#sonic">Yep!</cbml:balloon>
+               <note type="panelDesc">Sonic stretches as Amy looks down bashfully.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic">
+               <cbml:balloon type="speech" who="#sonic">It's what I do. Just keep moving, doing good, saving folks, and living as free as the wind.<lb/>
+               Living by my way. My own way.</cbml:balloon>
+               <note type="panelDesc">Sonic stands in an epic pose, stylistically shadowed by the setting sun.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#amy">
+               <cbml:balloon type="speech" who="#amy"><sound>*Siiiiiiiigh...*</sound></cbml:balloon>
+               <note type="panelDesc">Amy blushes profusely.</note>
+            </cbml:panel>
+            <cbml:panel n="5" characters="#amy">
+               <note type="panelDesc">Amy shakes her head vigorously.</note>
+            </cbml:panel>
+            <figure type="pageImage" rend="images/issue02/issue02_page20.jpg"/>
+         </div>
+         <div type="page" xml:id="pg_21">
+            <cbml:panel n="1" characters="#sonic #amy">
+               <cbml:balloon type="speech" who="#sonic">...A-Amy?</cbml:balloon>
+               <cbml:balloon type="speech" who="#amy">You're right.</cbml:balloon>
+               <note type="panelDesc">Sonic cringes. Amy closes her eyes and smiles.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#sonic #amy">
+               <cbml:balloon type="speech" who="#sonic">I am?</cbml:balloon>
+               <cbml:balloon type="speech" who="#amy">It's just who you are - and it's all the reasons I love you. I can't change you. I don't <emph rend="bold">want</emph> to change you.</cbml:balloon>
+               <note type="panelDesc">Amy grabs Sonic's hands. He looks surprised, and worried.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#sonic #amy">
+               <cbml:balloon type="speech" who="#sonic">Heh...Well...It's not like it's all or nothing. You could come with me.</cbml:balloon>
+               <cbml:balloon type="speech" who="#amy">I can't. The Resistance needs me to keep everything in order. I've been away too long as it is.</cbml:balloon>
+               <note type="panelDesc">Sonic and Amy walk among the Blowfish Transporter's ruins.</note>
+            </cbml:panel>
+            <cbml:panel n="4" characters="#sonic #amy">
+               <cbml:balloon type="speech" who="#amy">But if you don't mind some direction, Knuckles went to investigate a town to the South. I haven't heard from him, so he might need your help.</cbml:balloon>
+               <cbml:balloon type="speech" who="#sonic">Aye-aye, Cap'n Commander Rose, ma'am.</cbml:balloon>
+               <cbml:balloon type="speech" who="#amy">Don't make me slap you.</cbml:balloon>
+               <note type="panelDesc">Sonic salutes Amy, who sighs exasperatedly.</note>
+            </cbml:panel>
+            <figure type="pageImage" rend="images/issue02/issue02_page21.jpg"/>
+         </div>
+         <div type="page" xml:id="pg_22">
+            <cbml:panel n="1" characters="#sonic #amy">
+               <cbml:caption type="speech" who="#???" rend="blue text">"Another failure. I did not account for how much Amy Rose has grown."</cbml:caption>
+               <note type="panelDesc">Sonic dashes away, throwing one last wave back to Amy, who waves back, grinning. An Egg Flapper lurks in the background.</note>
+            </cbml:panel>
+            <cbml:panel n="2" characters="#cubot #orbot">
+               <cbml:balloon type="speech" who="#???" rend="blue text">And now Sonic is deviating from my projected path. How... Frustrating.</cbml:balloon>
+               <cbml:balloon type="speech" who="#orbot" rend="robotic">On the bright side, Bodd, here's what he's charging headlong towards.</cbml:balloon>
+               <note type="panelDesc">A hidden figure sits on a chair emblazoned with Dr. Eggman's symbol. Cubot and Orbot stand behind the chair, Orbot holding a tablet.</note>
+            </cbml:panel>
+            <cbml:panel n="3" characters="#cubot #orbot #rough #tumble">
+               <cbml:balloon type="speech" who="#???" rend="blue text">Ahh... Perhaps <emph rend="bold">they</emph> will finish him for me...</cbml:balloon>
+               <note type="panelDesc">Orbot reveals the tablet, showing the skunk brothers, Rough and Tumble. Cubot looks very distressed, for a robot.</note>
+            </cbml:panel>
+            <figure type="pageImage" rend="images/issue02/issue02_page22.jpg"/>
+         </div>
+         <div type="page" xml:id="pg_23">
+            <figure type="render"><figDesc>A render of Sonic standing and gesturing in a presenting fashion</figDesc></figure>
+            <p><desc>Sonic is in blue and gold lettering, Letters Squad in white, all on a red backdrop</desc>Sonic Letters Squad</p>
+            <p rend="blue text">Hello Sonic fans! Hope you enjoed the second issue of <emph rend="italic">Sonic the Hedgehog</emph> from IDW Publishing! This time the blue blur and Amy kicked those badniks' ro-butts with the help of Ian Flynn, Adam Bryce Thomas, and Corey Breen! Give big ups to those guys for such a fun issue!<lb/>
+            Now, we asked and you delivered, so here are some letters, fan art, and cosplay from you lovely people!<lb/>
+            And there's the star of this month's issue, Amy Rose! Nice job, Micheal!</p>
+            <figure type="fanwork"><figDesc>Cute fanart of Amy Rose holding her Piko Piko Hammer.</figDesc></figure>
+            <p rend="white text on red background">Art by Michael Carville (DatMichaelGuy)<lb/></p>
+            <p>Hey Sonic crew!<lb/>
+            I don't have much to say, other than wanting to tell you that I'm TOTALLY STOKED. Sonic was my first comic book, and I'll be collecting this new series for as long as it runs.<lb/>
+            I've been trying to get a letter published in a Sonic comic since I was 8 - and now, at  31, I work at a comic book stare and have been actively pushing the IDW Sonic on anyone who'll listen. Full circle, huh?<lb/>
+            At the risk of sounding cliche, the new Sonic can't get here fast enough!<lb/>
+            Aaron Kurtzer<lb/>
+            Sonic Fan #1<lb/>
+            (If I establish this out of the gate, no one can challenge me on it, right?)</p>
+            <figure type="fanwork"><figDesc>Fanart of various characters from Sonic Forces, like the player Avatar and Infinite.</figDesc></figure>
+            <p rend="white text on red background">Art by JacobVatnhamar (JamoART)<lb/></p>
+            <p rend="blue text">Thanks, Aaron! We're very happy to help you finally get a letter of yours in a Sonic comic and to hear that you're</p>
+            <figure type="pageImage" rend="images/issue02/issue02_page23.jpg"/>
+         </div>
+         <div type="page" xml:id="pg_24">
+            <p rend="blue text">doing good work at a comic shop! We've heard from a lot of people that Sonic was their very first comic and that it inspired a life-long love of the medium and I'm glad you're getting to introduce people to Sonic now and continue that cycle!</p>
+            <figure type="fanwork"><figDesc>Black pen fanart of Sonic in various cartoon poses.</figDesc></figure>
+            <p rend="white text on red background">Art by Evangelos Vikopoulos<lb/></p>
+            <p>Good afternoon guys,<lb/>
+            My name is Matias "Silver" Kock, I'm from Argentina and a fan of Sonic The Hedgehog since I was little. In Argentina, I am recognize along with my girlfriend Rena Rose for performing pairs or teams with friends of the Sonic saga. We both belong to the fanpage called "Sonc Team Argentina", a very important fanclub hat brings together the Sonic fans of our country.<lb/>
+            I hope you like our work as well as us in doing it for all who love this saga.<lb/>
+            I wish you the best of luck and wishes with the new Sonic Comcs. Greetings from Argentina.<lb/>
+            Best Wishes,<lb/>
+            Matias "Silver" Koch</p>
+            <figure type="fanwork"><figDesc>A picture of cosplayers dressed as Amy, Sonic, Eggman, Shadow, and maybe some soldier guy.</figDesc></figure>
+            <p rend="white text on red background">Cosplay by Matias "Silver" Koch<lb/></p>
+            <p rend="blue text">Thanks Matias! Looks like you have a great group there in Argentina! And I recognize that Amy, it's Rena from our first issue! Hope you guyes are having lots of fun!<lb/>
+           If you'd like your fanart, cosplay pictures, or letters to show up in this very space, send them to <emph rend="red text">letters@idwpublishing.com</emph>, include your name, and mark them "OKAY TO PRINT!" Also, don't forget to join the IDW Sonic Comics Squad Facebook Group to see even more amazing art and keep up-to-date with all the latest info on your favorite comic! when we introduce the baddest boys on the block, Rough &amp; Tumble in <emph rend="italic">Sonic the Hedgehog #3</emph> &amp; Knuckles</p>
+            <figure type="pageImage" rend="images/issue02/issue02_page24.jpg"/>
          </div>
       </body>
    </text>

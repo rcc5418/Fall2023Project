@@ -41,6 +41,13 @@ img.characters {
     margin-left: auto;
     margin-top: 0;
 }
+img.bio{
+    flex: 1;
+    max-width: 20%;
+    border: .7vw groove #4d88ff;
+    border-radius: 3vw;
+    padding: .2vw;
+}
 a:link {
     color: blue;
 }

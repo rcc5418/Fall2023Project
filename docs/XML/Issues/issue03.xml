@@ -97,154 +97,137 @@
             <figure type="pageImage" rend="images/issue03/issue03_page_02.jpg"/>
          </div>
          <div type="page" xml:id="pg_03">
-            <cbml:panel n="1" characters="#sonic #knuckles #death-egg-robot">
+            <cbml:panel n="1" characters="#sonic #knuckles">
                <cbml:balloon type="speech" who="#sonic"> Oh, shoot! For once I'm too late. </cbml:balloon>
                <note type="panelDesc"> Sonic witnesses a Death Egg Robot fall in front of a
                   fortress. </note>
             </cbml:panel>
-            <cbml:panel n="2" characters="#knuckles #sonic #death-egg-robot">
-               <cbml:caption> "Looks like <emph rend="bold">Knuckles</emph> hogged all the fun!" </cbml:caption>
+            <cbml:panel n="2" characters="#knuckles #sonic">
+               <cbml:caption type="speech" who="#sonic"> "Looks like <emph rend="bold">Knuckles</emph> hogged all the fun!" </cbml:caption>
                <note type="panelDesc"> Knuckles rips the wires off of the fallen Death Egg Robot as
                   Sonic runs down a hill, approaching them. </note>
             </cbml:panel>
             <figure type="pageImage" rend="images/issue03/issue03_page_03.jpg"/>
          </div>
          <div type="page" xml:id="pg_04">
-            <cbml:panel n="1" characters="#sonic #knuckles #death-egg-robot">
+            <cbml:panel n="1" characters="#sonic #knuckles">
                <cbml:balloon type="speech" who="#sonic"> Yo Knux! Save any for me? </cbml:balloon>
                <cbml:balloon type="speech" who="#knuckles"> Sonic! Long time no see! </cbml:balloon>
-               <note type="panelDesc"> Sonic asks Knuckles if he has saved any parts of the Death
-                  Egg Robot for Sonic, and Knuckles greets him. </note>
+               <note type="panelDesc"> Knuckles greets Sonic by raising his fist.</note>
             </cbml:panel>
-            <cbml:panel n="2" characters="#knuckles #sonic #death-egg-robot">
+            <cbml:panel n="2" characters="#knuckles #sonic">
                <cbml:balloon type="speech" who="#knuckles"> What brings you out here? </cbml:balloon>
                <cbml:balloon type="speech" who="#sonic"> I ran into Amy in the next town over. She
                   said you were looking into trouble here. I thought I'd lend a hand. </cbml:balloon>
-               <note type="panelDesc"> Knuckles chats with Sonic about why Sonic came to see
-                  Knuckles. Sonic explains that he met Amy Rose, claiming that she told Sonic that
-                  Knuckles was looking for trouble, and that Sonic would like to help Knuckles.
-               </note>
+               <note type="panelDesc">Knuckles jumps down in front of Sonic, who taps his foot.</note>
             </cbml:panel>
             <cbml:panel n="3" characters="#sonic #knuckles">
                <cbml:balloon type="speech" who="#sonic"> Y'know, you're awfully far away from the
                   HQ, Commander Knuckles. </cbml:balloon>
                <cbml:balloon type="speech" who="#knuckles"> Ugh... don't remind me. </cbml:balloon>
-               <note type="panelDesc"> Sonic teases Knuckles as he tells him that Knuckles is far
-                  away from the headquarters. Knuckles refuses to have Sonic remind him. </note>
+               <note type="panelDesc">Sonic grins as Knuckles brushes the Death Egg Robot parts off himself.</note>
             </cbml:panel>
-            <cbml:panel n="4" characters="#knuckles #sonic #death-egg-robot">
+            <cbml:panel n="4" characters="#knuckles #sonic">
                <cbml:balloon type="speech" who="#knuckles"> It was more interesting when we were
                   fighting to save the world. Now that we're focusing on rebuilding, it's all
-                  scheduling and inventory and... peh! I've got no patience for it. I'm ready to get
+                  scheduling and inventory and... <emph rend="italic">peh!</emph> I've got no patience for it. I'm ready to get
                   back to <emph rend="bold">Angel Island</emph> and go on a good old-fashioned
                   treasure hunt. </cbml:balloon>
                <cbml:balloon type="speech" who="#sonic"> I hear ya. Amy tried to get me to enlist
                   full time. </cbml:balloon>
                <cbml:balloon type="speech" who="#knuckles"> Ha! <emph rend="bold">You?</emph> She
                   should've known better. </cbml:balloon>
-               <note type="panelDesc"> Knuckles chats with Sonic about how Knuckles would rather
-                  head to Angel Island to look for treasure. Sonic says to Knuckles that Amy tried
-                  to enlist Sonic into that adventure too. </note>
+               <note type="panelDesc">Sonic winks at Knuckles as they stand in front of the fallen Death Egg Robot.</note>
             </cbml:panel>
             <cbml:panel n="5" characters="#sonic #knuckles">
                <cbml:balloon type="speech" who="#sonic"> So, what's going on here? </cbml:balloon>
                <cbml:balloon type="speech" who="#knuckles"> This town is a hub for Wispon
                   distribution. The shipments suddenly dried up, so I came to see why. </cbml:balloon>
-               <note type="panelDesc"> Knuckles tells Sonic that the village is distributing Wispons
-                  when their shipments are suddenly facing issues. </note>
+               <note type="panelDesc">Sonic points at the Barricade Town wall. Knuckles folds his arms.</note>
             </cbml:panel>
             <figure type="pageImage" rend="images/issue03/issue03_page_04.jpg"/>
          </div>
          <div type="page" xml:id="pg_05">
-            <cbml:panel n="1" characters="#knuckles #sonic #death-egg-robot">
+            <cbml:panel n="1" characters="#knuckles #sonic">
                <cbml:balloon type="speech" who="#knuckles">
                   <emph rend="bold"> Hey! I'm the commander of the resistance! I took out all of
                      Eggman's robots! Let me in! </emph>
                </cbml:balloon>
-               <note type="panelDesc"> Knuckles yells that he is the commander and that he wants to
-                  enter the fort. </note>
+               <note type="panelDesc">Sonic and Knuckles look up at the top of the wall. Knuckles shouts with his eyes closed.</note>
             </cbml:panel>
-            <cbml:panel n="2" characters="#knuckles #NNC">
-               <cbml:balloon type="speech" who="#NNC"> S-sorry, sir, but I'm under orders not to
+            <cbml:panel n="2" characters="#knuckles">
+               <cbml:balloon type="speech" who="#unnamed_resident_A"> S-sorry, sir, but I'm under orders not to
                   open the gates to anyone! </cbml:balloon>
-               <note type="panelDesc"> A dog-like character denies Knuckles' entry to the fort.
+               <note type="panelDesc"> A dog-like character peeks out at Knuckles.
                </note>
             </cbml:panel>
             <cbml:panel n="3" characters="#knuckles #sonic">
                <cbml:balloon type="speech" who="#knuckles">
                   <emph rend="bold"> Says who?! </emph>
                </cbml:balloon>
-               <cbml:balloon type="speech" who="#NNC"> I-I-I can't say! </cbml:balloon>
-               <note type="panelDesc"> Knuckles is surprised that the dog-like character would not
-                  let Knuckles into the fort. </note>
+               <cbml:balloon type="speech" who="#unnamed_resident_A"> I-I-I can't say! </cbml:balloon>
+               <note type="panelDesc"> Knuckles snarls angrily. Sonic crosses his arms.</note>
             </cbml:panel>
             <cbml:panel n="4" characters="#knuckles #sonic">
                <note type="panelDesc"> Knuckles and Sonic look at each other with determined looks
                   on their faces. </note>
             </cbml:panel>
-            <cbml:panel n="5" characters="#NNC #sonic #knuckles">
+            <cbml:panel n="5" characters="#sonic #knuckles">
                <note type="panelDesc"> Sonic and Knuckles climb the walls of the fort as the
-                  dog-like character is shocked to see them enter that way. </note>
+                  dog-like character leans out a window, shocked. </note>
             </cbml:panel>
             <figure type="pageImage" rend="images/issue03/issue03_page_05.jpg"/>
          </div>
          <div type="page" xml:id="pg_06">
-            <cbml:panel n="1" characters="#NNC #knuckles #sonic">
+            <cbml:panel n="1" characters="#knuckles #sonic">
                <note type="panelDesc"> Sonic and Knuckles land into the fort grounds, and two
                   animals are shocked about their entry. </note>
             </cbml:panel>
-            <cbml:panel n="2" characters="#sonic #knuckles #NNC">
+            <cbml:panel n="2" characters="#sonic #knuckles">
                <cbml:balloon type="speech" who="#knuckles"> The Badnik attacks <emph rend="bold"
                      >have</emph> been getting more aggressive lately. Maybe that's what's got them
                   spooked? </cbml:balloon>
                <cbml:balloon type="speech" who="#sonic"> I don't think so. Something else is going
                   on... </cbml:balloon>
                <note type="panelDesc"> As many animals panic, run away, and hide in their homes,
-                  Sonic and Knuckles wonder why the animals are so scared. </note>
+                  Sonic and Knuckles wander further into the town. </note>
             </cbml:panel>
-            <cbml:panel n="3" characters="#NNC #knuckles #sonic">
-               <cbml:balloon type="speech" rend="dotted" who="#NNC"> You shouldn't have done that!
+            <cbml:panel n="3" characters="#knuckles #sonic">
+               <cbml:balloon type="speech" rend="dotted" who="#unnamed_resident_A"> You shouldn't have done that!
                   You shouldn't be here! </cbml:balloon>
                <cbml:balloon type="speech" who="#sonic"> Why? Whatever's wrong, we can fix it. </cbml:balloon>
-               <note type="panelDesc"> A dog-like character tells Sonic and Knuckles that they
-                  should not be in the fort, but Sonic tells them that he and Knuckles will be fine
-                  with any problem they would face. </note>
+               <note type="panelDesc">The brown dog descends from above, looking worried. Sonic and Knuckles turn to face him.</note>
             </cbml:panel>
-            <cbml:panel n="4" characters="#NNC #knuckles #sonic">
-               <cbml:balloon type="speech" rend="dotted" who="#NNC"> No-- you <emph rend="bold"
+            <cbml:panel n="4" characters="#knuckles #sonic">
+               <cbml:balloon type="speech" rend="dotted" who="#unnamed_resident_A"> No-- you <emph rend="bold"
                      >can't!</emph> They took all the Wisps and Wispons! Without those Wispons, or a
                   way to power them, we don't stand a chance! They're unstoppable now! </cbml:balloon>
                <cbml:balloon type="speech" who="#knuckles"> "They" who? </cbml:balloon>
                <cbml:balloon type="speech" who="#sonic"> Listen, buddy-- you just watched my friend
                   here solo a Super Badnik. We can handle ourselves. Start from the beginning--
                   what's up? </cbml:balloon>
-               <note type="panelDesc"> The dog-like character tells Sonic and Knuckles that all the
-                  Wisps and Wispons have been stolen. Knuckles is confused about who stole them, and
-                  Sonic consoles the dog-like character, telling him that Knuckles defeated a Death
-                  Egg Robot. </note>
+               <note type="panelDesc"> The dog-like character shakes nervously. Sonic crosses his arms and Knuckles puts his hands on his hips.</note>
             </cbml:panel>
             <figure type="pageImage" rend="images/issue03/issue03_page_06.jpg"/>
          </div>
          <div type="page" xml:id="pg_07">
-            <cbml:panel n="1" characters="#NNC #rough #tumble">
+            <cbml:panel n="1" characters="#rough #tumble">
                <sound> Gulp </sound>
-               <cbml:balloon type="speech" who="#NNC"> True enough... okay... </cbml:balloon>
-               <cbml:balloon type="speech" who="#NNC"> ...Just before the war ended, a couple of
-                  mercenaries showed up and they were <emph rend="italics">ferocious</emph>. They
-                  drove back Eggman's forces and saved the town. They <emph rend="italics"
+               <cbml:balloon type="speech" who="#unnamed_resident_A"> True enough... okay... </cbml:balloon>
+               <cbml:balloon type="speech" who="#unnamed_resident_A"> ...Just before the war ended, a couple of
+                  mercenaries showed up and they were <emph rend="italic">ferocious</emph>. They
+                  drove back Eggman's forces and saved the town. <lb/>
+                  They <emph rend="italic"
                      >said</emph> they were going to improve our defenses... </cbml:balloon>
-               <note type="panelDesc"> The dog-like character tells a story that Rough and Tumble
-                  entered the village before the war ended, and it is claimed that Rough and Tumble
-                  will increase their defense. </note>
+               <note type="panelDesc">The brown dog recalls Rough and Tumble standing atop a pile of broken Badniks in front of a wall of flame.</note>
             </cbml:panel>
-            <cbml:panel n="2" characters="#eggrobo_a #eggrobo_b #eggrobo_c #NNC">
-               <cbml:balloon type="speech" who="#NNC"> ...But what they really did ws take our
-                  arsenal and took us prisoner within our own town! Now we have to do everything
+            <cbml:panel n="2" characters="NNC">
+               <cbml:balloon type="speech" who="#unnamed_resident_A"> ...But what they really did ws take our
+                  arsenal and took us prisoner within our own town! <lb/>
+                  Now we have to do everything
                   they say. We have no way to fight back. And we can't escape with all the robots
                   stalking outside the wall! </cbml:balloon>
-               <note type="panelDesc"> The dog-like character says that Rough and Tumble used their
-                  arsenal of robots to hold every villager hostage, and that there is nothing the
-                  villagers can do. </note>
+               <note type="panelDesc">The brown dog recalls their town being surrounded by Egg Pawns.</note>
             </cbml:panel>
             <cbml:panel n="3" characters="#sonic #knuckles">
                <cbml:balloon type="speech" who="#sonic"> Well then. I think we need to take our
@@ -252,102 +235,92 @@
                <cbml:balloon type="speech" who="#knuckles">
                   <emph rend="bold"> Absolutely. </emph>
                </cbml:balloon>
-               <note type="panelDesc"> Sonic and Knuckles agree that they will take their complaints
-                  to the manager of the village. </note>
+               <note type="panelDesc"> Sonic looks over at Knuckles, smiling. Knuckles slams his fists together angrily.</note>
             </cbml:panel>
-            <cbml:panel n="4" characters="#NNC #sonic #knuckles">
+            <cbml:panel n="4" characters="#sonic #knuckles">
                <cbml:balloon type="speech" who="#sonic"> Where can we find these clowns? </cbml:balloon>
-               <cbml:balloon type="speech" who="#NNC"> Th-they turned the supply depot into a
+               <cbml:balloon type="speech" who="#unnamed_resident_A"> Th-they turned the supply depot into a
                   fortress. Just down this road on the right-- you can't miss it. </cbml:balloon>
                <cbml:balloon type="speech" who="#sonic"> Cool. Sit tight. We've got this. </cbml:balloon>
-               <note type="panelDesc"> Sonic asks the dog-like character where Rough and Tumble are,
-                  and the dog-like character tells Sonic and Knuckles where they are located.
-               </note>
+               <note type="panelDesc">The brown dog points to the right. SOnic and Knuckles run that way, Sonic flashing a peace-sign back at the resident.</note>
             </cbml:panel>
             <figure type="pageImage" rend="images/issue03/issue03_page_07.jpg"/>
          </div>
          <div type="page" xml:id="pg_08">
             <cbml:panel n="1" characters="#sonic #knuckles">
                <note type="panelDesc"> Knuckles glides into a room where there are crates and Wisp
-                  containers everywhere. Sonic watches Knuckles investigate the room. </note>
+                  containers everywhere. Sonic watches Knuckles investigate the room from the window. </note>
             </cbml:panel>
-            <cbml:panel n="2" characters="#sonic #bluecube #whiteboost #redburst #yellowdrill">
+            <cbml:panel n="2" characters="#sonic">
                <cbml:balloon type="speech" rend="dotted" who="#sonic"> Yo! I found the Wisps! </cbml:balloon>
-               <note type="panelDesc"> Sonic whispers to Knuckles that Sonic found some Wisps.
-               </note>
+               <note type="panelDesc">Sonic notices Deployment Pods, including a Blue Cube, White Boost, Red Burst, and Yellow Drill Wispon.</note>
             </cbml:panel>
-            <cbml:panel n="3" characters="#greenhover #bluecube #yellowdrill #knuckles">
+            <cbml:panel n="3" characters="#knuckles">
                <cbml:balloon type="speech" who="#knuckles"> Just before he... went solo... Tails
                   gave us the cipher for the Wisps' language. We asked for their help in fighting
-                  Eggman. They volunteered happily, even choosing to wait in deployment pods like
-                  these for when our troops could enter an area. But these guys are being horded.
+                  Eggman.<lb/>
+                  They volunteered happily, even choosing to wait in deployment pods like
+                  these for when our troops could enter an area. <lb/>
+                  But these guys are being horded.
                   This is inexcusable. </cbml:balloon>
-               <note type="panelDesc"> Knuckles pets one of the Wisp containers as he tells a story
-                  about Tails and his cipher to translate the Wisps' language, as well as the Wisps'
-                  fight against Eggman. </note>
+               <note type="panelDesc"> Knuckles pets a Yellow Drill's container sadly a Green Hover and Blue Cube sit behind them. </note>
             </cbml:panel>
-            <cbml:panel n="4" characters="#knuckles #sonic #redburst #yellowdrill #bluecube">
+            <cbml:panel n="4" characters="#knuckles #sonic">
                <sound> HA! HA! HA! </sound>
                <cbml:balloon type="speech" who="#sonic"> Hang tight just a little longer. We'll free
                   all of you! </cbml:balloon>
-               <note type="panelDesc"> Knuckles hears a laughing sound in the background as Sonic
-                  tells a Blue Cube that all the wisps will be set free shortly. </note>
+               <note type="panelDesc"> Knuckles hears a laughing sound as Sonic whispers to a Blue Cube.</note>
             </cbml:panel>
             <figure type="pageImage" rend="images/issue03/issue03_page_08.jpg"/>
          </div>
          <div type="page" xml:id="pg_09">
-            <cbml:panel n="1" characters="#rough #tumble #NNC">
-               <sound> HA! HA! HA! </sound>
-               <cbml:balloon type="speech" who="#rough"> Nice one, idiot! </cbml:balloon>
+            <cbml:panel n="1" characters="#rough #tumble">
+               <cbml:balloon type="speech" who="#rough"><sound> HA! HA! HA! </sound><lb/>
+                  Nice one, idiot! </cbml:balloon>
                <cbml:balloon type="speech" who="#tumble"> Yeah! Now get us another round before we
                   beat some sense into ya! </cbml:balloon>
-               <note type="panelDesc"> Rough and Tumble force some animals to give Rough and Tumble
-                  more food. </note>
+               <note type="panelDesc"> Rough and Tumble sit a food-laden table, surrounded by residents looking worried or annoyed. It's clear they've been forced into servitude for the skunks' enjoyment, acting as waiters, jesters, and frond-wavers.</note>
             </cbml:panel>
             <cbml:panel n="2" characters="#sonic #knuckles">
                <cbml:balloon type="speech" rend="dotted" who="#sonic"> Wow. They make the hooligans
                   look like class acts. </cbml:balloon>
                <cbml:balloon type="speech" rend="dotted" who="#knuckles"> I'm gonna break them in
                   half! </cbml:balloon>
-               <note type="panelDesc"> Sonic and Knuckles witnesses Rough and Tumble humiliate the
-                  animals. Knuckles is enraged about that. </note>
+               <note type="panelDesc">Sonic looks unimpressed. Knuckles appears furious.</note>
             </cbml:panel>
             <cbml:panel n="3" characters="#sonic #knuckles">
                <cbml:balloon type="speech" rend="dotted" who="#sonic"> Steady. Let's take this one
                   slow. Give the villagers a chance to get out of the line of fire. </cbml:balloon>
                <cbml:balloon type="speech" rend="dotted" who="#knuckles"> Right. Then I'll break
                   'em! </cbml:balloon>
-               <note type="panelDesc"> Sonic and Knuckles plan their attack on Rough and Tumble.
-               </note>
+               <note type="panelDesc">Sonic puts a hand on Knuckles' shoulder, who is gritting his teeth.</note>
             </cbml:panel>
             <figure type="pageImage" rend="images/issue03/issue03_page_09.jpg"/>
          </div>
          <div type="page" xml:id="pg_10">
-            <cbml:panel n="1" characters="#rough #tumble #NNC">
+            <cbml:panel n="1" characters="#rough #tumble">
                <cbml:balloon type="speech" who="#sonic">
                   <emph rend="bold">Hey!</emph> Tweedle-dumb and tweedle-dumber! </cbml:balloon>
-               <note type="panelDesc"> Sonic grabs Rough and Tumble's attention, as well as the
-                  other animals'. </note>
+               <note type="panelDesc">Rough and Tumble look surprised. Rough spits out his chocolate milk.</note>
             </cbml:panel>
             <cbml:panel n="2" characters="#sonic #knuckles">
                <cbml:balloon type="speech" who="#sonic"> I'm Sonic the Hedgehog. Maybe you've heard
                   of me? </cbml:balloon>
                <cbml:balloon type="speech" who="#sonic"> This is Knuckles the Echidna, commander of
-                  the resistance. You guys are guilty of theft, extortion, kidnapping, and being
-                  grade-A jerks. So you can either come along quietly, or we're gonna get <emph
+                  the resistance. <lb/>
+                  You guys are guilty of theft, extortion, kidnapping, and being
+                  grade-A jerks. <lb/>
+                  So you can either come along quietly, or we're gonna get <emph
                      rend="bold">loud.</emph>
                </cbml:balloon>
-               <note type="panelDesc"> Sonic introduces himself and Knuckles to Rough and Tumble,
-                  and he also tells the perpetrators what they did wrong and how Sonic and Knuckles
-                  would punish them. </note>
+               <note type="panelDesc">Sonic grins cockily, Knuckles settles into a boxer's pose.</note>
             </cbml:panel>
-            <cbml:panel n="3" characters="#rough #tumble #NNC">
+            <cbml:panel n="3" characters="#rough #tumble">
                <cbml:balloon type="speech" who="#tumble"> Who said you could come into our town,
                   huh?! Who said you could ruin our fun?! </cbml:balloon>
                <cbml:balloon type="speech" who="#rough"> Yeah, we've heard of you, <emph rend="bold"
                      >hero!</emph> But you clearly ain't heard of us! </cbml:balloon>
-               <note type="panelDesc"> Rough and Tumble are not happy about Sonic and Knuckles
-                  disrupting their "fun". Tumble breaks a glass in his anger. </note>
+               <note type="panelDesc">Tumble breaks a glass in his anger. Rough begins to get up. The residents hurry out of the room.</note>
             </cbml:panel>
             <figure type="pageImage" rend="images/issue03/issue03_page_10.jpg"/>
          </div>
@@ -356,25 +329,23 @@
                <cbml:balloon type="speech" who="#tumble"> You lookin' to scrap? </cbml:balloon>
                <cbml:balloon type="speech" who="#rough"> Then get ready to crumble! </cbml:balloon>
                <cbml:balloon type="speech" who="#tumble"> Brace yourselves for-- </cbml:balloon>
-               <note type="panelDesc"> Rough and Tumble proceed to introduce themselves. </note>
+               <note type="panelDesc"> Rough and Tumble begin to approach. Tumble slams his fists together. </note>
             </cbml:panel>
             <cbml:panel n="2" characters="#rough #tumble">
-               <cbml:balloon type="speech" who="#rough #tumble" rend="orange-text"> --Rough &amp;
+               <cbml:balloon type="speech" who="#rough &amp; tumble" rend="orange-text"> --Rough &amp;
                   Tumble! </cbml:balloon>
-               <note type="panelDesc"> Rough and Tumble say their names as they strike epic poses.
+               <note type="panelDesc"> Rough and Tumble strike epic poses. Confetti materializes around them.
                </note>
             </cbml:panel>
             <cbml:panel n="3" characters="#sonic #knuckles">
                <cbml:balloon type="speech" who="#sonic"> ...Oh no. I was not prepared for this. </cbml:balloon>
                <cbml:balloon type="speech" who="#knuckles"> Careful, Sonic. They're highly
                   coordinated. </cbml:balloon>
-               <note type="panelDesc"> Sonic holds back his laughter as Knuckles warns Sonic to be
-                  careful. </note>
+               <note type="panelDesc"> Sonic holds back his laughter as Knuckles raises his fists.</note>
             </cbml:panel>
             <cbml:panel n="4" characters="#sonic #knuckles">
                <cbml:balloon type="speech" who="#sonic"> Knuckles... you're the salt of the Earth. </cbml:balloon>
-               <note type="panelDesc"> Sonic laughs as he calls Knuckles the salt of the Earth.
-               </note>
+               <note type="panelDesc"> Sonic laughs as he leans on Knuckles for support. Knuckles looks surprised and confused.</note>
             </cbml:panel>
             <cbml:panel n="5" characters="#knuckles #sonic #rough #tumble">
                <cbml:balloon type="speech" who="#knuckles"> Whatever-- <emph rend="bold">let's get
@@ -387,12 +358,12 @@
          <div type="page" xml:id="pg_12">
             <cbml:panel n="1" characters="#rough #knuckles">
                <sound> FASSSHH </sound>
-               <note type="panelDesc"> Knuckles dodges Rough's kick. </note>
+               <note type="panelDesc"> Rough vaults over Knuckles, dodging his punch. </note>
             </cbml:panel>
             <cbml:panel n="2" characters="#tumble #sonic">
-               <sound> SMASH </sound>
                <sound> FASSSH </sound>
-               <note type="panelDesc"> Sonic spin-dashes into Tumble. </note>
+               <sound> SMASH </sound>
+               <note type="panelDesc"> Sonic spin-dashes into Tumble, who is forced backwards. </note>
             </cbml:panel>
             <cbml:panel n="3" characters="#rough #knuckles">
                <note type="panelDesc"> Knuckles swings a punch at Rough across his face. </note>
@@ -423,7 +394,7 @@
             <cbml:panel n="5" characters="#tumble #sonic">
                <sound> SOK </sound>
                <note type="panelDesc"> Sonic spin-dashes into Tumble again, this time hitting his
-                  face </note>
+                  face. Tumble falls backwards across the table. </note>
             </cbml:panel>
             <figure type="pageImage" rend="images/issue03/issue03_page_13.jpg"/>
          </div>
@@ -434,22 +405,21 @@
             </cbml:panel>
             <cbml:panel n="2" characters="#rough">
                <cbml:balloon type="speech" who="#rough"> Stink bomber! </cbml:balloon>
-               <note type="panelDesc"> Rough launches a stink bomber attack as he looks at Knuckles.
+               <note type="panelDesc"> Rough looks at Knuckles while grinning.
                </note>
             </cbml:panel>
             <cbml:panel n="3" characters="#rough #knuckles">
                <sound> FASSSH </sound>
-               <note type="panelDesc"> Rough unleashes a big, green cloud of stinky gas on Knuckles.
+               <note type="panelDesc"> Rough unleashes a big, green cloud of stinky gas on Knuckles, curling into a ball.
                </note>
             </cbml:panel>
             <cbml:panel n="4" characters="#knuckles #rough">
-               <note type="panelDesc"> Knuckles, with tears in his eyes, attempts to punch Rough.
+               <note type="panelDesc"> Knuckles, with tears in his eyes, launches at Rough, readying a punch.
                </note>
             </cbml:panel>
             <cbml:panel n="5" characters="#knuckles #rough">
                <sound> WHOOOMM </sound>
-               <note type="panelDesc"> Knuckles punches Rough so hard that Rough got sent through
-                  the wooden floor. </note>
+               <note type="panelDesc"> Knuckles punches Rough so hard that he drills into the floorboards. </note>
             </cbml:panel>
             <figure type="pageImage" rend="images/issue03/issue03_page_14.jpg"/>
          </div>
@@ -460,29 +430,26 @@
             </cbml:panel>
             <cbml:panel n="2" characters="#sonic #knuckles">
                <cbml:balloon type="speech" who="#sonic">
-                  <emph rend="italics">Whugh...</emph> you okay, dude? </cbml:balloon>
-               <cbml:balloon type="speech" who="#knuckles"> I'mb fuhne. </cbml:balloon>
-               <note type="panelDesc"> Sonic and Knuckles try to resist Rough's stench as Sonic asks
-                  Knuckles if he is okay. </note>
+                  <emph rend="italic">Whugh...</emph> you okay, dude? </cbml:balloon>
+               <cbml:balloon type="speech" who="#knuckles"><emph rend="italic"> I'mb fuhne. </emph></cbml:balloon>
+               <note type="panelDesc"> Sonic and Knuckles try to resist Rough's stench. Sonic holds his nose while Knuckles massages his jaw with bloodshot eyes.</note>
             </cbml:panel>
             <cbml:panel n="3" characters="#tumble #rough">
                <cbml:balloon type="speech" who="#tumble"> No more messin' around! </cbml:balloon>
                <cbml:balloon type="speech" who="#rough"> Say your prayers, chumps! </cbml:balloon>
-               <note type="panelDesc"> Rough and Tumble take out their Wispons. </note>
+               <note type="panelDesc"> Rough and Tumble pick up nearby Wispons. </note>
             </cbml:panel>
             <cbml:panel n="4" characters="#sonic #knuckles">
-               <cbml:balloon type="speech" who="#sonic"> Okay, <emph rend="italics">that</emph>
+               <cbml:balloon type="speech" who="#sonic"> Okay, <emph rend="italic">that</emph>
                   might be a problem. </cbml:balloon>
                <sound> Sniff </sound>
                <cbml:balloon type="speech" who="#knuckles"> I'll distract them. You grab a Wispon of
                   your own and-- </cbml:balloon>
-               <note type="panelDesc"> Sonic and Knuckles form another strategy for attacking Rough
-                  and Tumble. </note>
+               <note type="panelDesc"> Sonic and Knuckles crouch into defensive positions.</note>
             </cbml:panel>
             <cbml:panel n="5" characters="#sonic #yacker">
                <cbml:balloon type="speech" who="#sonic"> No... I can do one better... </cbml:balloon>
-               <note type="panelDesc"> Sonic tells Knuckles that he can do one better, and then
-                  Sonic high-fives Yacker. </note>
+               <note type="panelDesc">Sonic smiles, recalling a high-five shared with Yacker, the Wispon ambassador.</note>
             </cbml:panel>
             <figure type="pageImage" rend="images/issue03/issue03_page_15.jpg"/>
          </div>
@@ -490,63 +457,63 @@
             <cbml:panel n="1" characters="#sonic #knuckles">
                <cbml:balloon type="speech" who="#sonic"> Wisps! It's me-- your old buddy Sonic! I
                   saved your planet from Dr. Eggman, remember? </cbml:balloon>
-               <note type="panelDesc"> Sonic calls out to the Wisps. </note>
+               <note type="panelDesc"> Sonic calls out while Knuckles smiles.</note>
             </cbml:panel>
             <cbml:panel n="2" characters="#rough #tumble">
                <cbml:balloon type="speech" who="#sonic"> A bunch of you chose to stick around on
                   this world! You helped me on Lost Hex! You helped the resistance fight the Eggman
                   Empire! </cbml:balloon>
-               <note type="panelDesc"> Rough and Tumble look confused as Sonic continues to summon
-                  the Wisps. </note>
+               <note type="panelDesc"> Rough and Tumble look confused as Sonic continues talking.</note>
             </cbml:panel>
             <cbml:panel n="3" characters="#sonic #knuckles #rough #tumble">
                <cbml:balloon type="speech" who="#sonic"> I know fighting isn't your thing, but
-                  you've proven you're all powerful and brave! Don't let these jerks boss you
+                  you've proven you're all powerful and brave!<lb/>
+                  Don't let these jerks boss you
                   around! They need you to bully everyone, but you don't need them! </cbml:balloon>
                <note type="panelDesc"> Sonic ensures that the Wisps are strong, courageous
                   creatures, and he talks to the Wisps about Rough and Tumble. </note>
             </cbml:panel>
-            <cbml:panel n="4" characters="#ivorylightning">
-               <note type="panelDesc"> Ivory Lightning is loaded inside a yellow Wispon. </note>
+            <cbml:panel n="4" characters="NNC">
+               <note type="panelDesc"> An Ivory Wisp is loaded inside Tumble's yellow Wispon. </note>
             </cbml:panel>
-            <cbml:panel n="5" characters="#redburst">
-               <note type="panelDesc"> Red Burst is loaded inside a red Wispon. </note>
+            <cbml:panel n="5" characters="NNC">
+               <note type="panelDesc"> A Red Wisp is loaded inside Rough's red Wispon. </note>
             </cbml:panel>
             <figure type="pageImage" rend="images/issue03/issue03_page_16.jpg"/>
          </div>
          <div type="page" xml:id="pg_17">
-            <cbml:panel n="1" characters="#rough #tumble #ivorylightning #redburst">
-               <cbml:balloon type="speech" who="#rough #tumble" rend="orange-text"> Gyeh! </cbml:balloon>
-               <note type="panelDesc"> As Ivory Lightning and Red Burst escape from Rough and
-                  Tumble's Wispons, Rough and Tumble are shocked about that. </note>
+            <cbml:panel n="1" characters="#rough #tumble">
+               <cbml:balloon type="speech" who="#rough &amp; tumble" rend="orange-text"> Gyeh! </cbml:balloon>
+               <note type="panelDesc"> As the Yellow and Red Wisps escape from Rough and
+                  Tumble's Wispons, Rough and Tumble reel back in shock.</note>
             </cbml:panel>
             <cbml:panel n="2"
-               characters="#sonic #knuckles #rough #tumble #redburst #orangerocket #yellowdrill #ivorylightning #greenhover #bluecube #indigoasteroid #violetvoid #pinkspikes #whiteboost">
-               <note type="panelDesc"> Many Wisps surround Rough and Tumble. </note>
+               characters="#sonic #knuckles #rough #tumble">
+               <note type="panelDesc"> Many Wisps surround Rough and Tumble, including Red, Orange, Yellow, Ivory, Green, Blue, Indigo, Violet, Pink, and White wisps. </note>
             </cbml:panel>
-            <cbml:panel n="3" characters="#sonic #knuckles #orangerocket #bluecube #ivorylightning">
-               <note type="panelDesc"> Sonic and Knuckles fist-bump each other. </note>
+            <cbml:panel n="3" characters="#sonic #knuckles">
+               <note type="panelDesc"> Sonic and Knuckles fist-bump each other smugly as Orange, Blue, and Ivory Wisps float angrily above them. </note>
             </cbml:panel>
-            <cbml:panel n="4" characters="#rough #tumble #redburst">
+            <cbml:panel n="4" characters="#rough #tumble">
                <cbml:balloon type="speech" who="#tumble" rend="white text with black outline"> C'mon
                   c'mon c'mon! </cbml:balloon>
                <cbml:balloon type="speech" who="#rough"> One of you get in this thing right now! </cbml:balloon>
                <sound> Click </sound>
                <sound> Click </sound>
                <sound> Click </sound>
-               <note type="panelDesc"> Rough and Tumble force some Red Burst Wisps back into their
-                  Wispons. </note>
+               <note type="panelDesc"> Rough smacks his Red Wispon, glaring at the Red Wisps above him. Tumble hits his Yellow Wispon frustratedly. </note>
             </cbml:panel>
             <figure type="pageImage" rend="images/issue03/issue03_page_17.jpg"/>
          </div>
          <div type="page" xml:id="pg_18">
             <cbml:panel n="1"
-               characters="#sonic #knuckles #redburst #yellowdrill #greenhover #bluecube #violetvoid #whiteboost">
-               <cbml:balloon type="speech" who="#sonic"> They've certainly bumbled. </cbml:balloon>
+               characters="#sonic #knuckles">
                <cbml:balloon type="speech" who="#knuckles"> The tables have turned. </cbml:balloon>
-               <cbml:balloon type="speech" who="#sonic #knuckles"> It's butt-kick time for <emph
-                     rend="orange text with black outline">Rough and Tumble!</emph>
+               <cbml:balloon type="speech" who="#sonic"> They've certainly bumbled. </cbml:balloon>               
+               <cbml:balloon type="speech" who="#sonic &amp; knuckles"> It's butt-kick time for <emph
+                     rend="orange text">Rough and Tumble!</emph>
                </cbml:balloon>
+               <note type="panelDesc">Sonic stretches and Knuckles slams his fists together as they approach. Angry Wisps float around them.</note>
             </cbml:panel>
             <cbml:panel n="2" characters="#rough #tumble">
                <cbml:balloon type="speech" who="#tumble">
@@ -555,91 +522,86 @@
                <cbml:balloon type="speech" who="#rough" rend="orange-outline">
                   <emph rend="bold">That's our thing! You can't do our thing!</emph>
                </cbml:balloon>
-               <note type="panelDesc"> As Tumble opens a crate, Rough gets angry at Sonic and
-                  Knuckles for stealing his and Tumble's catchphrase. </note>
+               <note type="panelDesc"> As Tumble opens a crate, Rough angrily throws down his Wispon.</note>
             </cbml:panel>
             <cbml:panel n="3"
-               characters="#sonic #knuckles #rough #tumble #redburst #orangerocket #greenhover #bluecube #whiteboost #pinkspikes">
+               characters="#sonic #knuckles #rough #tumble">
                <sound> SOK </sound>
                <sound> SOK </sound>
-               <note type="panelDesc"> Sonic and Knuckles knock Rough and Tumble out. </note>
+               <note type="panelDesc"> Sonic and Knuckles knock Rough and Tumble out as the Wisps cheer them on. </note>
             </cbml:panel>
             <figure type="pageImage" rend="images/issue03/issue03_page_18.jpg"/>
          </div>
          <div type="page" xml:id="pg_19">
             <cbml:panel n="1"
-               characters="#sonic #knuckles #rough #tumble #NNC #redburst #orangerocket #greenhover #bluecube #whiteboost">
+               characters="#sonic #knuckles #rough #tumble">
                <sound> YAAAAY! </sound>
                <sound> YAAAAY! </sound>
                <sound> YAAAAY! </sound>
                <note type="panelDesc"> As Sonic and Knuckles take Rough and Tumble out of the fort,
                   many animals and Wisps cheer for Sonic and Knuckles. </note>
             </cbml:panel>
-            <cbml:panel n="2" characters="#NNC #sonic">
-               <cbml:balloon type="speech" who="#NNC"> You did it! How can we ever repay you? </cbml:balloon>
+            <cbml:panel n="2" characters="#sonic">
+               <cbml:balloon type="speech" who="#unnamed_resident_A"> You did it! How can we ever repay you? </cbml:balloon>
                <cbml:balloon type="speech" who="#sonic"> Serve up some chilidogs and we'll call it
                   even. </cbml:balloon>
                <note type="panelDesc"> The dog-like character from earlier approaches Sonic. This
                   time, the dog-like character has a Wispon. </note>
             </cbml:panel>
-            <cbml:panel n="3" characters="#NNC #sonic #yellowdrill">
+            <cbml:panel n="3" characters="#sonic">
                <cbml:balloon type="speech" who="#NNC"> Er... what's it saying? </cbml:balloon>
-               <cbml:balloon type="speech" who="#yellowdrill"> ●♥▲♫! </cbml:balloon>
+               <cbml:balloon type="speech" who="#yellow_wisp"> ●♥▲♫! </cbml:balloon>
                <cbml:balloon type="speech" who="#sonic"> No idea. I don't have Tails' translator
                   handy. </cbml:balloon>
-               <note type="panelDesc"> Yellow Drill happily speaks in its native language. Sonic and
-                  the dog-like character don't know what Yellow Drill is saying. </note>
+               <note type="panelDesc"> The Yellow Wisp happily speaks in its native language. Sonic and
+                  the dog-like character look confused.</note>
             </cbml:panel>
-            <cbml:panel n="4" characters="#NNC #sonic">
-               <note type="panelDesc"> Yellow Drill enters the dog-like character's Wispon. </note>
+            <cbml:panel n="4" characters="#sonic">
+               <note type="panelDesc"> The Yellow Wisp enters the dog-like character's Wispon. </note>
             </cbml:panel>
-            <cbml:panel n="5" characters="#NNC #sonic">
-               <cbml:balloon type="speech" who="#NNC"> Thank you! Thank you so much! </cbml:balloon>
+            <cbml:panel n="5" characters="#sonic">
                <cbml:balloon type="speech" who="#sonic"> I get it now. It's saying the Wisps plan to
                   stick around and help you guys defend the town. </cbml:balloon>
-               <note type="panelDesc"> The dog-like character thanks Yellow Drill, and Sonic now
-                  understands what Yellow Drill is saying. </note>
+               <cbml:balloon type="speech" who="#unnamed_resident_A"> Thank you! Thank you so much! </cbml:balloon>
+               <note type="panelDesc"> The dog-like character holds the Wispon with tears in their eyes. Sonic winks and holds up a finger.</note>
             </cbml:panel>
             <figure type="pageImage" rend="images/issue03/issue03_page_19.jpg"/>
          </div>
          <div type="page" xml:id="pg_20">
-            <cbml:panel n="1" characters="#NNC #rough #tumble">
-               <cbml:balloon type="speech" who="#NNC"> Hope you enjoyed it while it lasted. </cbml:balloon>
-               <cbml:balloon type="speech" who="#NNC"> You two are going to be locked up for a long
+            <cbml:panel n="1" characters="#rough #tumble">
+               <cbml:balloon type="speech" who="#unnamed_resident_B"> Hope you enjoyed it while it lasted. </cbml:balloon>
+               <cbml:balloon type="speech" who="#unnamed_resident_C"> You two are going to be locked up for a long
                   time. </cbml:balloon>
                <cbml:balloon type="speech" who="#tumble"> Peh! </cbml:balloon>
-               <note type="panelDesc"> Two animals tease Rough and Tumble, telling them that they
-                  will be arrested. </note>
+               <note type="panelDesc"> A bat and a fox look at Rough and Tumble angrily. </note>
             </cbml:panel>
-            <cbml:panel n="2" characters="#NNC #rough #tumble">
+            <cbml:panel n="2" characters="#rough #tumble">
                <cbml:balloon type="speech" who="#tumble"> Their little cells won't hold us for long!
-                  We'll be out-- and then we're coming for <emph rend="italics">you!</emph>
+                  We'll be out-- and then we're coming for <emph rend="italic">you!</emph>
                </cbml:balloon>
                <cbml:balloon type="speech" who="#rough"> You've made lifelong enemies of-- </cbml:balloon>
-               <cbml:balloon type="speech" who="#rough #tumble" rend="orange-text"> --Rough &amp;
+               <cbml:balloon type="speech" who="#rough &amp; tumble" rend="orange-text"> --Rough &amp;
                   Tumble! </cbml:balloon>
-               <note type="panelDesc"> Rough and Tumble claim that they will return sometime soon.
-               </note>
+               <note type="panelDesc">Rough and Tumble sneer backwards as they're taken away.</note>
             </cbml:panel>
             <cbml:panel n="3" characters="#sonic #knuckles #rough #tumble">
-               <note type="panelDesc"> Sonic and Knuckles laugh at Rough and Tumble. </note>
+               <note type="panelDesc">Knuckles raises his fists at Rough and Tumble, who flinch backwards. Sonic laughs, doubling over. </note>
             </cbml:panel>
-            <cbml:panel n="4" characters="#knuckles #rough #tumble #NNC">
+            <cbml:panel n="4" characters="#knuckles #rough #tumble">
                <note type="panelDesc"> Everyone else laughs at Rough and Tumble as the two
-                  perpetrators get taken out of the fort. </note>
+                  perpetrators get taken out of the fort. Knuckles sighs and crosses his arms.</note>
             </cbml:panel>
             <figure type="pageImage" rend="images/issue03/issue03_page_20.jpg"/>
          </div>
          <div type="page" xml:id="pg_21">
-            <cbml:panel n="1" characters="#sonic #knuckles #pinkspikes #greenhover">
+            <cbml:panel n="1" characters="#sonic #knuckles">
                <cbml:balloon type="speech" who="#knuckles"> Thanks for the help. Not that I <emph
                      rend="bold">needed</emph> it... </cbml:balloon>
                <cbml:balloon type="speech" who="#sonic"> Nah, but you didn't share the Badniks
                   outside. You <emph rend="bold">owed</emph> me this. </cbml:balloon>
-               <note type="panelDesc"> Knuckles thanks Sonic for helping him in this adventure to
-                  stop Rough and Tumble. </note>
+               <note type="panelDesc"> Knuckles and Sonic tap their fists together.</note>
             </cbml:panel>
-            <cbml:panel n="2" characters="#sonic #knuckles #pinkspikes #greenhover">
+            <cbml:panel n="2" characters="#sonic #knuckles">
                <cbml:balloon type="speech" who="#knuckles"> Hopefully this is the start of things
                   settling down. I really do miss home. </cbml:balloon>
                <cbml:balloon type="speech" who="#sonic"> I wouldn't mind a vacation myself. First
@@ -648,33 +610,33 @@
                   their next adventure. </note>
             </cbml:panel>
             <cbml:panel n="3"
-               characters="#sonic #knuckles #NNC #redburst #yellowdrill #greenhover #cyanlaser #indigoasteroid #violetvoid #pinkspikes #ivorylightning #whiteboost">
+               characters="#sonic #knuckles">
                <cbml:balloon type="speech" who="#sonic" rend="blue-outline"> But before <emph
                      rend="bold">that--</emph> we <emph rend="bold">party!</emph>
                </cbml:balloon>
                <sound> YAAAAY! </sound>
                <sound> YAAAAY! </sound>
                <sound> YAAAAY! </sound>
-               <note type="panelDesc"> Sonic and Knuckles throw a party for accomplishing yet
-                  another mission. </note>
+               <note type="panelDesc"> Sonic and Knuckles are surrounded by happy residents and Wisps, cheering.</note>
             </cbml:panel>
             <cbml:panel n="4"
-               characters="#sonic #knuckles #NNC #redburst #orangerocket #yellowdrill #ivorylightning #greenhover #bluecube #violetvoid #pinkspikes #whiteboost #flapper">
+               characters="#sonic #knuckles">
                <note type="panelDesc"> As Sonic and Knuckles celebrate with the animals and Wisps, a
                   Flapper watches them from above. </note>
             </cbml:panel>
             <figure type="pageImage" rend="images/issue03/issue03_page_21.jpg"/>
          </div>
          <div type="page" xml:id="pg_22">
-            <cbml:panel n="1" characters="#dr_eggman #sonic #knuckles #redburst #whiteboost">
-               <cbml:balloon type="speech" who="#dr_eggman"> So... Knuckles is still playing hero on
+            <cbml:panel n="1" characters="#dr_eggman #sonic #knuckles">
+               <cbml:balloon type="speech" who="#???" rend="blue text"> So... Knuckles is still playing hero on
                   the surface. </cbml:balloon>
-               <note type="panelDesc"> Dr. Eggman watches Sonic and Knuckles through a large screen.
+               <note type="panelDesc"> A hidden figure sits on a chair with Dr. Eggman's symbol on it and watches Sonic and Knuckles through a large screen.
                </note>
             </cbml:panel>
-            <cbml:panel n="2" characters="#sonic #knuckles #redburst #bluecube #pinkspikes">
-               <cbml:balloon type="speech" who="#dr_eggman"> That means <emph rend="bold">Angel
-                     Island</emph> is unguarded. The Master Emerald is prone. That will accelerate
+            <cbml:panel n="2" characters="#sonic #knuckles">
+               <cbml:balloon type="speech" who="#???" rend="blue text"> That means <emph rend="bold">Angel
+                     Island</emph> is unguarded. The Master Emerald is prone. <lb/>
+                  That will accelerate
                   my plans <emph rend="bold">considerably...</emph>
                </cbml:balloon>
                <cbml:caption type="teaser">
@@ -692,12 +654,12 @@
                <figDesc> A render of Sonic the Hedgehog stands and gestures in a presentable
                   fashion. </figDesc>
             </figure>
-            <p rend="blue-text"> Hello Sonic fans! Hope you enjoyed <emph rend="italics">Sonic the
+            <p rend="blue text"> Hello Sonic fans! Hope you enjoyed <emph rend="italic">Sonic the
                   Hedgehog #3</emph> &amp; Knuckles! Some very exciting action with the debut of
                those bad boys Rough and Tumble, but they sure crumbled before Sonic and Knux in this
                fantastic story by Ian Flynn, Jennifer Hernandez, Heather Breckel, and Corey Breen!
-               Nice work, team!</p>
-            <p rend="blue-text"> Now, as usual (oh man, we can already say "as usual"? Wow!) here's
+               Nice work, team!<lb/>
+               Now, as usual (oh man, we can already say "as usual"? Wow!) here's
                your art, cosplay, and letters! </p>
             <p> So I've been a Sonic fan for as long as I can remember. </p>
             <figure type="fanwork">
@@ -708,18 +670,18 @@
                for Xmas. The one that came with Sonic 2 and had him and Tails on the box. I remember
                doing my best to play Tails and help my bro get through levels as fast as we could.
                The cartoon was why I woke up on Saturday mornings. I remember I'd be up before
-               anyone even without an alarm clock cuz I knew Sonic was gonna be on. </p>
-            <p> I grew up with the blue blur. I've caught up to the comics til just before the end
+               anyone even without an alarm clock cuz I knew Sonic was gonna be on. <lb/>
+               I grew up with the blue blur. I've caught up to the comics til just before the end
                of the long run. Sonic has been my inspiration, motivation, and role model for
                decades. I always wanted to be like him. I'm nearing 30 years old now and still love
                everything Sonic. It's a kind of love and loyalty you cant lose. No matter how fast
-               you run. Love you Sonic, hope this comic run lasts even longer than the last. </p>
-            <p> Sadko Von Margolin </p>
-            <p rend="blue-text"> That's really wonderful, Sadko! I'm glad that we get to play some
+               you run. Love you Sonic, hope this comic run lasts even longer than the last. <lb/>
+               Sadko Von Margolin </p>
+            <p rend="blue text"> That's really wonderful, Sadko! I'm glad that we get to play some
                small part in bringing Sonic to you. A lot of people have come to us and told us
                about how Sonic is a massive part of who they are, just like you did. That's a really
-               amazing thing and we're so glad you shared! </p>
-            <p rend="blue-text"> If you'd like your fanart, cosplay pictures, or letters to show up
+               amazing thing and we're so glad you shared! <lb/>
+               If you'd like your fanart, cosplay pictures, or letters to show up
                in this very space, send them to </p>
             <figure type="pageImage" rend="images/issue03/issue03_page_23.jpg"/>
          </div>
@@ -734,12 +696,12 @@
                   with a black background and a blue and white explosion behind him. </figDesc>
             </figure>
             <p rend="white text on red background"> Cosplay by Christopher Wanamaker </p>
-            <p rend="blue-text">
+            <p rend="blue text">
                <emph rend="red-text">letters@idwpublishing.com</emph>, include your name, and mark
                them "OKAY TO PRINT!" Also, don't forget to join the IDW Sonic Comics Squad Facebook
                Group to see even more amazing art and info on your favorite comic! We'll see you
                back here with more letters and more fan art next week! </p>
-            <p rend="blue-text"> -<emph rend="bold">Joe Hughes</emph> and <emph rend="bold">David
+            <p rend="blue text"> -<emph rend="bold">Joe Hughes</emph> and <emph rend="bold">David
                   Mariotte</emph>
             </p>
             <figure type="fanwork">
