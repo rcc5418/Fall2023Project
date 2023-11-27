@@ -30,8 +30,8 @@
                         <tr>
                         <th>Page</th>
                         <th>Links to Panels</th>
-                    </tr>
-                    <xsl:apply-templates select=".//div[@type='page']" mode="toc"/>
+                        </tr>
+                        <xsl:apply-templates select=".//div[@type='page']" mode="toc"/>
                     </table>
                     <h2 style="text-align: center">Characters</h2>
                     <table>
@@ -151,6 +151,7 @@
         </span>
         <br/>
     </xsl:template>
+    
     <!-- MODES UNDER HERE -->
     
     <xsl:template match="div[@type='page']" mode="toc">
