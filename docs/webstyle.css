@@ -36,7 +36,10 @@ img.characters {
     padding: .2vw;
 }
 .character_name {
-    font-size: 2em;
+    
+}
+.heading {
+    font-size: 1.2em;
     font-weight: bold;
     margin-left: auto;
     margin-top: 0;

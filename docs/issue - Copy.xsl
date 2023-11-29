@@ -21,15 +21,12 @@
                 <h1 style="text-align: center">
                     <xsl:apply-templates select="descendant::titleStmt/title"/>
                 </h1>
-                <div class="page">
-                <p>Jump to: <a href="#toc">Table of Contents</a>, <a href="#ct">Character Table</a>, <a href="#readingView">Reading View</a></p>
-                </div>
-                    <div id="table">
+                <div id="table">
                     <xsl:variable name="docTree" as="document-node()" select="current()"/>
                     <xsl:variable name="characters" as="item()+" select=".//cbml:panel/@characters ! normalize-space() ! 
                         tokenize(., ' ') => distinct-values() => sort()"/>
                     <h2 style="text-align: center">Table of Contents</h2>
-                    <table id="toc">
+                    <table>
                         <tr>
                         <th>Page</th>
                         <th>Links to Panels</th>
@@ -37,7 +34,7 @@
                         <xsl:apply-templates select=".//div[@type='page']" mode="toc"/>
                     </table>
                     <h2 style="text-align: center">Characters</h2>
-                    <table id="ct">
+                    <table>
                         <tr>
                             <th>Character</th>
                             <th>Appearences</th>
