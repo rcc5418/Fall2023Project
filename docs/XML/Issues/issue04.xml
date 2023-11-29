@@ -132,7 +132,7 @@
                <note type="panelDesc">Sonic slides past two of the Egg Pawns, destroying them as the
                   two militia soldiers watch him.</note>
             </cbml:panel>
-            <cbml:panel n="4" characters="#sonic #egg-pawns">
+            <cbml:panel n="4" characters="#sonic">
                <cbml:balloon type="speech" who="#sonic">...Somebody's here?</cbml:balloon>
                <note type="panelDesc">Sonic peeks from a corner of a wall, with parts of a destroyed
                   Egg Pawn flying past him.</note>
@@ -140,7 +140,7 @@
             <figure type="pageImage" rend="images/issue04/issue04_page_04.jpg"/>
          </div>
          <div type="page" xml:id="pg_05">
-            <cbml:panel n="1" characters="#tangle #egg-pawns">
+            <cbml:panel n="1" characters="#tangle">
                <cbml:balloon type="speech" who="#tangle" rend="blue text">Ha!</cbml:balloon>
                <note type="panelDesc">Tangle is shown attacking an Egg Pawn with her tail and
                   kicking another. Yet another Egg Pawn is shown behind her.</note>
@@ -241,7 +241,7 @@
             <figure type="pageImage" rend="images/issue04/issue04_page_07.jpg"/>
          </div>
          <div type="page" xml:id="pg_08">
-            <cbml:panel n="1" characters="#sonic #tangle #egg-pawns #motobug_a">
+            <cbml:panel n="1" characters="#sonic #tangle">
                <sound>RAKKA-</sound>
                <sound>RAKKA-</sound>
                <sound>RAKKA-</sound>
@@ -382,7 +382,7 @@
             <figure type="pageImage" rend="images/issue04/issue04_page_12.jpg"/>
          </div>
          <div type="page" xml:id="pg_13">
-            <cbml:panel n="1" characters="#sonic #motobug_b">
+            <cbml:panel n="1" characters="#sonic">
                <note type="panelDesc"> Sonic slides past the Motobug's claw as it falls and the rest
                   of the Motobug catches on fire. </note>
             </cbml:panel>

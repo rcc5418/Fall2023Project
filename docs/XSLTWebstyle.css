@@ -39,6 +39,7 @@ a:visited {
 /* Everything after here is from the textEncoding-Hub repository
 */
 .page {
+    margin:auto;
     width:80%;
     background: #ccd9ff;
     border: .5vw;
