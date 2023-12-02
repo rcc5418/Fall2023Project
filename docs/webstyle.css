@@ -15,6 +15,10 @@ ul {
     background-color: #ecf7ff;
     width: 90%;
 }
+span.xpath{
+    color: purple;
+    text-decoration-line: underline;
+}
 section {
     width: 85%;
     margin: auto;
@@ -30,13 +34,16 @@ p.characters {
 }
 img.characters {
     flex: 1;
-    max-width: 40%;
+    max-width: 30%;
     border: .7vw groove #4d88ff;
     border-radius: 3vw;
     padding: .2vw;
 }
 .character_name {
-    
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: auto;
+    margin-top: 0;
 }
 .heading {
     font-size: 1.2em;
@@ -110,7 +117,7 @@ figure {
     width: 50%;
 }
 figure img {
-    border: .7vw groove #cc00cc;
+    border: .7vw groove #4d88ff;
     border-radius: 1vw;
     padding: .5vw;
 }
@@ -122,7 +129,7 @@ figcaption {
     border: .3vw;
     border-style: groove;
     border-style: outset;
-    border-color: #cc00cc;
+    border-color: #4d88ff;
     background-color: #f2e6ff;
 }
 span.sound{
