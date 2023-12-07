@@ -3,6 +3,19 @@ body {
     font-family: "Georgia", "Times New Roman", serif;
     font-size: 1.3vw;
     line-height: 1.4em;
+    position:relative;
+}
+body::after{
+    content: "";
+    background: url(images/background.png);
+    background-size: 100% auto;
+    opacity:0.5;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
 }
 p,
 ul {
@@ -54,6 +67,13 @@ img.characters {
 img.bio{
     flex: 1;
     max-width: 20%;
+    border: .7vw groove #4d88ff;
+    border-radius: 3vw;
+    padding: .2vw;
+}
+img.bioReece{
+flex: 1;
+    max-width: 28%;
     border: .7vw groove #4d88ff;
     border-radius: 3vw;
     padding: .2vw;

@@ -3,6 +3,19 @@ body {
     font-family: "Georgia", "Times New Roman", serif;
     font-size: 1.3vw;
     line-height: 1.4em;
+    background-repeat: repeat;
+    position:relative;
+}
+body::after{
+    content: "";
+    background: url(images/background.png);
+    opacity:0.5;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
 }
 section {
     width: 85%;

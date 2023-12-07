@@ -6,7 +6,8 @@
         <link rel="icon" type="image/x-icon" href="images/small_ring.png" />
         <link rel="stylesheet" href="webstyle.css" />
         <meta charset="UTF-8" />
-        <meta name="author" content="Reece Cullen" /> <!-- Add yourself as an author if you're changing/adding something -->
+        <meta name="author" content="Reece Cullen" />
+        <!-- Add yourself as an author if you're changing/adding something -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
@@ -29,34 +30,90 @@
                     <a href="about.html">About</a>
                 </div>
                 <div class="button">
-                    <a href="CBML.html" target = "_blank">CBML</a>
+                    <a href="CBML.html" target="_blank">CBML</a>
                 </div>
             </nav>
-            <br/>
+            <br />
+            <p>Click the cover for the issue you'd like to see (links lead to a reading view)<br />
+                For links to the XML encodements of the issues, <a href="#xml_links">click
+                here.</a></p>
             <nav id="issueMenu">
                 <div class="issueButton">
                     <a href="issue01-CBML-to-HTML.html" target="_blank">
-                        <img src="images/issue01/issue01_page_01.jpg" alt="Click me!"/>
+                        <img src="images/issue01/issue01_page_01.jpg" alt="Click me!" />
                     </a>
                 </div>
                 <div class="issueButton">
                     <a href="issue02-CBML-to-HTML.html" target="_blank">
-                        <img src="images/issue02/issue02_page01.jpg" alt="Click me!"/>
+                        <img src="images/issue02/issue02_page01.jpg" alt="Click me!" />
                     </a>
                 </div>
                 <div class="issueButton">
                     <a href="issue03-CBML-to-HTML.html" target="_blank">
-                        <img src="images/issue03/issue03_page_01.jpg" alt="Click me!"/>
+                        <img src="images/issue03/issue03_page_01.jpg" alt="Click me!" />
                     </a>
                 </div>
                 <div class="issueButton">
                     <a href="issue04-CBML-to-HTML.html" target="_blank">
-                        <img src="images/issue04/issue04_page_01.jpg" alt="Click me!"/>
+                        <img src="images/issue04/issue04_page_01.jpg" alt="Click me!" />
                     </a>
                 </div>
             </nav>
-            <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://rcc5418.github.io/NotSoFastEgghead/">Not So Fast Egghead</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/rcc5418">Reece Cullen, Alyssa Hopple, Kayla Hopple</a> is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"/><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"/><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"/><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"/></a><br/>
-                Images on this page and the pages linked therein retrieved from <a href="https://grabber.zone/" target="_blank">The Grabber Zone</a></p>
+            <p id="xml_links">Links to the XML markups for each issue: <a
+                    href="https://raw.githubusercontent.com/rcc5418/NotSoFastEgghead/main/docs/XML/Issues/issue01.xml"
+                    target="_blank">Issue 01</a>, <a
+                    href="https://raw.githubusercontent.com/rcc5418/NotSoFastEgghead/main/docs/XML/Issues/issue02.xml"
+                    target="_blank">Issue 02</a>, <a
+                    href="https://raw.githubusercontent.com/rcc5418/NotSoFastEgghead/main/docs/XML/Issues/issue03.xml"
+                    target="_blank">Issue 03</a>, <a
+                    href="https://raw.githubusercontent.com/rcc5418/NotSoFastEgghead/main/docs/XML/Issues/issue04.xml"
+                    target="_blank">Issue 04</a>.<br /> You can check out our XSL file we used for
+                our <a
+                    href="https://raw.githubusercontent.com/rcc5418/NotSoFastEgghead/main/docs/issue.xsl"
+                    target="_blank">XML to HTML transformations</a>. <br /> You could inspect our
+                CSS files for our <a href="webstyle.css" target="_blank">main webpages</a> and our
+                    <a href="XSLTWebstyle.css" target="_blank">issues' pages</a> as well.</p>
+            <p>For our approach to the encoding, we chose not to stray from the standard CBML markup
+                style, as its segmentation was efficient and satisfying to work with. Something that
+                was an issue was how we chose to encode certain types of special text, like when
+                text would show up in big blue letters, or white letters on a red background. In our
+                XML code, we put descriptions of those special texts in an 'emph' element, with a
+                'rend' attribute that described the texts' appearence. But when it came to
+                transforming our XML with XSLT, it was too bothersome to transfrom every unique
+                instance of '<span class="xpath">//emph/@rend</span>', so many instances were left
+                by the wayside. Some were deemed important enough to preserve, though. For instance,
+                in the Sonic Letters Zone pages, certain images have captions with artist
+                attribution, which we indicated with 'emph' elements with 'rend' attributes with a
+                value of "white text on red background". It'd be pretty bothersome to transform that
+                with XSLT, so we didn't! In Issue 3, two characters named Rough and Tumble appear,
+                and they'll use orange text for emphasis. We indicated this with a 'rend' attribute
+                with a value of 'orange text', something much simpler and easier to transform into a
+                'span' element with XSLT with a class we can use to decorate it with in our CSS
+                file.</p>
+            <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a
+                    property="dct:title" rel="cc:attributionURL"
+                    href="https://rcc5418.github.io/NotSoFastEgghead/">Not So Fast Egghead</a>, by
+                    <a rel="cc:attributionURL dct:creator" property="cc:attributionName"
+                    href="https://github.com/rcc5418" target="_blank">Reece Cullen</a>, <a
+                    href="https://github.com/VocaloidOtaku39" target="_blank">Alyssa Hopple</a>, and
+                    <a href="https://github.com/SonicSpaceFan025" target="_blank">Kayla Hopple</a>,
+                is licensed under <a
+                    href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
+                    target="_blank" rel="license noopener noreferrer" style="display:inline-block;"
+                    >CC BY-NC-SA 4.0<img
+                        style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                        src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"
+                         /><img
+                        style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                        src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"
+                         /><img
+                        style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                        src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"
+                         /><img
+                        style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                        src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"
+                     /></a><br /> Images on this page and the pages linked therein retrieved from <a
+                    href="https://grabber.zone/" target="_blank">The Grabber Zone</a></p>
         </section>
     </body>
 </html>
