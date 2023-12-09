@@ -42,11 +42,14 @@ section.characters {
     flex-direction: row;
     width: 100%;
 }
+.imageContainer{
+    max-height: 100px;
+}
 p.characters {
     flex: 1;
 }
 img.characters {
-    flex: 1;
+    flex: 0;
     max-width: 30%;
     border: .7vw groove #4d88ff;
     border-radius: 3vw;
@@ -64,15 +67,8 @@ img.characters {
     margin-left: auto;
     margin-top: 0;
 }
-img.bio{
-    flex: 1;
-    max-width: 20%;
-    border: .7vw groove #4d88ff;
-    border-radius: 3vw;
-    padding: .2vw;
-}
-img.bioReece{
-flex: 1;
+img.bio, img.bioReece{
+flex: 0;
     max-width: 28%;
     border: .7vw groove #4d88ff;
     border-radius: 3vw;

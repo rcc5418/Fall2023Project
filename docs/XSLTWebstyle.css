@@ -9,6 +9,7 @@ body {
 body::after{
     content: "";
     background: url(images/background.png);
+    background-size: 100% auto;
     opacity:0.5;
     top:0;
     left: 0;

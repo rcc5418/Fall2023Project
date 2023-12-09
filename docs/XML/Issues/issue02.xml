@@ -150,8 +150,8 @@
                <sound>YAAAAY!</sound>
                <cbml:balloon type="speech" who="#unnamed_villager_B">I thought we were goners!</cbml:balloon>
                <sound>Sonic!</sound>
-               <cbml:balloon type="speech" who="#unnamed_villager_C">How do you move like that?!/cbml:balloon>
-               </cbml:balloon>
+               <cbml:balloon type="speech" who="#unnamed_villager_C">How do you move like that?!</cbml:balloon>
+               
                <sound>Sonic!</sound>
                <cbml:balloon type="speech" who="#sonic">
                   Thank you, thank you.
@@ -176,7 +176,7 @@
                <note type="panelDesc">Amy Rose appears, smashing the Death Crab with her Piko Piko Hammer. Sonic is wowed by this.</note>
             </cbml:panel>
             <cbml:panel n="2" characters="#sonic #amy">
-               <cbml:balloon type="speech" who="amy">You're getting sloppy, Sonic.</cbml:balloon>
+               <cbml:balloon type="speech" who="#amy">You're getting sloppy, Sonic.</cbml:balloon>
                <cbml:balloon type="speech" who="#sonic">A-Amy. Fancy meeting you here.</cbml:balloon>
                <note type="panelDesc">Amy wags her finger at Sonic, chastising him. Sonic looks vaguely annoyed.</note>
             </cbml:panel>
